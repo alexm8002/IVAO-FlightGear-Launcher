@@ -21,7 +21,7 @@ BRIDGE = HERE/'Bridge'
 class UI(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title('IVAO FlightGear Launcher — Linux v0.2')
+        self.title('IVAO FlightGear Launcher — Linux v0.3')
         self.geometry('830x445')
         self.vars = {}
         self.bridge = None
@@ -35,7 +35,7 @@ class UI(tk.Tk):
         except (OSError, ValueError): pass
         title=ttk.Label(self,text='IVAO FlightGear Launcher',font=('Sans',17,'bold'));title.pack(pady=(14,8))
         frame=ttk.Frame(self,padding=12); frame.pack(fill='x')
-        for key, caption in [('plugin','Plugin X-Plane Linux (.xpl ELF 64-bit)'),('fgroot','FlightGear FGRoot'),('altitude','Altitude Linux (AppImage ou executable)'),('flightgear','FlightGear (fgfs executable)')]:
+        for key, caption in [('plugin','Plugin X-Plane Linux (.xpl ELF 64-bit)'),('fgroot','FlightGear FGRoot'),('altitude','Altitude Linux (AppImage ou executable)'),('flightgear','FlightGear (fgfs ou .AppImage)')]:
             line=ttk.Frame(frame);line.pack(fill='x',pady=4)
             ttk.Label(line,text=caption,width=39).pack(side='left')
             v=tk.StringVar(value=defaults[key]);self.vars[key]=v
@@ -100,16 +100,50 @@ class UI(tk.Tk):
             logfile.close()
             if result.returncode:raise RuntimeError('Compilation échouée. Voir build.log (code %d).'%result.returncode)
             self.status_text('Ouverture du launcher graphique FlightGear…')
-            fgargs=[v['flightgear'],'--launcher','--fg-root='+v['fgroot'],'--disable-ai-traffic','--allow-nasal-from-sockets',
-                    '--telnet=socket,in,10,127.0.0.1,5502,tcp','--telnet=socket,in,10,127.0.0.1,5503,tcp',
-                    '--generic=socket,out,20,127.0.0.1,5501,udp,fg-altitude29']
-            self.fg=subprocess.Popen(fgargs,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,start_new_session=True)
-            self.log('FlightGear launcher démarré')
-            self.status_text('Clique sur Fly! dans FlightGear. En attente du port 5503…')
+            # FlightGear Qt Launcher can discard command-line options after Fly!.
+            # A dedicated config file is parsed by FlightGear at launcher startup.
+            # Also expose its contents for manual use in Additional Settings.
+            config_file=BASE/'flightgear-ivao.fgfsrc'
+            fg_options=['--fg-root='+v['fgroot'],'--disable-ai-traffic','--allow-nasal-from-sockets',
+                        '--telnet=socket,in,10,127.0.0.1,5502,tcp',
+                        '--telnet=socket,in,10,127.0.0.1,5503,tcp',
+                        '--generic=socket,out,20,127.0.0.1,5501,udp,fg-altitude29']
+            config_file.write_text('\n'.join(fg_options)+'\n',encoding='utf-8')
+            fgargs=[v['flightgear'],'--launcher','--config='+str(config_file)]
+            self.log('Commande FlightGear: '+repr(fgargs))
+            self.log('Options additionnelles: '+repr(fg_options))
+            # Capture startup errors instead of silently discarding them.
+            fglog=open(LOGS/'flightgear.log','ab',buffering=0)
+            try:
+                self.fg=subprocess.Popen(fgargs,stdout=fglog,stderr=subprocess.STDOUT,start_new_session=True)
+            finally:
+                fglog.close()
+            self.log('FlightGear launcher démarré, PID='+str(self.fg.pid))
+            self.status_text('Clique sur Fly! dans FlightGear. Détection Telnet 5502/5503…')
+            seen_5502=False
+            last_status=0.0
             while not self.cancel.is_set():
-                try:
-                    with socket.create_connection(('127.0.0.1',5503),timeout=0.5):break
-                except OSError:time.sleep(0.5)
+                def port_open(port):
+                    try:
+                        with socket.create_connection(('127.0.0.1',port),timeout=0.4):
+                            return True
+                    except OSError:
+                        return False
+                ready_5503=port_open(5503)
+                ready_5502=port_open(5502)
+                if ready_5503 and ready_5502:break
+                if ready_5502 and not seen_5502:
+                    seen_5502=True
+                    self.log('Telnet 5502 ouvert; port 5503 toujours fermé')
+                if time.monotonic()-last_status>10:
+                    self.log('Attente ports FG: 5502='+str(ready_5502)+' 5503='+str(ready_5503))
+                    last_status=time.monotonic()
+                if ready_5502:
+                    self.status_text('FlightGear répond sur 5502 mais PAS 5503. Vérifie Settings > Additional Settings du launcher FG (voir flightgear-ivao.fgfsrc).')
+                else:
+                    self.status_text('Attente des ports 5502 et 5503 après Fly! Vérifie les options réseau FlightGear (voir flightgear.log).')
+                time.sleep(1)
+            self.log('Ports Telnet FlightGear 5502/5503 détectés')
             if self.cancel.is_set():return
             self.status_text('Lancement du bridge permanent…')
             environ=os.environ.copy()
