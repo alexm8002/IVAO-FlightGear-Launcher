@@ -113,13 +113,16 @@ def paths_from_listing(source):
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--inventory',type=Path,help='Saved ls -R output instead of live directory')
+    ap.add_argument('--fg-root',type=Path,help='FGRoot choisi dans le lanceur (requis sans --inventory)')
     ap.add_argument('--output',default='fg_models.tsv');args=ap.parse_args()
-    root=Path(os.environ.get('FG_ROOT',str(Path.home()/'Library/Application Support/FlightGear/fgdata_2024_1')))
-    base=root/'AI/Aircraft'
+    root=args.fg_root
+    if not args.inventory and root is None:
+        ap.error('--fg-root est obligatoire sans --inventory')
+    base=root/'AI/Aircraft' if root is not None else None
     if args.inventory:
         if not args.inventory.is_file():sys.exit('Inventory file does not exist')
         paths=paths_from_listing(args.inventory)
-    elif base.is_dir():
+    elif base is not None and base.is_dir():
         paths=(p.relative_to(base) for p in base.rglob('*.xml'))
     else:
         sys.exit(f'ERROR: no AI/Aircraft at {base}; provide --inventory')
