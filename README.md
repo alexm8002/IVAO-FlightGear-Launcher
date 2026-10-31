@@ -67,7 +67,7 @@ clang --version
 
 ```bash
 sudo apt update
-sudo apt install python3 python3-tk gcc libc6-dev file libpcap0.8 unzip
+sudo apt install python3 python3-tk gcc libc6-dev file libpcap0.8 libpcap-dev unzip
 ```
 
 Package names differ on Fedora, Arch and other distributions. To inspect any missing plugin dependencies after building:
