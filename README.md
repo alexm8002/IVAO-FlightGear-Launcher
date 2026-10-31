@@ -223,4 +223,10 @@ Issues and pull requests are welcome, especially Linux x86_64 test results, repr
 
 ## License
 
-**To be specified by the repository maintainer.** Do not assume that the whole repository can be relicensed under one permissive license: audit inherited ATC/FlightGear/XPLM-related code and third-party assets first. The proprietary IVAO plugin is not part of this repository.
+The original source code of **IVAO FlightGear Launcher** is distributed under the **GNU General Public License, version 3.0 only (GPL-3.0-only)**. See the [`LICENSE`](LICENSE) file for the full license text.
+
+You may use, study, modify and redistribute the GPL-covered code under the terms of GPLv3. If you distribute modified versions, you must comply with the GPLv3 obligations, including providing the corresponding source code and preserving applicable copyright and license notices.
+
+**Scope:** This license applies only to code and assets owned by the contributors or otherwise lawfully distributable under compatible terms. It does **not** relicense the IVAO Altitude application, the proprietary X-Plane IVAO plugin, FlightGear itself, third-party aircraft models, libraries or third-party trademarks/logos. Obtain those separately and comply with their respective terms. Before publishing the full repository, review the origin and compatibility of inherited code, external assets, and any usage or integration restrictions that may apply.
+
+SPDX identifier for new source files: `GPL-3.0-only`.
