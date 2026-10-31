@@ -21,7 +21,7 @@ BRIDGE = HERE/'Bridge'
 class UI(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title('IVAO FlightGear Launcher — Linux v0.3')
+        self.title('IVAO FlightGear Launcher — Linux v0.5')
         self.geometry('830x445')
         self.vars = {}
         self.bridge = None
@@ -100,18 +100,18 @@ class UI(tk.Tk):
             logfile.close()
             if result.returncode:raise RuntimeError('Compilation échouée. Voir build.log (code %d).'%result.returncode)
             self.status_text('Ouverture du launcher graphique FlightGear…')
-            # FlightGear Qt Launcher can discard command-line options after Fly!.
-            # A dedicated config file is parsed by FlightGear at launcher startup.
-            # Also expose its contents for manual use in Additional Settings.
+            # Keep a reference options file for manual Qt Launcher configuration.
+            # --config is for property files, NOT for .fgfsrc command-line options.
             config_file=BASE/'flightgear-ivao.fgfsrc'
             fg_options=['--fg-root='+v['fgroot'],'--disable-ai-traffic','--allow-nasal-from-sockets',
                         '--telnet=socket,in,10,127.0.0.1,5502,tcp',
                         '--telnet=socket,in,10,127.0.0.1,5503,tcp',
                         '--generic=socket,out,20,127.0.0.1,5501,udp,fg-altitude29']
             config_file.write_text('\n'.join(fg_options)+'\n',encoding='utf-8')
-            fgargs=[v['flightgear'],'--launcher','--config='+str(config_file)]
+            fgargs=[v['flightgear'],'--launcher',*fg_options]
             self.log('Commande FlightGear: '+repr(fgargs))
             self.log('Options additionnelles: '+repr(fg_options))
+            self.log('Si le Qt Launcher ne conserve pas les options après Fly!, coller le contenu de '+str(config_file)+' dans Settings > Additional Settings. Ne pas saisir les mêmes options plusieurs fois.')
             # Capture startup errors instead of silently discarding them.
             fglog=open(LOGS/'flightgear.log','ab',buffering=0)
             try:
@@ -129,6 +129,8 @@ class UI(tk.Tk):
                             return True
                     except OSError:
                         return False
+                if self.fg and self.fg.poll() is not None:
+                    raise RuntimeError('FlightGear a quitté (code %s). Voir flightgear.log.' % self.fg.returncode)
                 ready_5503=port_open(5503)
                 ready_5502=port_open(5502)
                 if ready_5503 and ready_5502:break

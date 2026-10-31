@@ -11,7 +11,23 @@ mkdir -p diagnostic_xplane_root/Resources/plugins/IVAO_CSL
 python3 make_shim.py
 python3 build_model_index.py --fg-root "$fgroot"
 gcc -std=c11 -O2 -fPIC -shared -o libXPLMShim.so xplm_shim.c -pthread
-gcc -std=c11 -O2 -o altitude_host host.c ivao_fsd.c fg_traffic.c -pthread -ldl -lm
+# Export XPLM entry points to dlopen() of the Linux IVAO plugin.
+# libpcap is loaded dynamically via dlopen in ivao_fsd.c, so no -lpcap
+# dependency at link time is needed (libpcap runtime is still required).
+gcc -std=c11 -O2 -rdynamic -o altitude_host host.c ivao_fsd.c fg_traffic.c xplm_shim.c -pthread -ldl -lm
+# Verify that the host exports all XPLM symbols required by the plugin.
+required=$(mktemp)
+exported=$(mktemp)
+trap 'rm -f "$required" "$exported"' EXIT
+nm -D --undefined-only "$plugin" | awk '$NF ~ /^XPLM/ {print $NF}' | sort -u > "$required"
+nm -D --defined-only altitude_host | awk '$NF ~ /^XPLM/ {print $NF}' | sort -u > "$exported"
+missing=$(comm -23 "$required" "$exported")
+if [[ -n "$missing" ]]; then
+  echo "ERREUR: symboles XPLM manquants dans altitude_host:" >&2
+  printf '%s\n' "$missing" >&2
+  exit 1
+fi
+printf 'XPLM: %s imports du plugin exposes par altitude_host.\n' "$(wc -l < "$required")"
 cp -f "$plugin" ivao_pilot_test.xpl
 # Only resolve the XPLM SDK dependency; all other ELF dependencies must be installed normally.
 ln -sf libXPLMShim.so XPLM_64.so
