@@ -21,7 +21,7 @@ BRIDGE = HERE/'Bridge'
 class UI(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title('IVAO FlightGear Launcher — Linux v0.1')
+        self.title('IVAO FlightGear Launcher — Linux v0.2')
         self.geometry('830x445')
         self.vars = {}
         self.bridge = None
@@ -71,7 +71,7 @@ class UI(tk.Tk):
         if not plugin.is_file():raise ValueError('Sélectionne le plugin Linux lin_x64/*.xpl.')
         marker=subprocess.run(['file','-b',str(plugin)],capture_output=True,text=True,check=True).stdout
         if 'ELF 64-bit' not in marker:raise ValueError('Ce plugin n’est pas un binaire Linux ELF 64-bit : sélectionne lin_x64.')
-        if not (fgroot/'Protocol').is_dir() or not (fgroot/'AI').is_dir():raise ValueError('FGRoot doit contenir Protocol et AI.')
+        if not (fgroot/'Protocol').is_dir() or not (fgroot/'AI/Aircraft').is_dir():raise ValueError('FGRoot doit contenir Protocol et AI/Aircraft.')
         if not fg.is_file() or not os.access(fg,os.X_OK):raise ValueError('FlightGear doit être un exécutable fgfs valide.')
         if not alt.is_file() or not os.access(alt,os.X_OK):raise ValueError('Altitude doit être un exécutable Linux ou AppImage exécutable.')
         if not values['interface'] or not all(c.isalnum() or c in '-_.' for c in values['interface']):raise ValueError('Nom de l’interface réseau invalide.')
@@ -94,9 +94,9 @@ class UI(tk.Tk):
                 if target.read_bytes()!=source.read_bytes():raise RuntimeError('Protocole FGRoot existant différent : '+str(target))
             else:shutil.copy2(source,target)
             self.status_text('Compilation du bridge Linux…')
-            self.log('Compilation du bridge Linux')
+            self.log('Compilation du bridge Linux ; FGRoot='+v['fgroot'])
             logfile=open(LOGS/'build.log','ab')
-            result=subprocess.run(['bash',str(BRIDGE/'build_linux.sh'),v['plugin']],cwd=BRIDGE,stdout=logfile,stderr=subprocess.STDOUT)
+            result=subprocess.run(['bash',str(BRIDGE/'build_linux.sh'),v['plugin'],v['fgroot']],cwd=BRIDGE,stdout=logfile,stderr=subprocess.STDOUT)
             logfile.close()
             if result.returncode:raise RuntimeError('Compilation échouée. Voir build.log (code %d).'%result.returncode)
             self.status_text('Ouverture du launcher graphique FlightGear…')
