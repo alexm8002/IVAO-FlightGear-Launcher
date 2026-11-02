@@ -1,0 +1,9 @@
+#!/bin/sh
+set -eu
+HERE="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
+APP="$HERE/usr/lib/ivao-flightgear"
+export LD_LIBRARY_PATH="$APP/Bridge${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
+if ! command -v python3 >/dev/null 2>&1; then
+  echo 'Python 3 is required on the host Linux system' >&2; exit 1
+fi
+exec python3 "$APP/Launcher/linux_gui.py" "$@"

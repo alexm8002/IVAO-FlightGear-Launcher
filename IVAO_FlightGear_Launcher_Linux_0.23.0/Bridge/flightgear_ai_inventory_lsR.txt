@@ -1,0 +1,5820 @@
+alexandremartinez@Alexandres-MacBook-Pro Aircraft % ls -R
+220			beech99			ERJ145
+339			Beechcraft-Staggerwing	eurofighter
+717			bf109			f-14b
+727			bluebird		F-15
+733			BNI			F-18
+734			bocian			F-4
+735			Bombardier-Challenger	f16
+736			Buccaneer		fallback_models.xml
+738			c172			Ferry
+739			c177			FK9MK2
+747			c182			flash2a
+757			c182rg			Fokker-100
+767			c310			Fokker-50
+777			c310u3a			Fokker-70
+787			CCX			Fokker-S-11
+A-10			centrair-101		G-164
+A300			Cessna-421-Golden-Eagle	Gee-Bee
+A310			Cessna208Caravan	Hunter
+A319			Cessna337		Hurricane
+A320			Citation-Bravo		JA37
+A321			CR2			Jaguar-GR1
+A330-MRTT		CR7			JS41
+A332			CR9			Lightning
+A333			cri-cri			M11
+A342			Cub			MD80
+A343			DH3			MD90
+A345			DH4			MiG-21bis
+A346			DH7			Mirage2000
+A350			DH82			pa-28
+A380			DHT			performancedb.xml
+A6M2			Diamond-Da42		Polikarpov-I16
+Arup-S2			dirindex.txt		Saab-2000
+AT4			DR400			seahawk
+AT7			Dragonfly		SF3
+b1900d			Dromader		SpaceShuttle
+b29			E-2C			Spitfire
+BAe-125			E70			SR-71
+Bae146-200		E90			T-38
+BAE146-300		E95			tu154b
+balloon			Embraer-Legacy		vulcanb2
+beech-200		ercoupe
+
+./220:
+223-AirBaltic.xml	223-main.xml		Lights
+223-Default.xml		223-Swiss.xml		Models
+223-Delta.xml		dirindex.txt		Paintkit
+223-KoreanAir.xml	Effects			Textures
+
+./220/Effects:
+223-LightMap.eff	223-LightMap.png	dirindex.txt
+
+./220/Lights:
+223-NavLights.xml	dirindex.txt
+
+./220/Models:
+223.ac		dirindex.txt
+
+./220/Paintkit:
+223-Paintkit.png	223-UV-Map.png		dirindex.txt
+
+./220/Textures:
+AirBaltic	Delta		KoreanAir
+Default		dirindex.txt	Swiss
+
+./220/Textures/AirBaltic:
+223-tex.png	dirindex.txt
+
+./220/Textures/Default:
+223-tex.png	dirindex.txt
+
+./220/Textures/Delta:
+223-tex.png	dirindex.txt
+
+./220/Textures/KoreanAir:
+223-tex.png	dirindex.txt
+
+./220/Textures/Swiss:
+223-tex.png	dirindex.txt
+
+./339:
+339-AirMauritius.xml		339-TAP.xml
+339-AzulBrazilianAirlines.xml	dirindex.txt
+339-Corsair.xml			Effects
+339-Default.xml			Lights
+339-Delta.xml			Models
+339-main.xml			Textures
+
+./339/Effects:
+339-LightMap.eff	339-LightMap.png	dirindex.txt
+
+./339/Lights:
+339-NavLights.xml	dirindex.txt
+
+./339/Models:
+339.ac		dirindex.txt
+
+./339/Textures:
+AirMauritius		Default			TAP
+AzulBrazilianAirlines	Delta
+Corsair			dirindex.txt
+
+./339/Textures/AirMauritius:
+339-tex.png	dirindex.txt
+
+./339/Textures/AzulBrazilianAirlines:
+339-tex.png	dirindex.txt
+
+./339/Textures/Corsair:
+339-tex.png	dirindex.txt
+
+./339/Textures/Default:
+339-tex.png	dirindex.txt
+
+./339/Textures/Delta:
+339-tex.png	dirindex.txt
+
+./339/Textures/TAP:
+339-tex.png	dirindex.txt
+
+./717:
+717-Airtran.xml		717-Hawaiian.xml	717-Volotea.xml
+717-Blue1.xml		717-main.xml		dirindex.txt
+717-default.xml		717-Qantas.xml		Models
+717-Delta.xml		717-Spanair.xml		Textures
+
+./717/Models:
+717.ac		dirindex.txt
+
+./717/Textures:
+Airtran		default		dirindex.txt	Qantas		Volotea
+Blue1		Delta		Hawaiian	Spanair
+
+./717/Textures/Airtran:
+717-2-map.png	dirindex.txt
+
+./717/Textures/Blue1:
+717-2-map.png	dirindex.txt
+
+./717/Textures/default:
+717-2-map.png	dirindex.txt
+
+./717/Textures/Delta:
+717-2-map.png	dirindex.txt
+
+./717/Textures/Hawaiian:
+717-2-map.png	dirindex.txt
+
+./717/Textures/Qantas:
+717-2-map.png	dirindex.txt
+
+./717/Textures/Spanair:
+717-2-map.png	dirindex.txt
+
+./717/Textures/Volotea:
+717-2-map.png	dirindex.txt
+
+./727:
+dirindex.txt	Models
+
+./727/Models:
+727-200.ac	727-200.xml	727-230.png	dirindex.txt
+
+./733:
+733-AirBaltic.xml		733-Tarom.xml
+733-AirChina.xml		733-Thai.xml
+733-AirNauru.xml		733-UTair.xml
+733-AirNewZealand.xml		73C-AirBaltic.xml
+733-AirPost.xml			73C-Ellinair.xml
+733-AviaTraffic.xml		73C-main.xml
+733-Aviolet.xml			73C-Norwegian.xml
+733-Belavia.xml			73C-SouthWestAirlines.xml
+733-BlueAir.xml			73C-UkraineIntl.xml
+733-BulAir.xml			73F-AirNauru.xml
+733-ChinaEastern.xml		73F-AlaskaAirlines.xml
+733-ChinaSouthern.xml		73F-KenyaAirways.xml
+733-Comair.xml			73F-main.xml
+733-ECAir.xml			73F-NorthernAirCargo.xml
+733-Jet2.xml			73F-Qantas.xml
+733-LOT.xml			dirindex.txt
+733-Lufthansa.xml		Lights
+733-main.xml			Models
+733-Norwegian.xml		Textures
+733-SouthWestAirlines.xml
+
+./733/Lights:
+733-NavLights.xml	dirindex.txt
+
+./733/Models:
+733.ac		73C.ac		73F.ac		dirindex.txt
+
+./733/Textures:
+AirBaltic		BulAir			Lufthansa
+AirChina		ChinaEastern		NorthernAirCargo
+AirNauru		ChinaSouthern		Norwegian
+AirNewZealand		Comair			PaintKit
+AirPost			dirindex.txt		Qantas
+AlaskaAirlines		ECAir			SouthWestAirlines
+AviaTraffic		Ellinair		Tarom
+Aviolet			Jet2			Thai
+Belavia			KenyaAirways		UkraineIntl
+BlueAir			LOT			UTair
+
+./733/Textures/AirBaltic:
+B733-tex.png	B73C-tex.png	dirindex.txt
+
+./733/Textures/AirChina:
+B733-tex.png	dirindex.txt
+
+./733/Textures/AirNauru:
+B733-tex.png	B73F-tex.png	dirindex.txt
+
+./733/Textures/AirNewZealand:
+B733-tex.png	dirindex.txt
+
+./733/Textures/AirPost:
+B733-tex.png	dirindex.txt
+
+./733/Textures/AlaskaAirlines:
+B73F-tex.png	dirindex.txt
+
+./733/Textures/AviaTraffic:
+B733-tex.png	dirindex.txt
+
+./733/Textures/Aviolet:
+B733-tex.png	dirindex.txt
+
+./733/Textures/Belavia:
+B733-tex.png	dirindex.txt
+
+./733/Textures/BlueAir:
+B733-tex.png	dirindex.txt
+
+./733/Textures/BulAir:
+B733-tex.png	dirindex.txt
+
+./733/Textures/ChinaEastern:
+B733-tex.png	dirindex.txt
+
+./733/Textures/ChinaSouthern:
+B733-tex.png	dirindex.txt
+
+./733/Textures/Comair:
+B733-tex.png	dirindex.txt
+
+./733/Textures/ECAir:
+B733-tex.png	dirindex.txt
+
+./733/Textures/Ellinair:
+B73C-tex.png	dirindex.txt
+
+./733/Textures/Jet2:
+B733-tex.png	dirindex.txt
+
+./733/Textures/KenyaAirways:
+B73F-tex.png	dirindex.txt
+
+./733/Textures/LOT:
+B733-tex.png	dirindex.txt
+
+./733/Textures/Lufthansa:
+B733-tex.png	dirindex.txt
+
+./733/Textures/NorthernAirCargo:
+B73F-tex.png	dirindex.txt
+
+./733/Textures/Norwegian:
+B733-tex.png	B73C-tex.png	dirindex.txt
+
+./733/Textures/PaintKit:
+B733 Paintkit.png	B73C Paintkit.png	dirindex.txt
+B733 UV Map.png		B73C UV Map.png
+
+./733/Textures/Qantas:
+B73F-tex.png	dirindex.txt
+
+./733/Textures/SouthWestAirlines:
+B733-tex.png	B73C-tex.png	dirindex.txt
+
+./733/Textures/Tarom:
+B733-tex.png	dirindex.txt
+
+./733/Textures/Thai:
+B733-tex.png	dirindex.txt
+
+./733/Textures/UkraineIntl:
+B73C-tex.png	dirindex.txt
+
+./733/Textures/UTair:
+B733-tex.png	dirindex.txt
+
+./734:
+73P-ASL.xml			Effects
+73P-Default.xml			Lights
+73P-main.xml			Models
+73P-NorthernAirCargo.xml	Textures
+dirindex.txt
+
+./734/Effects:
+73P-LightMap.eff	73P-LightMap.png	dirindex.txt
+
+./734/Lights:
+73P-NavLights.xml	dirindex.txt
+
+./734/Models:
+73P.ac		dirindex.txt
+
+./734/Textures:
+ASL			dirindex.txt
+Default			NorthernAirCargo
+
+./734/Textures/ASL:
+73P-tex.png	dirindex.txt
+
+./734/Textures/Default:
+73P-tex.png	dirindex.txt
+
+./734/Textures/NorthernAirCargo:
+73P-tex.png	dirindex.txt
+
+./735:
+735-AirBaltic.xml	735-main.xml		Effects
+735-Belavia.xml		735-Nordavia.xml	Lights
+735-BlueAir.xml		735-UTair.xml		Models
+735-Default.xml		735-YukonAirNorth.xml	Paintkit
+735-main-winglets.xml	dirindex.txt		Textures
+
+./735/Effects:
+735-LightMap.eff	735-LightMap.png	dirindex.txt
+
+./735/Lights:
+735-NavLights.xml	dirindex.txt
+
+./735/Models:
+735.ac		dirindex.txt
+
+./735/Paintkit:
+735-Paintkit.png	735-UV Map.png		dirindex.txt
+
+./735/Textures:
+AirBaltic	BlueAir		dirindex.txt	UTair
+Belavia		Default		Nordavia	YukonAirNorth
+
+./735/Textures/AirBaltic:
+735-tex.png	dirindex.txt
+
+./735/Textures/Belavia:
+735-tex.png	dirindex.txt
+
+./735/Textures/BlueAir:
+735-tex.png	dirindex.txt
+
+./735/Textures/Default:
+735-tex.png	dirindex.txt
+
+./735/Textures/Nordavia:
+735-tex.png	dirindex.txt
+
+./735/Textures/UTair:
+735-tex.png	dirindex.txt
+
+./735/Textures/YukonAirNorth:
+735-tex.png	dirindex.txt
+
+./736:
+736-Default.xml		736-WestJet.xml		Models
+736-main.xml		dirindex.txt		Paintkit
+736-SAS.xml		Effects			Textures
+736-TunisAir.xml	Lights
+
+./736/Effects:
+736-LightMap.eff	736-LightMap.png	dirindex.txt
+
+./736/Lights:
+736-NavLights.xml	dirindex.txt
+
+./736/Models:
+736.ac		dirindex.txt
+
+./736/Paintkit:
+736-Paintkit.png	736-UV.png		dirindex.txt
+
+./736/Textures:
+Default		dirindex.txt	SAS		TunisAir	WestJet
+
+./736/Textures/Default:
+736-tex.png	dirindex.txt
+
+./736/Textures/SAS:
+736-tex.png	dirindex.txt
+
+./736/Textures/TunisAir:
+736-tex.png	dirindex.txt
+
+./736/Textures/WestJet:
+736-tex.png	dirindex.txt
+
+./738:
+738-Aeroflot.xml		738-main-nowinglets.xml
+738-Aeromexico.xml		738-main.xml
+738-AirAlgerie.xml		738-MalaysiaAirlines.xml
+738-AirBerlin.xml		738-Meridiana.xml
+738-AirChina.xml		738-NordStar.xml
+738-AirEuropa.xml		738-Norwegian.xml
+738-AirMadagascar.xml		738-OmanAir.xml
+738-AirNiugini.xml		738-Pegasus.xml
+738-AirTransat.xml		738-Pobeda.xml
+738-AirVanuatu.xml		738-Qantas.xml
+738-AlaskaAirlines.xml		738-Rossiya.xml
+738-AmericanAirlines.xml	738-RoyalAirMaroc.xml
+738-ANA.xml			738-Rwandair.xml
+738-AnadoluJet.xml		738-Ryanair.xml
+738-Belavia.xml			738-SAS.xml
+738-BlueAir.xml			738-Siberian.xml
+738-ChinaAirlines.xml		738-SilkAir.xml
+738-ChinaEastern.xml		738-SkyUp.xml
+738-ChinaSouthern.xml		738-SmartWings.xml
+738-CopaAirlines.xml		738-SolaseedAir.xml
+738-Corendon.xml		738-SouthAfrican.xml
+738-default.xml			738-StarAlliance.xml
+738-Delta.xml			738-SunExpress.xml
+738-Detur.xml			738-Tarom.xml
+738-EgyptAir.xml		738-Transaero.xml
+738-ELAL.xml			738-Transavia.xml
+738-FijiAirways.xml		738-TravelService.xml
+738-FlyDubai.xml		738-Tuifly.xml
+738-GarudaIndonesia.xml		738-TurkishAirlines.xml
+738-GOL.xml			738-Turkmenistan.xml
+738-Icelandair.xml		738-UkraineIntl.xml
+738-IraqiAirways.xml		738-UnitedAirlines.xml
+738-JAL.xml			738-UP.xml
+738-Jet2.xml			738-UTair.xml
+738-JetAirways.xml		738-VirginAustralia.xml
+738-KenyaAirways.xml		738-Westjet.xml
+738-KLM-BXA.xml			73K-AmazonAir.xml
+738-KLM.xml			AI-738-paint-kit.zip
+738-Korean.xml			dirindex.txt
+738-LionAir.xml			Lights
+738-LOT.xml			Models
+738-Luxair.xml			Textures
+
+./738/Lights:
+738-NavLights.xml	dirindex.txt
+
+./738/Models:
+737-800.ac	dirindex.txt
+
+./738/Textures:
+Aeroflot		EgyptAir		RoyalAirMaroc
+Aeromexico		FijiAirways		Rwandair
+AirAlgerie		FlyDubai		Ryanair
+AirBerlin		GarudaIndonesia		SAS
+AirChina		GOL			Siberian
+AirEuropa		Icelandair		SilkAir
+AirMadagascar		IraqiAirways		SkyUp
+AirNiugini		JAL			SmartWings
+AirTransat		Jet2			SolaseedAir
+AirVanuatu		JetAirways		SouthAfrican
+AlaskaAirlines		KenyaAirways		StarAlliance
+AmazonAir		KLM			SunExpress
+AmericanAirlines	KLM-BXA			Tarom
+ANA			Korean			Transaero
+AnadoluJet		LionAir			Transavia
+Belavia			LOT			TravelService
+BlueAir			Luxair			Tuifly
+ChinaAirlines		MalaysiaAirlines	TurkishAirlines
+ChinaEastern		Meridiana		Turkmenistan
+ChinaSouthern		NordStar		UkraineIntl
+CopaAirlines		Norwegian		UnitedAirlines
+Corendon		OmanAir			UP
+default			Pegasus			UTair
+Delta			Pobeda			VirginAustralia
+Detur			Qantas			Westjet
+dirindex.txt		Rossiya
+
+./738/Textures/Aeroflot:
+738-tex.png	dirindex.txt
+
+./738/Textures/Aeromexico:
+738-tex.png	dirindex.txt
+
+./738/Textures/AirAlgerie:
+738-tex.png	dirindex.txt
+
+./738/Textures/AirBerlin:
+738-tex.png	dirindex.txt
+
+./738/Textures/AirChina:
+738-tex.png	dirindex.txt
+
+./738/Textures/AirEuropa:
+738-tex.png	dirindex.txt
+
+./738/Textures/AirMadagascar:
+738-tex.png	dirindex.txt
+
+./738/Textures/AirNiugini:
+738-tex.png	dirindex.txt
+
+./738/Textures/AirTransat:
+738-tex.png	dirindex.txt
+
+./738/Textures/AirVanuatu:
+738-tex.png	dirindex.txt
+
+./738/Textures/AlaskaAirlines:
+738-tex.png	dirindex.txt
+
+./738/Textures/AmazonAir:
+738-tex.png	dirindex.txt
+
+./738/Textures/AmericanAirlines:
+738-tex.png	dirindex.txt
+
+./738/Textures/ANA:
+738-tex.png	dirindex.txt
+
+./738/Textures/AnadoluJet:
+738-tex.png	dirindex.txt
+
+./738/Textures/Belavia:
+738-tex.png	dirindex.txt
+
+./738/Textures/BlueAir:
+738-tex.png	dirindex.txt
+
+./738/Textures/ChinaAirlines:
+738-tex.png	dirindex.txt
+
+./738/Textures/ChinaEastern:
+738-tex.png	dirindex.txt
+
+./738/Textures/ChinaSouthern:
+738-tex.png	dirindex.txt
+
+./738/Textures/CopaAirlines:
+738-tex.png	dirindex.txt
+
+./738/Textures/Corendon:
+738-tex.png	dirindex.txt
+
+./738/Textures/default:
+738-tex.png	dirindex.txt
+
+./738/Textures/Delta:
+738-tex.png	dirindex.txt
+
+./738/Textures/Detur:
+738-tex.png	dirindex.txt
+
+./738/Textures/EgyptAir:
+738-tex.png	dirindex.txt
+
+./738/Textures/FijiAirways:
+738-tex.png	dirindex.txt
+
+./738/Textures/FlyDubai:
+738-tex.png	dirindex.txt
+
+./738/Textures/GarudaIndonesia:
+738-tex.png	dirindex.txt
+
+./738/Textures/GOL:
+738-tex.png	dirindex.txt
+
+./738/Textures/Icelandair:
+738-tex.png	dirindex.txt
+
+./738/Textures/IraqiAirways:
+738-tex.png	dirindex.txt
+
+./738/Textures/JAL:
+738-tex.png	dirindex.txt
+
+./738/Textures/Jet2:
+738-tex.png	dirindex.txt
+
+./738/Textures/JetAirways:
+738-tex.png	dirindex.txt
+
+./738/Textures/KenyaAirways:
+738-tex.png	dirindex.txt
+
+./738/Textures/KLM:
+738-tex.png	dirindex.txt
+
+./738/Textures/KLM-BXA:
+738-tex.png	dirindex.txt
+
+./738/Textures/Korean:
+738-tex.png	dirindex.txt
+
+./738/Textures/LionAir:
+738-tex.png	dirindex.txt
+
+./738/Textures/LOT:
+738-tex.png	dirindex.txt
+
+./738/Textures/Luxair:
+738-tex.png	dirindex.txt
+
+./738/Textures/MalaysiaAirlines:
+738-tex.png	dirindex.txt
+
+./738/Textures/Meridiana:
+738-tex.png	dirindex.txt
+
+./738/Textures/NordStar:
+738-tex.png	dirindex.txt
+
+./738/Textures/Norwegian:
+738-tex.png	dirindex.txt
+
+./738/Textures/OmanAir:
+738-tex.png	dirindex.txt
+
+./738/Textures/Pegasus:
+738-tex.png	dirindex.txt
+
+./738/Textures/Pobeda:
+738-tex.png	dirindex.txt
+
+./738/Textures/Qantas:
+738-tex.png	dirindex.txt
+
+./738/Textures/Rossiya:
+738-tex.png	dirindex.txt
+
+./738/Textures/RoyalAirMaroc:
+738-tex.png	dirindex.txt
+
+./738/Textures/Rwandair:
+738-tex.png	dirindex.txt
+
+./738/Textures/Ryanair:
+738-tex.png	dirindex.txt
+
+./738/Textures/SAS:
+738-tex.png	dirindex.txt
+
+./738/Textures/Siberian:
+738-tex.png	dirindex.txt
+
+./738/Textures/SilkAir:
+738-tex.png	dirindex.txt
+
+./738/Textures/SkyUp:
+738-tex.png	dirindex.txt
+
+./738/Textures/SmartWings:
+738-tex.png	dirindex.txt
+
+./738/Textures/SolaseedAir:
+738-tex.png	dirindex.txt
+
+./738/Textures/SouthAfrican:
+738-tex.png	dirindex.txt
+
+./738/Textures/StarAlliance:
+738-tex.png	dirindex.txt
+
+./738/Textures/SunExpress:
+738-tex.png	dirindex.txt
+
+./738/Textures/Tarom:
+738-tex.png	dirindex.txt
+
+./738/Textures/Transaero:
+738-tex.png	dirindex.txt
+
+./738/Textures/Transavia:
+738-tex.png	dirindex.txt
+
+./738/Textures/TravelService:
+738-tex.png	dirindex.txt
+
+./738/Textures/Tuifly:
+738-tex.png	dirindex.txt
+
+./738/Textures/TurkishAirlines:
+738-tex.png	dirindex.txt
+
+./738/Textures/Turkmenistan:
+738-tex.png	dirindex.txt
+
+./738/Textures/UkraineIntl:
+738-tex.png	dirindex.txt
+
+./738/Textures/UnitedAirlines:
+738-tex.png	dirindex.txt
+
+./738/Textures/UP:
+738-tex.png	dirindex.txt
+
+./738/Textures/UTair:
+738-tex.png	dirindex.txt
+
+./738/Textures/VirginAustralia:
+738-tex.png	dirindex.txt
+
+./738/Textures/Westjet:
+738-tex.png	dirindex.txt
+
+./739:
+739-CopaAirlines.xml	73J-Icelandair.xml	dirindex.txt
+739-Delta.xml		73J-main.xml		Lights
+739-UnitedAirlines.xml	73J-SkyUp.xml		Models
+73J-AlaskaAirlines.xml	73J-TravelService.xml	Paintkit
+73J-Default.xml		73J-TurkishAirlines.xml	Textures
+73J-ELAL.xml		73J-UkraineIntl.xml
+
+./739/Lights:
+739-NavLights.xml	dirindex.txt
+
+./739/Models:
+73J.ac		dirindex.txt
+
+./739/Paintkit:
+73J UV Map.png		73J-Paintkit.png	dirindex.txt
+
+./739/Textures:
+AlaskaAirlines	Delta		Icelandair	TurkishAirlines
+CopaAirlines	dirindex.txt	SkyUp		UkraineIntl
+Default		ELAL		TravelService	UnitedAirlines
+
+./739/Textures/AlaskaAirlines:
+73J-tex.png	dirindex.txt
+
+./739/Textures/CopaAirlines:
+73J-tex.png	dirindex.txt
+
+./739/Textures/Default:
+73J-tex.png	dirindex.txt
+
+./739/Textures/Delta:
+73J-tex.png	dirindex.txt
+
+./739/Textures/ELAL:
+73J-tex.png	dirindex.txt
+
+./739/Textures/Icelandair:
+73J-tex.png	dirindex.txt
+
+./739/Textures/SkyUp:
+73J-tex.png	dirindex.txt
+
+./739/Textures/TravelService:
+73J-tex.png	dirindex.txt
+
+./739/Textures/TurkishAirlines:
+73J-tex.png	dirindex.txt
+
+./739/Textures/UkraineIntl:
+73J-tex.png	dirindex.txt
+
+./739/Textures/UnitedAirlines:
+73J-tex.png	dirindex.txt
+
+./747:
+744-AirChina.xml		74N-CargoLogicAir.xml
+744-AirIndia.xml		74N-Cargolux.xml
+744-Asiana.xml			74N-CathayPacific.xml
+744-BritishAirways.xml		74N-Default.xml
+744-CathayPacific.xml		74N-Korean.xml
+744-ChinaAirlines.xml		74N-main.xml
+744-Corsair.xml			74N-PolarAirCargo.xml
+744-Default.xml			74N-UPS.xml
+744-Delta.xml			74Y-AirBridgeCargo.xml
+744-ELAL.xml			74Y-ASL.xml
+744-EvaAir.xml			74Y-CargoLogicAir.xml
+744-Garuda.xml			74Y-Cargolux.xml
+744-IraqiAirways.xml		74Y-CargoluxItalia.xml
+744-KLM.xml			74Y-CathayPacific.xml
+744-Korean.xml			74Y-ChinaAirlines.xml
+744-KuwaitAirways.xml		74Y-ChinaSouthern.xml
+744-Lufthansa.xml		74Y-ELAL.xml
+744-main.xml			74Y-Emirates.xml
+744-Malaysia.xml		74Y-Etihad.xml
+744-Qantas.xml			74Y-KLM.xml
+744-Rossiya.xml			74Y-Korean.xml
+744-RoyalAirMaroc.xml		74Y-main.xml
+744-Thai.xml			74Y-PolarAirCargo.xml
+744-United.xml			74Y-Saudia.xml
+744-VirginAtlantic.xml		74Y-SingaporeAirlines.xml
+74F-Asiana.xml			74Y-SkyLeaseCargo.xml
+74F-main.xml			74Y-UPS.xml
+74F-Martinair.xml		dirindex.txt
+74F-Saudia.xml			Effects
+74F-UPS.xml			Lights
+74F-WesternGlobal.xml		Models
+74N-AirBridgeCargo.xml		Textures
+
+./747/Effects:
+744-LightMap.eff	74F-LightMap.png	74Y-LightMap.eff
+744-LightMap.png	74N-LightMap.eff	74Y-LightMap.png
+74F-LightMap.eff	74N-LightMap.png	dirindex.txt
+
+./747/Lights:
+744-NavLights.xml	74N-NavLights.xml	dirindex.txt
+74F-NavLights.xml	74Y-NavLights.xml
+
+./747/Models:
+744.ac		74F.ac		74N.ac		74Y.ac		dirindex.txt
+
+./747/Textures:
+744-PaintKit.png	ChinaAirlines		Lufthansa
+744-UV Map.png		ChinaSouthern		Malaysia
+74Y UV Map.png		Corsair			Martinair
+74Y-PaintKit.png	Default			PolarAirCargo
+74Y-UV Map.png		Delta			Qantas
+AirBridgeCargo		dirindex.txt		Rossiya
+AirChina		ELAL			RoyalAirMaroc
+AirIndia		Emirates		Saudia
+Asiana			Etihad			SingaporeAirlines
+ASL			EvaAir			SkyLeaseCargo
+BritishAirways		Garuda			Thai
+CargoLogicAir		IraqiAirways		United
+Cargolux		KLM			UPS
+CargoluxItalia		Korean			VirginAtlantic
+CathayPacific		KuwaitAirways		WesternGlobal
+
+./747/Textures/AirBridgeCargo:
+74N-tex.png	74Y-tex.png	dirindex.txt
+
+./747/Textures/AirChina:
+744-tex.png	dirindex.txt
+
+./747/Textures/AirIndia:
+744-tex.png	dirindex.txt
+
+./747/Textures/Asiana:
+744-tex.png	74F-tex.png	dirindex.txt
+
+./747/Textures/ASL:
+74Y-tex.png	dirindex.txt
+
+./747/Textures/BritishAirways:
+744-tex.png	dirindex.txt
+
+./747/Textures/CargoLogicAir:
+74N-tex.png	74Y-tex.png	dirindex.txt
+
+./747/Textures/Cargolux:
+74N-tex.png	74Y-tex.png	dirindex.txt
+
+./747/Textures/CargoluxItalia:
+74Y-tex.png	dirindex.txt
+
+./747/Textures/CathayPacific:
+744-tex.png	74N-tex.png	74Y-tex.png	dirindex.txt
+
+./747/Textures/ChinaAirlines:
+744-tex.png	74Y-tex.png	dirindex.txt
+
+./747/Textures/ChinaSouthern:
+74Y-tex.png	dirindex.txt
+
+./747/Textures/Corsair:
+744-tex.png	dirindex.txt
+
+./747/Textures/Default:
+744-tex.png	74N-tex.png	dirindex.txt
+
+./747/Textures/Delta:
+744-tex.png	dirindex.txt
+
+./747/Textures/ELAL:
+744-tex.png	74Y-tex.png	dirindex.txt
+
+./747/Textures/Emirates:
+74Y-tex.png	dirindex.txt
+
+./747/Textures/Etihad:
+74Y-tex.png	dirindex.txt
+
+./747/Textures/EvaAir:
+744-tex.png	dirindex.txt
+
+./747/Textures/Garuda:
+744-tex.png	dirindex.txt
+
+./747/Textures/IraqiAirways:
+744-tex.png	dirindex.txt
+
+./747/Textures/KLM:
+744-tex.png	74Y-tex.png	dirindex.txt
+
+./747/Textures/Korean:
+744-tex.png	74N-tex.png	74Y-tex.png	dirindex.txt
+
+./747/Textures/KuwaitAirways:
+744-tex.png	dirindex.txt
+
+./747/Textures/Lufthansa:
+744-tex.png	dirindex.txt
+
+./747/Textures/Malaysia:
+744-tex.png	dirindex.txt
+
+./747/Textures/Martinair:
+74F-tex.png	dirindex.txt
+
+./747/Textures/PolarAirCargo:
+74N-tex.png	74Y-tex.png	dirindex.txt
+
+./747/Textures/Qantas:
+744-tex.png	dirindex.txt
+
+./747/Textures/Rossiya:
+744-tex.png	dirindex.txt
+
+./747/Textures/RoyalAirMaroc:
+744-tex.png	dirindex.txt
+
+./747/Textures/Saudia:
+74F-tex.png	74Y-tex.png	dirindex.txt
+
+./747/Textures/SingaporeAirlines:
+74Y-tex.png	dirindex.txt
+
+./747/Textures/SkyLeaseCargo:
+74Y-tex.png	dirindex.txt
+
+./747/Textures/Thai:
+744-tex.png	dirindex.txt
+
+./747/Textures/United:
+744-tex.png	dirindex.txt
+
+./747/Textures/UPS:
+74F-tex.png	74N-tex.png	74Y-tex.png	dirindex.txt
+
+./747/Textures/VirginAtlantic:
+744-tex.png	dirindex.txt
+
+./747/Textures/WesternGlobal:
+74F-tex.png	dirindex.txt
+
+./757:
+757-200-AirAstana.xml			757-200-UnitedAirlines.xml
+757-200-AirChina.xml			757-200-UPS.xml
+757-200-American.xml			757-200-USAirways.xml
+757-200-ATI.xml				757-200-UzbekistanAirways.xml
+757-200-Azerbaijan.xml			757-300-ArkiaIsraeliAirlines.xml
+757-200-default.xml			757-300-Condor.xml
+757-200-Delta.xml			757-300-default.xml
+757-200-DHL.xml				757-300-Delta.xml
+757-200-FedEx.xml			757-300-IcelandAir.xml
+757-200-IcelandAir-cargo.xml		757-300-ThomasCook.xml
+757-200-IcelandAir.xml			757-300-UnitedAirlines.xml
+757-200-Jet2.xml			dirindex.txt
+757-200-TACV.xml			Models
+757-200-ThomasCook.xml			Textures
+757-200-Turkmenistan.xml
+
+./757/Models:
+757-200.ac	757-300.ac	dirindex.txt
+
+./757/Textures:
+AirAstana		Delta			ThomasCook
+AirChina		DHL			Turkmenistan
+American		dirindex.txt		UnitedAirlines
+ArkiaIsraeliAirlines	FedEx			UPS
+ATI			IcelandAir		USAirways
+Azerbaijan		IcelandAir-cargo	UzbekistanAirways
+Condor			Jet2
+default			TACV
+
+./757/Textures/AirAstana:
+757-200-tex.png	dirindex.txt
+
+./757/Textures/AirChina:
+757-200-tex.png	dirindex.txt
+
+./757/Textures/American:
+757-200-tex.png	dirindex.txt
+
+./757/Textures/ArkiaIsraeliAirlines:
+757-300-tex.png	dirindex.txt
+
+./757/Textures/ATI:
+757-200-tex.png	dirindex.txt
+
+./757/Textures/Azerbaijan:
+757-200-tex.png	dirindex.txt
+
+./757/Textures/Condor:
+757-300-tex.png	dirindex.txt
+
+./757/Textures/default:
+757-200-tex.png	757-300-tex.png	dirindex.txt
+
+./757/Textures/Delta:
+757-200-tex.png	757-300-tex.png	dirindex.txt
+
+./757/Textures/DHL:
+757-200-tex.png	dirindex.txt
+
+./757/Textures/FedEx:
+757-200-tex.png	dirindex.txt
+
+./757/Textures/IcelandAir:
+757-200-tex.png	757-300-tex.png	dirindex.txt
+
+./757/Textures/IcelandAir-cargo:
+757-200-tex.png	dirindex.txt
+
+./757/Textures/Jet2:
+757-200-tex.png	dirindex.txt
+
+./757/Textures/TACV:
+757-200-tex.png	dirindex.txt
+
+./757/Textures/ThomasCook:
+757-200-tex.png	757-300-tex.png	dirindex.txt
+
+./757/Textures/Turkmenistan:
+757-200-tex.png	dirindex.txt
+
+./757/Textures/UnitedAirlines:
+757-200-tex.png	757-300-tex.png	dirindex.txt
+
+./757/Textures/UPS:
+757-200-tex.png	dirindex.txt
+
+./757/Textures/USAirways:
+757-200-tex.png	dirindex.txt
+
+./757/Textures/UzbekistanAirways:
+757-200-tex.png	dirindex.txt
+
+./767:
+763-main.xml			767-set.xml
+767-AirAlgerie.xml		767-ThomasCook.xml
+767-AirAstana.xml		767-UkraineIntl.xml
+767-AirCanada.xml		767-UnitedAirlines.xml
+767-AirCanadaRouge.xml		767-UTair.xml
+767-AirNiugini.xml		767-UzbekistanAirways.xml
+767-American.xml		767-Westjet.xml
+767-ANA.xml			76W-main.xml
+767-Arkefly.xml			76Y-AeroUnion.xml
+767-ArkiaIsraeliAirlines.xml	76Y-AmazonAir.xml
+767-Asiana.xml			76Y-Amerijet.xml
+767-AustrianAirlines.xml	76Y-ANA.xml
+767-Azerbaijan.xml		76Y-Asiana.xml
+767-BritishAirways.xml		76Y-ATI.xml
+767-CamAir.xml			76Y-LATAM.xml
+767-Condor.xml			76Y-main.xml
+767-Delta.xml			76Y-MasAir.xml
+767-ECAir.xml			76Y-NorthernAirCargo.xml
+767-ELAL.xml			76Y-PolarAirCargo.xml
+767-EuroAtlantic.xml		76Y-Qantas.xml
+767-Hawaiian.xml		76Y-RoyalAirMaroc.xml
+767-Icelandair.xml		76Y-TasmanCargo.xml
+767-IraqiAirways.xml		76Y-UPS.xml
+767-JAL.xml			dirindex.txt
+767-LATAM.xml			Effects
+767-main.xml			Lights
+767-Rossiya.xml			Models
+767-RoyalAirMaroc.xml		Textures
+767-SBA.xml
+
+./767/Effects:
+763-LightMap.eff	76W-LightMap.png	dirindex.txt
+763-LightMap.png	76Y-LightMap.eff
+76W-LightMap.eff	76Y-LightMap.png
+
+./767/Lights:
+763-NavLights.xml	76Y-NavLights.xml
+76W-NavLights.xml	dirindex.txt
+
+./767/Models:
+763.ac		767.ac		76W.ac		76Y.ac		dirindex.txt
+
+./767/Textures:
+AeroUnion		Azerbaijan		NorthernAirCargo
+AirAlgerie		BritishAirways		PolarAirCargo
+AirAstana		CamAir			Qantas
+AirCanada		Condor			RoyalAirMaroc
+AirCanadaRouge		Delta			SBA
+AirNiugini		dirindex.txt		TasmanCargo
+AmazonAir		ECAir			ThomasCook
+American		ELAL			Ukraine
+Amerijet		EuroAtlantic		UnitedAirlines
+ANA			Hawaiian		UPS
+Arkefly			Icelandair		UTair
+ArkiaIsraeliAirlines	IraqiAirways		UzbekistanAirways
+Asiana			JAL			Westjet
+ATI			LATAM
+AustrianAirlines	MasAir
+
+./767/Textures/AeroUnion:
+76Y-tex.png	dirindex.txt
+
+./767/Textures/AirAlgerie:
+763-tex.png	dirindex.txt
+
+./767/Textures/AirAstana:
+763-tex.png	dirindex.txt
+
+./767/Textures/AirCanada:
+763-tex.png	dirindex.txt
+
+./767/Textures/AirCanadaRouge:
+763-tex.png	dirindex.txt
+
+./767/Textures/AirNiugini:
+763-tex.png	dirindex.txt
+
+./767/Textures/AmazonAir:
+76Y-tex.png	dirindex.txt
+
+./767/Textures/American:
+763-tex.png	dirindex.txt
+
+./767/Textures/Amerijet:
+76Y-tex.png	dirindex.txt
+
+./767/Textures/ANA:
+763-tex.png	76Y-tex.png	dirindex.txt
+
+./767/Textures/Arkefly:
+763-tex.png	dirindex.txt
+
+./767/Textures/ArkiaIsraeliAirlines:
+763-tex.png	dirindex.txt
+
+./767/Textures/Asiana:
+763-tex.png	76Y-tex.png	dirindex.txt
+
+./767/Textures/ATI:
+76Y-tex.png	dirindex.txt
+
+./767/Textures/AustrianAirlines:
+763-tex.png	dirindex.txt
+
+./767/Textures/Azerbaijan:
+763-tex.png	dirindex.txt
+
+./767/Textures/BritishAirways:
+763-tex.png	dirindex.txt
+
+./767/Textures/CamAir:
+763-tex.png	dirindex.txt
+
+./767/Textures/Condor:
+763-tex.png	dirindex.txt
+
+./767/Textures/Delta:
+763-tex.png	dirindex.txt
+
+./767/Textures/ECAir:
+763-tex.png	dirindex.txt
+
+./767/Textures/ELAL:
+763-tex.png	dirindex.txt
+
+./767/Textures/EuroAtlantic:
+763-tex.png	dirindex.txt
+
+./767/Textures/Hawaiian:
+763-tex.png	dirindex.txt
+
+./767/Textures/Icelandair:
+763-tex.png	dirindex.txt
+
+./767/Textures/IraqiAirways:
+763-tex.png	dirindex.txt
+
+./767/Textures/JAL:
+763-tex.png	dirindex.txt
+
+./767/Textures/LATAM:
+763-tex.png	76Y-tex.png	dirindex.txt
+
+./767/Textures/MasAir:
+76Y-tex.png	dirindex.txt
+
+./767/Textures/NorthernAirCargo:
+76Y-tex.png	dirindex.txt
+
+./767/Textures/PolarAirCargo:
+76Y-tex.png	dirindex.txt
+
+./767/Textures/Qantas:
+76Y-tex.png	dirindex.txt
+
+./767/Textures/RoyalAirMaroc:
+763-tex.png	76Y-tex.png	dirindex.txt
+
+./767/Textures/SBA:
+763-tex.png	dirindex.txt
+
+./767/Textures/TasmanCargo:
+76Y-tex.png	dirindex.txt
+
+./767/Textures/ThomasCook:
+763-tex.png	dirindex.txt
+
+./767/Textures/Ukraine:
+763-tex.png	dirindex.txt
+
+./767/Textures/UnitedAirlines:
+763-tex.png	dirindex.txt
+
+./767/Textures/UPS:
+76Y-tex.png	dirindex.txt
+
+./767/Textures/UTair:
+763-tex.png	dirindex.txt
+
+./767/Textures/UzbekistanAirways:
+763-tex.png	dirindex.txt
+
+./767/Textures/Westjet:
+763-tex.png	dirindex.txt
+
+./777:
+777-fallback.xml		77L-Turkmenistan.xml
+77F-AirBridgeCargo.xml		77L-Ukraine.xml
+77F-AirFrance.xml		77L-UnitedAirlines.xml
+77F-ANA.xml			77W-Aeroflot.xml
+77F-ChinaSouthern.xml		77W-AirCanada.xml
+77F-Default.xml			77W-AirChina.xml
+77F-Emirates.xml		77W-AirFrance.xml
+77F-Etihad.xml			77W-AirIndia.xml
+77F-Korean.xml			77W-AirNewZealand.xml
+77F-LufthansaCargo.xml		77W-American.xml
+77F-main.xml			77W-ANA.xml
+77F-Qatar.xml			77W-BritishAirways.xml
+77F-Saudia.xml			77W-CathayPacific.xml
+77F-SouthernAir.xml		77W-ChinaAirlines.xml
+77F-TurkishAirlines.xml		77W-ChinaSouthern.xml
+77L-AirCanada.xml		77W-Default.xml
+77L-AirChina.xml		77W-EgyptAir.xml
+77L-AirFrance.xml		77W-Emirates.xml
+77L-AirIndia.xml		77W-Etihad.xml
+77L-AirNewZealand.xml		77W-EvaAir.xml
+77L-Alitalia.xml		77W-JAL.xml
+77L-American.xml		77W-KLM.xml
+77L-ANA.xml			77W-Korean.xml
+77L-Asiana.xml			77W-KuwaitAirways.xml
+77L-Austrian.xml		77W-LATAM.xml
+77L-BritishAirways.xml		77W-main.xml
+77L-CathayPacific.xml		77W-Philippines.xml
+77L-Default.xml			77W-PIA.xml
+77L-Delta.xml			77W-Qatar.xml
+77L-ELAL.xml			77W-Rossiya.xml
+77L-Emirates.xml		77W-Saudia.xml
+77L-Etihad.xml			77W-SingaporeAirlines.xml
+77L-EuroAtlantic.xml		77W-Swiss.xml
+77L-IraqiAirways.xml		77W-Thai.xml
+77L-JAL.xml			77W-TurkishAirlines.xml
+77L-KLM.xml			77W-UnitedAirlines.xml
+77L-Korean.xml			77W-VirginAustralia.xml
+77L-main.xml			dirindex.txt
+77L-PIA.xml			Effects
+77L-Qatar.xml			Lights
+77L-Saudia.xml			Models
+77L-SingaporeAirlines.xml	Textures
+77L-Thai.xml
+
+./777/Effects:
+77F-LightMap.eff	77L-LightMap.png	dirindex.txt
+77F-LightMap.png	77W-LightMap.eff
+77L-LightMap.eff	77W-LightMap.png
+
+./777/Lights:
+77F-NavLights.xml	77W-NavLights.xml
+77L-NavLights.xml	dirindex.txt
+
+./777/Models:
+77F.ac		77L.ac		77W.ac		dirindex.txt
+
+./777/Textures:
+Aeroflot		default			Philippines
+AirBridgeCargo		Delta			PIA
+AirCanada		dirindex.txt		Qatar
+AirChina		EgyptAir		Rossiya
+AirFrance		ELAL			Saudia
+AirIndia		Emirates		SingaporeAirlines
+AirNewZealand		Etihad			SouthernAir
+Alitalia		EuroAtlantic		Swiss
+American		EvaAir			Thai
+ANA			IraqiAirways		Turkish
+Asiana			JAL			Turkmenistan
+AustrianAirlines	KLM			Ukraine
+BritishAirways		Korean			UnitedAirlines
+CathayPacific		KuwaitAirways		VirginAustralia
+ChinaAirlines		LATAM
+ChinaSouthern		LufthansaCargo
+
+./777/Textures/Aeroflot:
+77W-tex.png	dirindex.txt
+
+./777/Textures/AirBridgeCargo:
+77F-tex.png	dirindex.txt
+
+./777/Textures/AirCanada:
+77L-tex.png	77W-tex.png	dirindex.txt
+
+./777/Textures/AirChina:
+77L-tex.png	77W-tex.png	dirindex.txt
+
+./777/Textures/AirFrance:
+77F-tex.png	77L-tex.png	77W-tex.png	dirindex.txt
+
+./777/Textures/AirIndia:
+77L-tex.png	77W-tex.png	dirindex.txt
+
+./777/Textures/AirNewZealand:
+77L-tex.png	77W-tex.png	dirindex.txt
+
+./777/Textures/Alitalia:
+77L-tex.png	dirindex.txt
+
+./777/Textures/American:
+77L-tex.png	77W-tex.png	dirindex.txt
+
+./777/Textures/ANA:
+77F-tex.png	77L-tex.png	77W-tex.png	dirindex.txt
+
+./777/Textures/Asiana:
+77L-tex.png	dirindex.txt
+
+./777/Textures/AustrianAirlines:
+77L-tex.png	dirindex.txt
+
+./777/Textures/BritishAirways:
+77L-tex.png	77W-tex.png	dirindex.txt
+
+./777/Textures/CathayPacific:
+77L-tex.png	77W-tex.png	dirindex.txt
+
+./777/Textures/ChinaAirlines:
+77W-tex.png	dirindex.txt
+
+./777/Textures/ChinaSouthern:
+77F-tex.png	77W-tex.png	dirindex.txt
+
+./777/Textures/default:
+77F-tex.png	77L-tex.png	77W-tex.png	dirindex.txt
+
+./777/Textures/Delta:
+77L-tex.png	dirindex.txt
+
+./777/Textures/EgyptAir:
+77W-tex.png	dirindex.txt
+
+./777/Textures/ELAL:
+77L-tex.png	dirindex.txt
+
+./777/Textures/Emirates:
+77F-tex.png	77L-tex.png	77W-tex.png	dirindex.txt
+
+./777/Textures/Etihad:
+77F-tex.png	77L-tex.png	77W-tex.png	dirindex.txt
+
+./777/Textures/EuroAtlantic:
+77L-tex.png	dirindex.txt
+
+./777/Textures/EvaAir:
+77W-tex.png	dirindex.txt
+
+./777/Textures/IraqiAirways:
+77L-tex.png	dirindex.txt
+
+./777/Textures/JAL:
+77L-tex.png	77W-tex.png	dirindex.txt
+
+./777/Textures/KLM:
+77L-tex.png	77W-tex.png	dirindex.txt
+
+./777/Textures/Korean:
+77F-tex.png	77L-tex.png	77W-tex.png	dirindex.txt
+
+./777/Textures/KuwaitAirways:
+77W-tex.png	dirindex.txt
+
+./777/Textures/LATAM:
+77W-tex.png	dirindex.txt
+
+./777/Textures/LufthansaCargo:
+77F-tex.png	dirindex.txt
+
+./777/Textures/Philippines:
+77W-tex.png	dirindex.txt
+
+./777/Textures/PIA:
+77L-tex.png	77W-tex.png	dirindex.txt
+
+./777/Textures/Qatar:
+77F-tex.png	77L-tex.png	77W-tex.png	dirindex.txt
+
+./777/Textures/Rossiya:
+77W-tex.png	dirindex.txt
+
+./777/Textures/Saudia:
+77F-tex.png	77L-tex.png	77W-tex.png	dirindex.txt
+
+./777/Textures/SingaporeAirlines:
+77L-tex.png	77W-tex.png	dirindex.txt
+
+./777/Textures/SouthernAir:
+77F-tex.png	dirindex.txt
+
+./777/Textures/Swiss:
+77W-tex.png	dirindex.txt
+
+./777/Textures/Thai:
+77L-tex.png	77W-tex.png	dirindex.txt
+
+./777/Textures/Turkish:
+77F-tex.png	77W-tex.png	dirindex.txt
+
+./777/Textures/Turkmenistan:
+77L-tex.png	dirindex.txt
+
+./777/Textures/Ukraine:
+77L-tex.png	dirindex.txt
+
+./777/Textures/UnitedAirlines:
+77L-tex.png	77W-tex.png	dirindex.txt
+
+./777/Textures/VirginAustralia:
+77W-tex.png	dirindex.txt
+
+./787:
+788-AeroMexico.xml		789-AirNewZealand.xml
+788-AirCanada.xml		789-AirTahitiNui.xml
+788-AirEuropa.xml		789-American.xml
+788-AirIndia.xml		789-ANA.xml
+788-American.xml		789-BritishAirways.xml
+788-ANA.xml			789-ChinaSouthern.xml
+788-Avianca.xml			789-Default.xml
+788-Azerbaijan.xml		789-ELAL.xml
+788-BritishAirways.xml		789-Etihad.xml
+788-ChinaSouthern.xml		789-GulfAir.xml
+788-Default.xml			789-JAL.xml
+788-Ethiopian.xml		789-KLM.xml
+788-Hainan.xml			789-LATAM.xml
+788-JAL.xml			789-LOT.xml
+788-JetStar.xml			789-main.xml
+788-KenyaAirways.xml		789-Norwegian.xml
+788-LATAM.xml			789-Qantas.xml
+788-LOT.xml			789-RoyalAirMaroc.xml
+788-main.xml			789-Saudia.xml
+788-Norwegian.xml		789-Scoot.xml
+788-OmanAir.xml			789-Thai.xml
+788-Qatar.xml			789-UnitedAirlines.xml
+788-RoyalAirMaroc.xml		789-VietnamAirlines.xml
+788-RoyalBrunei.xml		789-VirginAtlantic.xml
+788-RoyalJordanian.xml		789-Westjet.xml
+788-Scoot.xml			dirindex.txt
+788-Thai.xml			Effects
+788-UnitedAirlines.xml		Lights
+788-UzbekistanAirways.xml	Models
+789-AeroMexico.xml		Paintkit
+789-AirCanada.xml		Textures
+789-AirEuropa.xml
+
+./787/Effects:
+788-LightMap.eff	789-LightMap.eff	dirindex.txt
+788-LightMap.png	789-LightMap.png
+
+./787/Lights:
+788-NavLights.xml	789-NavLights.xml	dirindex.txt
+
+./787/Models:
+788.ac		789.ac		dirindex.txt
+
+./787/Paintkit:
+788-Paintkit.png	789 UV Map.png		dirindex.txt
+788-UV MAP.png		789-tex.png
+
+./787/Textures:
+AeroMexico		ELAL			Qatar
+AirCanada		Ethiopian		RoyalAirMaroc
+AirEuropa		Etihad			RoyalBrunei
+AirIndia		GulfAir			RoyalJordanian
+AirNewZealand		Hainan			Saudia
+AirTahitiNui		JAL			Scoot
+American		JetStar			Thai
+ANA			KenyaAirways		UnitedAirlines
+Avianca			KLM			UzbekistanAirways
+Azerbaijan		LATAM			VietnamAirlines
+BritishAirways		LOT			VirginAtlantic
+ChinaSouthern		Norwegian		Westjet
+Default			OmanAir
+dirindex.txt		Qantas
+
+./787/Textures/AeroMexico:
+788-tex.png	789-tex.png	dirindex.txt
+
+./787/Textures/AirCanada:
+788-tex.png	789-tex.png	dirindex.txt
+
+./787/Textures/AirEuropa:
+788-tex.png	789-tex.png	dirindex.txt
+
+./787/Textures/AirIndia:
+788-tex.png	dirindex.txt
+
+./787/Textures/AirNewZealand:
+789-tex.png	dirindex.txt
+
+./787/Textures/AirTahitiNui:
+789-tex.png	dirindex.txt
+
+./787/Textures/American:
+788-tex.png	789-tex.png	dirindex.txt
+
+./787/Textures/ANA:
+788-tex.png	789-tex.png	dirindex.txt
+
+./787/Textures/Avianca:
+788-tex.png	dirindex.txt
+
+./787/Textures/Azerbaijan:
+788-tex.png	dirindex.txt
+
+./787/Textures/BritishAirways:
+788-tex.png	789-tex.png	dirindex.txt
+
+./787/Textures/ChinaSouthern:
+788-tex.png	789-tex.png	dirindex.txt
+
+./787/Textures/Default:
+788-tex.png	789-tex.png	dirindex.txt
+
+./787/Textures/ELAL:
+789-tex.png	dirindex.txt
+
+./787/Textures/Ethiopian:
+788-tex.png	dirindex.txt
+
+./787/Textures/Etihad:
+789-tex.png	dirindex.txt
+
+./787/Textures/GulfAir:
+789-tex.png	dirindex.txt
+
+./787/Textures/Hainan:
+788-tex.png	dirindex.txt
+
+./787/Textures/JAL:
+788-tex.png	789-tex.png	dirindex.txt
+
+./787/Textures/JetStar:
+788-tex.png	dirindex.txt
+
+./787/Textures/KenyaAirways:
+788-tex.png	dirindex.txt
+
+./787/Textures/KLM:
+789-tex.png	dirindex.txt
+
+./787/Textures/LATAM:
+788-tex.png	789-tex.png	dirindex.txt
+
+./787/Textures/LOT:
+788-tex.png	789-tex.png	dirindex.txt
+
+./787/Textures/Norwegian:
+788-tex.png	789-tex.png	dirindex.txt
+
+./787/Textures/OmanAir:
+788-tex.png	dirindex.txt
+
+./787/Textures/Qantas:
+789-tex.png	dirindex.txt
+
+./787/Textures/Qatar:
+788-tex.png	dirindex.txt
+
+./787/Textures/RoyalAirMaroc:
+788-tex.png	789-tex.png	dirindex.txt
+
+./787/Textures/RoyalBrunei:
+788-tex.png	dirindex.txt
+
+./787/Textures/RoyalJordanian:
+788-tex.png	dirindex.txt
+
+./787/Textures/Saudia:
+789-tex.png	dirindex.txt
+
+./787/Textures/Scoot:
+788-tex.png	789-tex.png	dirindex.txt
+
+./787/Textures/Thai:
+788-tex.png	789-tex.png	dirindex.txt
+
+./787/Textures/UnitedAirlines:
+788-tex.png	789-tex.png	dirindex.txt
+
+./787/Textures/UzbekistanAirways:
+788-tex.png	dirindex.txt
+
+./787/Textures/VietnamAirlines:
+789-tex.png	dirindex.txt
+
+./787/Textures/VirginAtlantic:
+789-tex.png	dirindex.txt
+
+./787/Textures/Westjet:
+789-tex.png	dirindex.txt
+
+./A-10:
+dirindex.txt	Models
+
+./A-10/Models:
+A-10.xml	dirindex.txt
+
+./A300:
+A300-ACT-Cargo.xml	AB6-Default.xml		ABY-FedEx.xml
+A300-default.xml	AB6-IranAir.xml		ABY-main.xml
+A300-DHL.xml		AB6-KuwaitAirways.xml	ABY-UPS.xml
+A300-FedEx.xml		AB6-main.xml		dirindex.txt
+A300-IranAir.xml	ABY-AeroUnion.xml	Effects
+A300-main.xml		ABY-airHongkong.xml	Lights
+A300-MNG-cargo.xml	ABY-Default.xml		Models
+A300-Monarch.xml	ABY-DHL.xml		Textures
+A300-TMA-cargo.xml	ABY-Egyptair.xml
+
+./A300/Effects:
+AB6-LightMap.eff	ABY-LightMap.eff	dirindex.txt
+AB6-LightMap.png	ABY-LightMap.png
+
+./A300/Lights:
+A300-NavLights.xml	AB6-NavLights.xml	dirindex.txt
+
+./A300/Models:
+A300.ac		AB6.ac		ABY.ac		dirindex.txt
+
+./A300/Textures:
+ACT-Cargo	default		Egyptair	KuwaitAirways	TMA-cargo
+AeroUnion	DHL		FedEx		MNG-cargo	UPS
+airHongkong	dirindex.txt	IranAir		Monarch
+
+./A300/Textures/ACT-Cargo:
+a300-tex.png	dirindex.txt
+
+./A300/Textures/AeroUnion:
+ABY-tex.png	dirindex.txt
+
+./A300/Textures/airHongkong:
+ABY-tex.png	dirindex.txt
+
+./A300/Textures/default:
+a300-tex.png	AB6-tex.png	ABY-tex.png	dirindex.txt
+
+./A300/Textures/DHL:
+a300-tex.png	ABY-tex.png	dirindex.txt
+
+./A300/Textures/Egyptair:
+ABY-tex.png	dirindex.txt
+
+./A300/Textures/FedEx:
+a300-tex.png	ABY-tex.png	dirindex.txt
+
+./A300/Textures/IranAir:
+a300-tex.png	AB6-tex.png	dirindex.txt
+
+./A300/Textures/KuwaitAirways:
+AB6-tex.png	dirindex.txt
+
+./A300/Textures/MNG-cargo:
+a300-tex.png	dirindex.txt
+
+./A300/Textures/Monarch:
+a300-tex.png	dirindex.txt
+
+./A300/Textures/TMA-cargo:
+a300-tex.png	dirindex.txt
+
+./A300/Textures/UPS:
+ABY-tex.png	dirindex.txt
+
+./A310:
+A310-AirTransat.xml	A310-Siberian.xml	Models
+A310-default.xml	A310-Tarom.xml		Textures
+A310-RoyalJordanian.xml	dirindex.txt
+
+./A310/Models:
+A310.ac		dirindex.txt
+
+./A310/Textures:
+AirTransat	dirindex.txt	Siberian
+default		RoyalJordanian	Tarom
+
+./A310/Textures/AirTransat:
+a310.png	dirindex.txt
+
+./A310/Textures/default:
+a310.png	dirindex.txt
+
+./A310/Textures/RoyalJordanian:
+a310.png	dirindex.txt
+
+./A310/Textures/Siberian:
+a310.png	dirindex.txt
+
+./A310/Textures/Tarom:
+a310.png	dirindex.txt
+
+./A319:
+A319-Adria.xml			A319-EasyJet.xml
+A319-Aegean.xml			A319-Ellinair.xml
+A319-AerLingus.xml		A319-Eurowings.xml
+A319-Aeroflot.xml		A319-Finnair.xml
+A319-AirBerlin.xml		A319-Iberia.xml
+A319-AirCanada.xml		A319-LATAM.xml
+A319-AirCanadaRouge.xml		A319-Lufthansa.xml
+A319-AirChina.xml		A319-main.xml
+A319-AirFrance.xml		A319-Meridiana.xml
+A319-AirIndia.xml		A319-Olympic.xml
+A319-AirMalta.xml		A319-Rossiya.xml
+A319-AirMauritius.xml		A319-RoyalJordanian.xml
+A319-AirMoldova.xml		A319-Saudia.xml
+A319-AirSerbia.xml		A319-ScandinavianAirlines.xml
+A319-AlaskaAirlines.xml		A319-Siberian.xml
+A319-Alitalia.xml		A319-SouthAfrican.xml
+A319-American.xml		A319-SwissAir.xml
+A319-Armavia.xml		A319-TAP.xml
+A319-AustrianAirlines.xml	A319-Tarom.xml
+A319-Avianca.xml		A319-TunisAir.xml
+A319-Azerbaijan.xml		A319-Turkish.xml
+A319-BritishAirways.xml		A319-UnitedAirlines.xml
+A319-BritishMidland.xml		A319-UralAirlines.xml
+A319-Brussels.xml		A319-USAirways.xml
+A319-BulgariaAir.xml		A319-Volotea.xml
+A319-ChinaSouthern.xml		A319-Vueling.xml
+A319-Croatia.xml		dirindex.txt
+A319-CSA.xml			Lights
+A319-Cyprus.xml			Models
+A319-default.xml		Textures
+A319-Delta.xml
+
+./A319/Lights:
+A319-NavLights.xml	dirindex.txt
+
+./A319/Models:
+A319.ac		dirindex.txt
+
+./A319/Textures:
+Adria			Avianca			Lufthansa
+Aegean			Azerbaijan		Meridiana
+AerLingus		BritishAirways		Olympic
+Aeroflot		BritishMidland		Rossiya
+AirBerlin		Brussels		RoyalJordanian
+AirCanada		BulgariaAir		Saudia
+AirCanadaRouge		ChinaSouthern		ScandinavianAirlines
+AirChina		Croatia			Siberian
+AirFrance		CSA			SouthAfrican
+AirIndia		Cyprus			SwissAir
+AirMalta		default			TAP
+AirMauritius		Delta			Tarom
+AirMoldova		dirindex.txt		TunisAir
+AirSerbia		EasyJet			Turkish
+AlaskaAirlines		Ellinair		UnitedAirlines
+Alitalia		Eurowings		UralAirlines
+American		Finnair			USAirways
+Armavia			Iberia			Volotea
+AustrianAirlines	LATAM			Vueling
+
+./A319/Textures/Adria:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/Aegean:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/AerLingus:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/Aeroflot:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/AirBerlin:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/AirCanada:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/AirCanadaRouge:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/AirChina:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/AirFrance:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/AirIndia:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/AirMalta:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/AirMauritius:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/AirMoldova:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/AirSerbia:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/AlaskaAirlines:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/Alitalia:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/American:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/Armavia:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/AustrianAirlines:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/Avianca:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/Azerbaijan:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/BritishAirways:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/BritishMidland:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/Brussels:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/BulgariaAir:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/ChinaSouthern:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/Croatia:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/CSA:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/Cyprus:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/default:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/Delta:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/EasyJet:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/Ellinair:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/Eurowings:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/Finnair:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/Iberia:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/LATAM:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/Lufthansa:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/Meridiana:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/Olympic:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/Rossiya:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/RoyalJordanian:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/Saudia:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/ScandinavianAirlines:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/Siberian:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/SouthAfrican:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/SwissAir:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/TAP:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/Tarom:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/TunisAir:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/Turkish:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/UnitedAirlines:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/UralAirlines:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/USAirways:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/Volotea:
+A319-tex.png	dirindex.txt
+
+./A319/Textures/Vueling:
+A319-tex.png	dirindex.txt
+
+./A320:
+A320-Adria.xml			A320-IberiaExpress.xml
+A320-Aegean.xml			A320-IraqiAirways.xml
+A320-AerLingus.xml		A320-IsrairAirlines.xml
+A320-Aeroflot.xml		A320-JetBlue.xml
+A320-AirAsia.xml		A320-Jetstar.xml
+A320-AirAsiaIndia.xml		A320-KuwaitAirways.xml
+A320-AirAstana.xml		A320-LATAM.xml
+A320-AirBerlin.xml		A320-Lufthansa.xml
+A320-AirCalin.xml		A320-main.xml
+A320-AirCanada.xml		A320-MEA.xml
+A320-AirChina.xml		A320-Meridiana.xml
+A320-AirCorsica.xml		A320-Monarch.xml
+A320-AirFrance.xml		A320-NouvelAir.xml
+A320-AirIndia.xml		A320-Olympic.xml
+A320-AirMalta.xml		A320-OnurAir.xml
+A320-AirMoldova.xml		A320-Peach.xml
+A320-AirNewZealand.xml		A320-Pegasus.xml
+A320-AirSerbia.xml		A320-Philippines.xml
+A320-AlaskaAirlines.xml		A320-PIA.xml
+A320-Alitalia.xml		A320-QantasLink.xml
+A320-American.xml		A320-QatarAirways.xml
+A320-ANA.xml			A320-Rossiya.xml
+A320-Armavia.xml		A320-RoyalBrunei.xml
+A320-Asiana.xml			A320-RoyalJordanian.xml
+A320-AustrianAirlines.xml	A320-SAS.xml
+A320-Avianca.xml		A320-SATA.xml
+A320-AviaTraffic.xml		A320-Saudia.xml
+A320-Azerbaijan.xml		A320-Siberian.xml
+A320-BritishAirways.xml		A320-SilkAir.xml
+A320-BritishMidland.xml		A320-SouthAfrican.xml
+A320-Brussels.xml		A320-Srilankan.xml
+A320-BulgariaAir.xml		A320-Swiss.xml
+A320-Cebu.xml			A320-SyrianAir.xml
+A320-ChinaEastern.xml		A320-TAP.xml
+A320-ChinaSouthern.xml		A320-TigerAirways.xml
+A320-Condor.xml			A320-TravelService.xml
+A320-Corendon.xml		A320-TunisAir.xml
+A320-Croatia.xml		A320-Turkish.xml
+A320-CSA.xml			A320-UnitedAirlines.xml
+A320-Cyprus.xml			A320-UralAirlines.xml
+A320-default.xml		A320-USAirways.xml
+A320-Delta.xml			A320-UzbekistanAirways.xml
+A320-Dragonair.xml		A320-VirginAtlantic.xml
+A320-EasyJet.xml		A320-VirginAustralia.xml
+A320-Edelweiss.xml		A320-Vueling.xml
+A320-EgyptAir.xml		A320-WindroseAirlines.xml
+A320-Ellinair.xml		A320-WizzAir.xml
+A320-Etihad.xml			A320-WowAir.xml
+A320-Eurowings.xml		dirindex.txt
+A320-Finnair.xml		Lights
+A320-GulfAir.xml		Models
+A320-Iberia.xml			Textures
+
+./A320/Lights:
+A320-NavLights.xml	dirindex.txt
+
+./A320/Models:
+A320.ac		dirindex.txt
+
+./A320/Textures:
+Adria			ChinaSouthern		Pegasus
+Aegean			Condor			Philippines
+AerLingus		Corendon		PIA
+Aeroflot		Croatia			QantasLink
+AirAsia			CSA			QatarAirways
+AirAsiaIndia		Cyprus			Rossiya
+AirAstana		default			RoyalBrunei
+AirBerlin		Delta			RoyalJordanian
+AirCalin		dirindex.txt		SAS
+AirCanada		Dragonair		SATA
+AirChina		EasyJet			Saudia
+AirCorsica		Edelweiss		Siberian
+AirFrance		EgyptAir		SilkAir
+AirIndia		Ellinair		SouthAfrican
+AirMalta		Etihad			Srilankan
+AirMoldova		Eurowings		Swiss
+AirNewZealand		Finnair			SyrianAir
+AirSerbia		GulfAir			TAP
+AlaskaAirlines		Iberia			TigerAirways
+Alitalia		IberiaExpress		TravelService
+American		IraqiAirways		TunisAir
+ANA			IsrairAirlines		Turkish
+Armavia			JetBlue			UnitedAirlines
+Asiana			Jetstar			UralAirlines
+AustrianAirlines	KuwaitAirways		USAirways
+Avianca			LATAM			UzbekistanAirways
+AviaTraffic		Lufthansa		VirginAtlantic
+Azerbaijan		MEA			VirginAustralia
+BritishAirways		Meridiana		Vueling
+BritishMidland		Monarch			WindroseAirlines
+Brussels		NouvelAir		WizzAir
+BulgariaAir		Olympic			WowAir
+Cebu			OnurAir
+ChinaEastern		Peach
+
+./A320/Textures/Adria:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Aegean:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/AerLingus:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Aeroflot:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/AirAsia:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/AirAsiaIndia:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/AirAstana:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/AirBerlin:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/AirCalin:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/AirCanada:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/AirChina:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/AirCorsica:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/AirFrance:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/AirIndia:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/AirMalta:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/AirMoldova:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/AirNewZealand:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/AirSerbia:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/AlaskaAirlines:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Alitalia:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/American:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/ANA:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Armavia:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Asiana:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/AustrianAirlines:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Avianca:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/AviaTraffic:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Azerbaijan:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/BritishAirways:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/BritishMidland:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Brussels:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/BulgariaAir:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Cebu:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/ChinaEastern:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/ChinaSouthern:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Condor:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Corendon:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Croatia:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/CSA:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Cyprus:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/default:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Delta:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Dragonair:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/EasyJet:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Edelweiss:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/EgyptAir:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Ellinair:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Etihad:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Eurowings:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Finnair:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/GulfAir:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Iberia:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/IberiaExpress:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/IraqiAirways:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/IsrairAirlines:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/JetBlue:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Jetstar:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/KuwaitAirways:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/LATAM:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Lufthansa:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/MEA:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Meridiana:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Monarch:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/NouvelAir:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Olympic:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/OnurAir:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Peach:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Pegasus:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Philippines:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/PIA:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/QantasLink:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/QatarAirways:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Rossiya:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/RoyalBrunei:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/RoyalJordanian:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/SAS:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/SATA:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Saudia:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Siberian:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/SilkAir:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/SouthAfrican:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Srilankan:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Swiss:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/SyrianAir:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/TAP:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/TigerAirways:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/TravelService:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/TunisAir:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Turkish:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/UnitedAirlines:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/UralAirlines:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/USAirways:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/UzbekistanAirways:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/VirginAtlantic:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/VirginAustralia:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/Vueling:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/WindroseAirlines:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/WizzAir:
+A320-tex.png	dirindex.txt
+
+./A320/Textures/WowAir:
+A320-tex.png	dirindex.txt
+
+./A321:
+A321-Aegean.xml			A321-IberiaExpress.xml
+A321-AerLingus.xml		A321-IraqiAirways.xml
+A321-Aeroflot.xml		A321-Jet2.xml
+A321-AirAsia.xml		A321-JetBlue.xml
+A321-AirAstana.xml		A321-Jetstar.xml
+A321-AirBerlin.xml		A321-LATAM.xml
+A321-AirCanada.xml		A321-Lufthansa.xml
+A321-AirCanadaRouge.xml		A321-main.xml
+A321-AirChina.xml		A321-Monarch.xml
+A321-AirFrance.xml		A321-OnurAir.xml
+A321-AirIndia.xml		A321-Philippines.xml
+A321-AlaskaAirlines.xml		A321-Qatar.xml
+A321-Alitalia.xml		A321-RoyalJordanian.xml
+A321-American.xml		A321-Saudia.xml
+A321-ANA.xml			A321-ScandinavianAirlines.xml
+A321-Asiana.xml			A321-Siberian.xml
+A321-AustrianAirlines.xml	A321-Spanair.xml
+A321-Avianca.xml		A321-Srilankan.xml
+A321-AzoresAirlines.xml		A321-SwissAir.xml
+A321-BritishAirways.xml		A321-TAP.xml
+A321-BritishMidland.xml		A321-ThomasCook.xml
+A321-ChinaSouthern.xml		A321-Turkish.xml
+A321-Condor.xml			A321-UNIAir.xml
+A321-CSA.xml			A321-UralAirlines.xml
+A321-default.xml		A321-USAirways.xml
+A321-Delta.xml			A321-VietnamAirlines.xml
+A321-Dragonair.xml		A321-Vueling.xml
+A321-EasyJet.xml		A321-WindroseAirlines.xml
+A321-EgyptAir.xml		A321-Wizz.xml
+A321-EvaAir.xml			A321-WowAir.xml
+A321-Finnair.xml		dirindex.txt
+A321-GulfAir.xml		Lights
+A321-Hawaiian.xml		Models
+A321-Iberia.xml			Textures
+
+./A321/Lights:
+A321-NavLights.xml	dirindex.txt
+
+./A321/Models:
+A321.ac		dirindex.txt
+
+./A321/Textures:
+Aegean			Condor			OnurAir
+AerLingus		CSA			Philippines
+Aeroflot		default			Qatar
+AirAstana		Delta			RoyalJordanian
+AirBerlin		dirindex.txt		Saudia
+AirCanada		Dragonair		ScandinavianAirlines
+AirCanadaRouge		EasyJet			Siberian
+AirChina		EgyptAir		Spanair
+AirFrance		EvaAir			Srilankan
+AirIndia		Finnair			SwissAir
+AlaskaAirlines		GulfAir			TAP
+Alitalia		Hawaiian		ThomasCook
+American		Iberia			Turkish
+ANA			IberiaExpress		UNIAir
+Asiana			IraqiAirways		UralAirlines
+AustrianAirlines	Jet2			USAirways
+Avianca			JetBlue			VietnamAirlines
+AzoresAirlines		Jetstar			Vueling
+BritishAirways		LATAM			WindroseAirlines
+BritishMidland		Lufthansa		Wizz
+ChinaSouthern		Monarch			WowAir
+
+./A321/Textures/Aegean:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/AerLingus:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/Aeroflot:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/AirAstana:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/AirBerlin:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/AirCanada:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/AirCanadaRouge:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/AirChina:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/AirFrance:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/AirIndia:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/AlaskaAirlines:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/Alitalia:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/American:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/ANA:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/Asiana:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/AustrianAirlines:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/Avianca:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/AzoresAirlines:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/BritishAirways:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/BritishMidland:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/ChinaSouthern:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/Condor:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/CSA:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/default:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/Delta:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/Dragonair:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/EasyJet:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/EgyptAir:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/EvaAir:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/Finnair:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/GulfAir:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/Hawaiian:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/Iberia:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/IberiaExpress:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/IraqiAirways:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/Jet2:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/JetBlue:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/Jetstar:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/LATAM:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/Lufthansa:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/Monarch:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/OnurAir:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/Philippines:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/Qatar:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/RoyalJordanian:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/Saudia:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/ScandinavianAirlines:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/Siberian:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/Spanair:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/Srilankan:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/SwissAir:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/TAP:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/ThomasCook:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/Turkish:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/UNIAir:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/UralAirlines:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/USAirways:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/VietnamAirlines:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/Vueling:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/WindroseAirlines:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/Wizz:
+A321-tex.png	dirindex.txt
+
+./A321/Textures/WowAir:
+A321-tex.png	dirindex.txt
+
+./A330-MRTT:
+A330-MRTT.xml	COPYING		dirindex.txt	Models		Read-Me.txt
+
+./A330-MRTT/Models:
+A330-MRTT.ac	dirindex.txt	lights		texture.png
+A330-MRTT.xml	effects		refueling	texture.xcf.gz
+
+./A330-MRTT/Models/effects:
+contrail.png	dirindex.txt	exhaust.xml	fueldump.xml	smoke.png
+contrail.xml	enginefire.xml	fueld.png	puff.png
+
+./A330-MRTT/Models/lights:
+beacon.xml		GreenLight.ac		RedLight.ac
+dirindex.txt		GreenLight.xml		RedLight.xml
+flash.ac		landinglight.xml	WhiteLight.ac
+flash.xml		lights.png		WhiteLight.xml
+
+./A330-MRTT/Models/refueling:
+color.png	probe.ac	refueling.ac
+dirindex.txt	probe.xml	refueling.xml
+
+./A332:
+A332-AerLingus.xml		A332-Jetstar.xml
+A332-Aeroflot.xml		A332-KLM.xml
+A332-AirAlgerie.xml		A332-Korean.xml
+A332-AirBerlin.xml		A332-KuwaitAirways.xml
+A332-AirCalin.xml		A332-main.xml
+A332-AirCaraibes.xml		A332-MalaysiaAirlines.xml
+A332-AirChina.xml		A332-MEA.xml
+A332-AirEuropa.xml		A332-Monarch.xml
+A332-AirFrance.xml		A332-OmanAir.xml
+A332-AirIndia.xml		A332-OnurAir.xml
+A332-AirMauritius.xml		A332-Qantas.xml
+A332-AirSerbia.xml		A332-QatarAirways.xml
+A332-AirTransat.xml		A332-QatarAirwaysCargo.xml
+A332-Alitalia.xml		A332-RoyalJordanian.xml
+A332-American.xml		A332-Rwandair.xml
+A332-Avianca.xml		A332-SouthAfricanAirways.xml
+A332-BritishMidland.xml		A332-Srilankan.xml
+A332-Brussels.xml		A332-TAP.xml
+A332-ChinaEastern.xml		A332-ThomasCook.xml
+A332-ChinaSouthern.xml		A332-TunisAir.xml
+A332-Condor.xml			A332-Turkish.xml
+A332-Corsair.xml		A332-USAirways.xml
+A332-default.xml		A332-VietnamAirlines.xml
+A332-Delta.xml			A332-VirginAustralia.xml
+A332-Edelweiss.xml		A332-WindroseAirlines.xml
+A332-EgyptAir.xml		A332-Yemenia.xml
+A332-Emirates.xml		A33X-AirHongKong.xml
+A332-EtihadAirways.xml		A33X-main.xml
+A332-EvaAir.xml			A33X-MalaysiaAirlines.xml
+A332-FijiAirways.xml		A33X-Qatar.xml
+A332-GarudaIndonesia.xml	A33X-TurkishAirlines.xml
+A332-GulfAir.xml		dirindex.txt
+A332-Hawaiian.xml		Effects
+A332-Iberia.xml			Lights
+A332-IraqiAirways.xml		Models
+A332-Jet2.xml			Textures
+A332-JetAirways.xml
+
+./A332/Effects:
+332-LightMap.eff	33X-LightMap.eff	dirindex.txt
+332-LightMap.png	33X-LightMap.png
+
+./A332/Lights:
+332-NavLights.xml	dirindex.txt
+
+./A332/Models:
+A332.ac		A33X.ac		dirindex.txt
+
+./A332/Textures:
+AerLingus		default			MEA
+Aeroflot		Delta			Monarch
+AirAlgerie		DHL			OmanAir
+AirBerlin		dirindex.txt		OnurAir
+AirCalin		Edelweiss		Qantas
+AirCaraibes		EgyptAir		QatarAirways
+AirChina		Emirates		QatarAirwaysCargo
+AirEuropa		EtihadAirways		RoyalJordanian
+AirFrance		EvaAir			Rwandair
+AirIndia		FijiAirways		SouthAfricanAirways
+AirMauritius		GarudaIndonesia		Srilankan
+AirSerbia		GulfAir			TAP
+AirTransat		Hawaiian		ThomasCook
+Alitalia		Iberia			TunisAir
+American		IraqiAirways		Turkish
+Avianca			Jet2			USAirways
+BritishMidland		JetAirways		VietnamAirlines
+Brussels		Jetstar			VirginAustralia
+ChinaEastern		KLM			WindroseAirlines
+ChinaSouthern		Korean			Yemenia
+Condor			KuwaitAirways
+Corsair			MalaysiaAirlines
+
+./A332/Textures/AerLingus:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/Aeroflot:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/AirAlgerie:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/AirBerlin:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/AirCalin:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/AirCaraibes:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/AirChina:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/AirEuropa:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/AirFrance:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/AirIndia:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/AirMauritius:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/AirSerbia:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/AirTransat:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/Alitalia:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/American:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/Avianca:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/BritishMidland:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/Brussels:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/ChinaEastern:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/ChinaSouthern:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/Condor:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/Corsair:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/default:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/Delta:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/DHL:
+A33X-tex.png	dirindex.txt
+
+./A332/Textures/Edelweiss:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/EgyptAir:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/Emirates:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/EtihadAirways:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/EvaAir:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/FijiAirways:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/GarudaIndonesia:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/GulfAir:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/Hawaiian:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/Iberia:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/IraqiAirways:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/Jet2:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/JetAirways:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/Jetstar:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/KLM:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/Korean:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/KuwaitAirways:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/MalaysiaAirlines:
+A332-tex.png	A33X-tex.png	dirindex.txt
+
+./A332/Textures/MEA:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/Monarch:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/OmanAir:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/OnurAir:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/Qantas:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/QatarAirways:
+A332-tex.png	A33X-tex.png	dirindex.txt
+
+./A332/Textures/QatarAirwaysCargo:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/RoyalJordanian:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/Rwandair:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/SouthAfricanAirways:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/Srilankan:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/TAP:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/ThomasCook:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/TunisAir:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/Turkish:
+A332-tex.png	A33X-tex.png	dirindex.txt
+
+./A332/Textures/USAirways:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/VietnamAirlines:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/VirginAustralia:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/WindroseAirlines:
+A332-tex.png	dirindex.txt
+
+./A332/Textures/Yemenia:
+A332-tex.png	dirindex.txt
+
+./A333:
+A333-AerLingus.xml		A333-Iberia.xml
+A333-Aeroflot.xml		A333-JetAirways.xml
+A333-AirAsiaX.xml		A333-KLM.xml
+A333-AirCanada.xml		A333-Korean.xml
+A333-AirCaraibes.xml		A333-Lufthansa.xml
+A333-AirChina.xml		A333-main.xml
+A333-AirEuropa.xml		A333-Malaysia.xml
+A333-AirTransat.xml		A333-OmanAir.xml
+A333-American.xml		A333-Philippines.xml
+A333-Asiana.xml			A333-Qantas.xml
+A333-Brussels.xml		A333-QatarAirways.xml
+A333-CathayPacific.xml		A333-Rwandair.xml
+A333-ChinaAirlines.xml		A333-Saudia.xml
+A333-ChinaEastern.xml		A333-ScandinavianAirlines.xml
+A333-ChinaSouthern.xml		A333-SingaporeAirlines.xml
+A333-Corsair.xml		A333-SouthAfrican.xml
+A333-CSA.xml			A333-Srilankan.xml
+A333-default.xml		A333-SwissAir.xml
+A333-Delta.xml			A333-TAP.xml
+A333-Dragonair.xml		A333-Thai.xml
+A333-Edelweiss.xml		A333-Turkish.xml
+A333-EgyptAir.xml		A333-USAirways.xml
+A333-EtihadAirways.xml		A333-VirginAtlantic.xml
+A333-Eurowings.xml		dirindex.txt
+A333-EvaAir.xml			Effects
+A333-FijiAirways.xml		Lights
+A333-Finnair.xml		Models
+A333-GarudaIndonesia.xml	Textures
+
+./A333/Effects:
+333-LightMap.eff	333-LightMap.png	dirindex.txt
+
+./A333/Lights:
+333-NavLights.xml	dirindex.txt
+
+./A333/Models:
+A333.ac		dirindex.txt
+
+./A333/Textures:
+AerLingus		default			Malaysia
+Aeroflot		Delta			OmanAir
+AirAsiaX		dirindex.txt		Philippines
+AirCanada		Dragonair		Qantas
+AirCaraibes		Edelweiss		QatarAirways
+AirChina		EgyptAir		Rwandair
+AirEuropa		EtihadAirways		Saudia
+AirTransat		Eurowings		ScandinavianAirlines
+American		EvaAir			SingaporeAirlines
+Asiana			FijiAirways		SouthAfrican
+Brussels		Finnair			Srilankan
+Cathay			Garuda			SwissAir
+ChinaAirlines		Iberia			TAP
+ChinaEastern		JetAirways		Thai
+ChinaSouthern		KLM			Turkish
+Corsair			Korean			UsAirways
+CSA			Lufthansa		VirginAtlantic
+
+./A333/Textures/AerLingus:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/Aeroflot:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/AirAsiaX:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/AirCanada:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/AirCaraibes:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/AirChina:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/AirEuropa:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/AirTransat:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/American:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/Asiana:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/Brussels:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/Cathay:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/ChinaAirlines:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/ChinaEastern:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/ChinaSouthern:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/Corsair:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/CSA:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/default:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/Delta:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/Dragonair:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/Edelweiss:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/EgyptAir:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/EtihadAirways:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/Eurowings:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/EvaAir:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/FijiAirways:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/Finnair:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/Garuda:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/Iberia:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/JetAirways:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/KLM:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/Korean:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/Lufthansa:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/Malaysia:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/OmanAir:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/Philippines:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/Qantas:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/QatarAirways:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/Rwandair:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/Saudia:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/ScandinavianAirlines:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/SingaporeAirlines:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/SouthAfrican:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/Srilankan:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/SwissAir:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/TAP:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/Thai:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/Turkish:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/UsAirways:
+A333-tex.png	dirindex.txt
+
+./A333/Textures/VirginAtlantic:
+A333-tex.png	dirindex.txt
+
+./A342:
+A342-AerolineasArgentinas.xml	dirindex.txt
+A342-default.xml		Effects
+A342-main.xml			Lights
+A342-RoyalJordanian.xml		Models
+A342-SouthAfricanAirways.xml	Textures
+
+./A342/Effects:
+342-LightMap.eff	342-LightMap.png	dirindex.txt
+
+./A342/Lights:
+342-NavLights.xml	dirindex.txt
+
+./A342/Models:
+A342.ac		dirindex.txt
+
+./A342/Textures:
+AerolineasArgentinas	dirindex.txt		SouthAfricanAirways
+default			RoyalJordanian
+
+./A342/Textures/AerolineasArgentinas:
+A342-tex.png	dirindex.txt
+
+./A342/Textures/default:
+A342-tex.png	dirindex.txt
+
+./A342/Textures/RoyalJordanian:
+A342-tex.png	dirindex.txt
+
+./A342/Textures/SouthAfricanAirways:
+A342-tex.png	dirindex.txt
+
+./A343:
+A343-AirCanada.xml		A343-main.xml
+A343-AirChina.xml		A343-Philippines.xml
+A343-AirFrance.xml		A343-ScandinavianAirlines.xml
+A343-AirMadagascar.xml		A343-SouthAfricanAirways.xml
+A343-AirMauritius.xml		A343-Srilankan.xml
+A343-AirTahitiNui.xml		A343-SwissAir.xml
+A343-CathayPacific.xml		A343-TAP.xml
+A343-default.xml		A343-Turkish.xml
+A343-Edelweiss.xml		A343-VirginAtlantic.xml
+A343-Emirates.xml		dirindex.txt
+A343-Finnair.xml		Effects
+A343-Iberia.xml			Lights
+A343-KuwaitAirways.xml		Models
+A343-LanChile.xml		Textures
+A343-Lufthansa.xml
+
+./A343/Effects:
+343-LightMap.eff	343-LightMap.png	dirindex.txt
+
+./A343/Lights:
+343-NavLights.xml	dirindex.txt
+
+./A343/Models:
+A343.ac		dirindex.txt
+
+./A343/Textures:
+AirCanada		dirindex.txt		Philippines
+AirChina		Edelweiss		ScandinavianAirlines
+AirFrance		Emirates		SouthAfricanAirways
+AirMadagascar		Finnair			Srilankan
+AirMauritius		Iberia			SwissAir
+AirTahiti		Kuwait			Tap
+Cathay			LanChile		Turkish
+default			Lufthansa		VirginAtlantic
+
+./A343/Textures/AirCanada:
+A343-tex.png	dirindex.txt
+
+./A343/Textures/AirChina:
+A343-tex.png	dirindex.txt
+
+./A343/Textures/AirFrance:
+A343-tex.png	dirindex.txt
+
+./A343/Textures/AirMadagascar:
+A343-tex.png	dirindex.txt
+
+./A343/Textures/AirMauritius:
+A343-tex.png	dirindex.txt
+
+./A343/Textures/AirTahiti:
+A343-tex.png	dirindex.txt
+
+./A343/Textures/Cathay:
+A343-tex.png	dirindex.txt
+
+./A343/Textures/default:
+A343-tex.png	dirindex.txt
+
+./A343/Textures/Edelweiss:
+A343-tex.png	dirindex.txt
+
+./A343/Textures/Emirates:
+A343-tex.png	dirindex.txt
+
+./A343/Textures/Finnair:
+A343-tex.png	dirindex.txt
+
+./A343/Textures/Iberia:
+A343-tex.png	dirindex.txt
+
+./A343/Textures/Kuwait:
+A343-tex.png	dirindex.txt
+
+./A343/Textures/LanChile:
+A343-tex.png	dirindex.txt
+
+./A343/Textures/Lufthansa:
+A343-tex.png	dirindex.txt
+
+./A343/Textures/Philippines:
+A343-tex.png	dirindex.txt
+
+./A343/Textures/ScandinavianAirlines:
+A343-tex.png	dirindex.txt
+
+./A343/Textures/SouthAfricanAirways:
+A343-tex.png	dirindex.txt
+
+./A343/Textures/Srilankan:
+A343-tex.png	dirindex.txt
+
+./A343/Textures/SwissAir:
+A343-tex.png	dirindex.txt
+
+./A343/Textures/Tap:
+A343-tex.png	dirindex.txt
+
+./A343/Textures/Turkish:
+A343-tex.png	dirindex.txt
+
+./A343/Textures/VirginAtlantic:
+A343-tex.png	dirindex.txt
+
+./A345:
+A345-Azerbaijan.xml		A345-Thai.xml
+A345-default.xml		dirindex.txt
+A345-Emirates.xml		Effects
+A345-EtihadAirways.xml		Lights
+A345-main.xml			Models
+A345-SingaporeAirlines.xml	Textures
+
+./A345/Effects:
+345-LightMap.eff	345-LightMap.png	dirindex.txt
+
+./A345/Lights:
+345-NavLights.xml	dirindex.txt
+
+./A345/Models:
+A345.ac		dirindex.txt
+
+./A345/Textures:
+Azerbaijan		Emirates		Thai
+default			EtihadAirways
+dirindex.txt		SingaporeAirlines
+
+./A345/Textures/Azerbaijan:
+A345-tex.png	dirindex.txt
+
+./A345/Textures/default:
+A345-tex.png	dirindex.txt
+
+./A345/Textures/Emirates:
+A345-tex.png	dirindex.txt
+
+./A345/Textures/EtihadAirways:
+A345-tex.png	dirindex.txt
+
+./A345/Textures/SingaporeAirlines:
+A345-tex.png	dirindex.txt
+
+./A345/Textures/Thai:
+A345-tex.png	dirindex.txt
+
+./A346:
+A346-ChinaEastern.xml	A346-main.xml		dirindex.txt
+A346-default.xml	A346-QatarAirways.xml	Effects
+A346-EtihadAirways.xml	A346-SouthAfrican.xml	Lights
+A346-Iberia.xml		A346-Thai.xml		Models
+A346-Lufthansa.xml	A346-VirginAtlantic.xml	Textures
+
+./A346/Effects:
+346-LightMap.eff	346-LightMap.png	dirindex.txt
+
+./A346/Lights:
+346-NavLights.xml	dirindex.txt
+
+./A346/Models:
+A346.ac		dirindex.txt
+
+./A346/Textures:
+ChinaEastern	dirindex.txt	Iberia		QatarAirways	Thai
+default		EtihadAirways	Lufthansa	SouthAfrican	VirginAtlantic
+
+./A346/Textures/ChinaEastern:
+A346-tex.png	dirindex.txt
+
+./A346/Textures/default:
+A346-tex.png	dirindex.txt
+
+./A346/Textures/EtihadAirways:
+A346-tex.png	dirindex.txt
+
+./A346/Textures/Iberia:
+A346-tex.png	dirindex.txt
+
+./A346/Textures/Lufthansa:
+A346-tex.png	dirindex.txt
+
+./A346/Textures/QatarAirways:
+A346-tex.png	dirindex.txt
+
+./A346/Textures/SouthAfrican:
+A346-tex.png	dirindex.txt
+
+./A346/Textures/Thai:
+A346-tex.png	dirindex.txt
+
+./A346/Textures/VirginAtlantic:
+A346-tex.png	dirindex.txt
+
+./A350:
+359-AirCaraibes.xml	359-Finnair.xml		359-VietnamAirlines.xml
+359-AirMauritius.xml	359-Frenchbee.xml	dirindex.txt
+359-Asiana.xml		359-Lufthansa.xml	Effects
+359-CathayPacific.xml	359-main.xml		Lights
+359-ChinaAirlines.xml	359-Malaysia.xml	Models
+359-ChinaSouthern.xml	359-Qatar.xml		Paintkit
+359-Default.xml		359-SAS.xml		Textures
+359-Delta.xml		359-Singapore.xml
+359-Ethiopian.xml	359-Thai.xml
+
+./A350/Effects:
+359-LightMap.eff	359-LightMap.png	dirindex.txt
+
+./A350/Lights:
+359-NavLights.xml	dirindex.txt
+
+./A350/Models:
+359.ac		dirindex.txt
+
+./A350/Paintkit:
+359 Paintkit.png	359 UV Map.png		dirindex.txt
+
+./A350/Textures:
+AirCaraibes	ChinaAirlines	dirindex.txt	Lufthansa	Singapore
+AirMauritius	ChinaSouthern	Ethiopian	Malaysia	Thai
+Asiana		Default		Finnair		Qatar		VietnamAirlines
+CathayPacific	Delta		Frenchbee	SAS
+
+./A350/Textures/AirCaraibes:
+359-tex.png	dirindex.txt
+
+./A350/Textures/AirMauritius:
+359-tex.png	dirindex.txt
+
+./A350/Textures/Asiana:
+359-tex.png	dirindex.txt
+
+./A350/Textures/CathayPacific:
+359-tex.png	dirindex.txt
+
+./A350/Textures/ChinaAirlines:
+359-tex.png	dirindex.txt
+
+./A350/Textures/ChinaSouthern:
+359-tex.png	dirindex.txt
+
+./A350/Textures/Default:
+359-tex.png	dirindex.txt
+
+./A350/Textures/Delta:
+359-tex.png	dirindex.txt
+
+./A350/Textures/Ethiopian:
+359-tex.png	dirindex.txt
+
+./A350/Textures/Finnair:
+359-tex.png	dirindex.txt
+
+./A350/Textures/Frenchbee:
+359-tex.png	dirindex.txt
+
+./A350/Textures/Lufthansa:
+359-tex.png	dirindex.txt
+
+./A350/Textures/Malaysia:
+359-tex.png	dirindex.txt
+
+./A350/Textures/Qatar:
+359-tex.png	dirindex.txt
+
+./A350/Textures/SAS:
+359-SAS.xml	359-tex.png	dirindex.txt
+
+./A350/Textures/Singapore:
+359-tex.png	dirindex.txt
+
+./A350/Textures/Thai:
+359-tex.png	dirindex.txt
+
+./A350/Textures/VietnamAirlines:
+359-tex.png	dirindex.txt
+
+./A380:
+388-AirFrance.xml		388-Malaysia.xml
+388-Asiana.xml			388-Qantas.xml
+388-BritishAirways.xml		388-Qatar.xml
+388-ChinaSouthern.xml		388-SingaporeAirlines.xml
+388-Default.xml			388-Thai.xml
+388-Emirates.xml		dirindex.txt
+388-Etihad.xml			Effects
+388-Korean.xml			Lights
+388-Lufthansa.xml		Models
+388-main.xml			Textures
+
+./A380/Effects:
+388-LightMap.eff	388-LightMap.png	dirindex.txt
+
+./A380/Lights:
+388-NavLights.xml	dirindex.txt
+
+./A380/Models:
+388.ac		dirindex.txt
+
+./A380/Textures:
+Airbus			dirindex.txt		Qantas
+AirFrance		Emirates		Qatar
+Asiana			Etihad			SingaporeAirlines
+BritishAirways		Korean			Thai
+ChinaSouthern		Lufthansa
+Default			Malaysia
+
+./A380/Textures/Airbus:
+388-tex.png	dirindex.txt
+
+./A380/Textures/AirFrance:
+388-tex.png	dirindex.txt
+
+./A380/Textures/Asiana:
+388-tex.png	dirindex.txt
+
+./A380/Textures/BritishAirways:
+388-tex.png	dirindex.txt
+
+./A380/Textures/ChinaSouthern:
+388-tex.png	dirindex.txt
+
+./A380/Textures/Default:
+388-tex.png	dirindex.txt
+
+./A380/Textures/Emirates:
+388-tex.png	dirindex.txt
+
+./A380/Textures/Etihad:
+388-tex.png	dirindex.txt
+
+./A380/Textures/Korean:
+388-tex.png	dirindex.txt
+
+./A380/Textures/Lufthansa:
+388-tex.png	dirindex.txt
+
+./A380/Textures/Malaysia:
+388-tex.png	dirindex.txt
+
+./A380/Textures/Qantas:
+388-tex.png	dirindex.txt
+
+./A380/Textures/Qatar:
+388-tex.png	dirindex.txt
+
+./A380/Textures/SingaporeAirlines:
+388-tex.png	dirindex.txt
+
+./A380/Textures/Thai:
+388-tex.png	dirindex.txt
+
+./A6M2:
+dirindex.txt	Models
+
+./A6M2/Models:
+a6m2-anim.xml	a6m2b-green.xml	dirindex.txt	prop.rgb	Zero.rgb
+a6m2.ac		a6m2b.ac	panel.rgb	Zero-green.rgb
+
+./Arup-S2:
+dirindex.txt	Models
+
+./Arup-S2/Models:
+arup-s2-ai.xml	dirindex.txt	prop.png	texture.xcf.gz
+arup-s2.ac	lights		texture.png
+
+./Arup-S2/Models/lights:
+beacon.xml		GreenLight.xml		RedLight.ac
+dirindex.txt		light-cone.ac		RedLight.xml
+flash.ac		light-cone.xml		StrobeWhite.xml
+flash.xml		light-gradient-lamp.png	WhiteLight.ac
+GreenLight.ac		lights.png		WhiteLight.xml
+
+./AT4:
+AT4-AerLingus.xml	AT4-Hop.xml		AT4-YukonAirNorth.xml
+AT4-Aeromar.xml		AT4-LoganAir.xml	dirindex.txt
+AT4-AirTahiti.xml	AT4-main.xml		Effects
+AT4-AstraAirlines.xml	AT4-NordStar.xml	Lights
+AT4-BlueIslands.xml	AT4-PIA.xml		Models
+AT4-Default.xml		AT4-Tarom.xml		Textures
+
+./AT4/Effects:
+AT4-LightMap.eff	AT4-LightMap.png	dirindex.txt
+
+./AT4/Lights:
+AT4-NavLights.xml	dirindex.txt
+
+./AT4/Models:
+AT4.ac		dirindex.txt
+
+./AT4/Textures:
+AerLingus	AstraAirlines	dirindex.txt	NordStar	YukonAirNorth
+Aeromar		BlueIslands	Hop		PIA
+AirTahiti	Default		LoganAir	Tarom
+
+./AT4/Textures/AerLingus:
+AT4-tex.png	dirindex.txt
+
+./AT4/Textures/Aeromar:
+AT4-tex.png	dirindex.txt
+
+./AT4/Textures/AirTahiti:
+AT4-tex.png	dirindex.txt
+
+./AT4/Textures/AstraAirlines:
+AT4-tex.png	dirindex.txt
+
+./AT4/Textures/BlueIslands:
+AT4-tex.png	dirindex.txt
+
+./AT4/Textures/Default:
+AT4-tex.png	dirindex.txt
+
+./AT4/Textures/Hop:
+AT4-tex.png	dirindex.txt
+
+./AT4/Textures/LoganAir:
+AT4-tex.png	dirindex.txt
+
+./AT4/Textures/NordStar:
+AT4-tex.png	dirindex.txt
+
+./AT4/Textures/PIA:
+AT4-tex.png	dirindex.txt
+
+./AT4/Textures/Tarom:
+AT4-tex.png	dirindex.txt
+
+./AT4/Textures/YukonAirNorth:
+AT4-tex.png	dirindex.txt
+
+./AT7:
+AT7-AerLingus.xml		AT7-FijiAirways.xml
+AT7-Aeromar.xml			AT7-Flybe.xml
+AT7-AirAlgerie.xml		AT7-Hop.xml
+AT7-AirCaledonie.xml		AT7-IsrairAirlines.xml
+AT7-AirCaraibes.xml		AT7-LoganAir.xml
+AT7-AirCorsica.xml		AT7-main.xml
+AT7-AirEuropaExpress.xml	AT7-Nordica.xml
+AT7-AirMadagascar.xml		AT7-NoRRA.xml
+AT7-AirMauritius.xml		AT7-PIA.xml
+AT7-AirNewZealand.xml		AT7-RoyalAirMaroc.xml
+AT7-AirSerbia.xml		AT7-ScandinavianAirlines.xml
+AT7-AirTahiti.xml		AT7-TAP.xml
+AT7-AirVanuatu.xml		AT7-Tarom.xml
+AT7-AstraAirlines.xml		AT7-TunisAirExpress.xml
+AT7-Avianca.xml			AT7-UNIAir.xml
+AT7-BinterCaboVerde.xml		AT7-UTair.xml
+AT7-BinterCanarias.xml		AT7-VietnamAirlines.xml
+AT7-BlueIslands.xml		AT7-VirginAustralia.xml
+AT7-BraathensRegional.xml	AT7-Windrose.xml
+AT7-CanaryFly.xml		dirindex.txt
+AT7-Cebu.xml			Effects
+AT7-CSA.xml			Lights
+AT7-default.xml			Models
+AT7-EasternAirways.xml		Paintkit
+AT7-EtihadRegional.xml		Textures
+
+./AT7/Effects:
+AT7-LightMap.eff	AT7-LightMap.png	dirindex.txt
+
+./AT7/Lights:
+AT7-NavLights.xml	dirindex.txt
+
+./AT7/Models:
+AT7.ac		dirindex.txt
+
+./AT7/Paintkit:
+AT7-PaintKit.png	AT7-uv.png
+AT7-tex.png		dirindex.txt
+
+./AT7/Textures:
+AerLingus		BinterCaboVerde		LoganAir
+Aeromar			BinterCanarias		Nordica
+AirAlgerie		BlueIslands		NoRRA
+AirCaledonie		BraathensRegional	PIA
+AirCaraibes		CanaryFly		RoyalAirMaroc
+AirCorsica		Cebu			ScandinavianAirlines
+AirEuropaExpress	CSA			TAP
+AirMadagascar		default			Tarom
+AirMauritius		dirindex.txt		TunisAirExpress
+AirNewZealand		EasternAirways		UNIAir
+AirSerbia		EtihadRegional		UTair
+AirTahiti		FijiAirways		VietnamAirlines
+AirVanuatu		Flybe			VirginAustralia
+AstraAirlines		Hop			Windrose
+Avianca			IsrairAirlines
+
+./AT7/Textures/AerLingus:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/Aeromar:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/AirAlgerie:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/AirCaledonie:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/AirCaraibes:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/AirCorsica:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/AirEuropaExpress:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/AirMadagascar:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/AirMauritius:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/AirNewZealand:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/AirSerbia:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/AirTahiti:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/AirVanuatu:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/AstraAirlines:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/Avianca:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/BinterCaboVerde:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/BinterCanarias:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/BlueIslands:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/BraathensRegional:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/CanaryFly:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/Cebu:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/CSA:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/default:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/EasternAirways:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/EtihadRegional:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/FijiAirways:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/Flybe:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/Hop:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/IsrairAirlines:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/LoganAir:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/Nordica:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/NoRRA:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/PIA:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/RoyalAirMaroc:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/ScandinavianAirlines:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/TAP:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/Tarom:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/TunisAirExpress:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/UNIAir:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/UTair:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/VietnamAirlines:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/VirginAustralia:
+AT7-tex.png	dirindex.txt
+
+./AT7/Textures/Windrose:
+AT7-tex.png	dirindex.txt
+
+./b1900d:
+dirindex.txt	Models
+
+./b1900d/Models:
+b1900d-anim.xml	B1900D.xml	chrome1.rgb	dirindex.txt	transparent.rgb
+b1900d.ac	chrome.rgb	CMAlivery.rgb	NZAlivery.rgb
+
+./b29:
+dirindex.txt	Models
+
+./b29/Models:
+b29-model.xml	b29-wingman.xml	dirindex.txt	Effects
+
+./b29/Models/Effects:
+b29glass-uber.eff	contrail-static.ac	contrail2.eff
+b29reflect-uber.eff	contrail-static.xml	contrail20.ac
+b29reflect.eff		contrail.ac		dirindex.txt
+contrail_dummy.xml	contrail.png		dummy.ac
+contrail_shader1.xml	contrail.xml		smoke.png
+contrail_shader2.xml	contrail1.eff
+
+./BAe-125:
+dirindex.txt	Models
+
+./BAe-125/Models:
+bae125-ai.xml	dirindex.txt	texture.png
+bae125.ac	lights		texture.xcf.gz
+
+./BAe-125/Models/lights:
+beacon.xml	flash.xml	lights.png	StrobeWhite.xml
+dirindex.txt	GreenLight.ac	RedLight.ac	WhiteLight.ac
+flash.ac	GreenLight.xml	RedLight.xml	WhiteLight.xml
+
+./Bae146-200:
+Bae146-200-AirFrance.xml	dirindex.txt
+Bae146-200-Lufthansa.xml	Models
+Bae146-200-set.xml		Textures
+
+./Bae146-200/Models:
+bae146-200.2.ac	bae146-200.ac	dirindex.txt
+
+./Bae146-200/Textures:
+AirFrance	dirindex.txt	Lufthansa
+
+./Bae146-200/Textures/AirFrance:
+bae146200.rgb	dirindex.txt
+
+./Bae146-200/Textures/Lufthansa:
+bae146200.rgb	dirindex.txt
+
+./BAE146-300:
+BAE146-300-AsianExpress.xml		BAE146-300-Malmo.xml
+BAE146-300-AstraAirlines.xml		BAE146-300-StarPeru.xml
+BAE146-300-AtlanticAirways.xml		BAE146-300-Swiss.xml
+BAE146-300-AviaTraffic.xml		dirindex.txt
+BAE146-300-BraathensRegional.xml	Models
+BAE146-300-Brussels.xml			Textures
+
+./BAE146-300/Models:
+BAE146-300.ac	dirindex.txt
+
+./BAE146-300/Textures:
+AsianExpress		BraathensRegional	StarPeru
+AstraAirlines		Brussels		Swiss
+AtlanticAirways		dirindex.txt
+AviaTraffic		Malmo
+
+./BAE146-300/Textures/AsianExpress:
+BEA146-300-tex.png	dirindex.txt
+
+./BAE146-300/Textures/AstraAirlines:
+BEA146-300-tex.png	dirindex.txt
+
+./BAE146-300/Textures/AtlanticAirways:
+BEA146-300-tex.png	dirindex.txt
+
+./BAE146-300/Textures/AviaTraffic:
+BEA146-300-tex.png	dirindex.txt
+
+./BAE146-300/Textures/BraathensRegional:
+BEA146-300-tex.png	dirindex.txt
+
+./BAE146-300/Textures/Brussels:
+BEA146-300-tex.png	dirindex.txt
+
+./BAE146-300/Textures/Malmo:
+BEA146-300-tex.png	dirindex.txt
+
+./BAE146-300/Textures/StarPeru:
+BEA146-300-tex.png	dirindex.txt
+
+./BAE146-300/Textures/Swiss:
+BEA146-300-tex.png	dirindex.txt
+
+./balloon:
+appleoon.xml	balloon3.xml	dirindex.txt	miss-velma.xml	tuxalloon.xml
+balloon.nas.xml	balloon4.xml	flightgear.xml	Models
+balloon2.xml	balloon5.xml	iva.xml		Textures
+
+./balloon/Models:
+appleoon.ac	balloon2.ac	balloon4.ac	balloon6t.ac	flame.png
+balloon1t.ac	balloon3.ac	balloon5.ac	dirindex.txt	tuxalloon.ac
+
+./balloon/Textures:
+dirindex.txt	flightgear	iva		miss-velma
+
+./balloon/Textures/flightgear:
+balloon1t.png	dirindex.txt
+
+./balloon/Textures/iva:
+balloon6t.png	dirindex.txt
+
+./balloon/Textures/miss-velma:
+balloon1t.png	dirindex.txt
+
+./beech-200:
+beech-200-234.xml	beech-200-EK2042.xml	beech-200-vh-mwk.xml
+beech-200-c-gjjt.xml	beech-200-g-saxn.xml	beech-200-vh-zmy.xml
+beech-200-d-icwd.xml	beech-200-hb-gpg.xml	dirindex.txt
+beech-200-d-ikob.xml	beech-200-lz-yuk.xml	Models
+beech-200-ec-kpt.xml	beech-200-main.xml	Textures
+
+./beech-200/Models:
+beech-200.ac	dirindex.txt
+
+./beech-200/Textures:
+234		d-ikob		EK2042		lz-yuk
+c-gjjt		dirindex.txt	g-saxn		vh-mwk
+d-icwd		ec-kpt		hb-gpg		vh-zmy
+
+./beech-200/Textures/234:
+b200-tex.png	dirindex.txt
+
+./beech-200/Textures/c-gjjt:
+b200-tex.png	dirindex.txt
+
+./beech-200/Textures/d-icwd:
+b200-tex.png	dirindex.txt
+
+./beech-200/Textures/d-ikob:
+b200-tex.png	dirindex.txt
+
+./beech-200/Textures/ec-kpt:
+b200-tex.png	dirindex.txt
+
+./beech-200/Textures/EK2042:
+b200-tex.png	dirindex.txt
+
+./beech-200/Textures/g-saxn:
+b200-tex.png	dirindex.txt
+
+./beech-200/Textures/hb-gpg:
+b200-tex.png	dirindex.txt
+
+./beech-200/Textures/lz-yuk:
+b200-tex.png	dirindex.txt
+
+./beech-200/Textures/vh-mwk:
+b200-tex.png	dirindex.txt
+
+./beech-200/Textures/vh-zmy:
+b200-tex.png	dirindex.txt
+
+./beech99:
+dirindex.txt	Models
+
+./beech99/Models:
+beech_99.rgb	beech_992.rgb	beech_995.rgb	beech_998.rgb	beech99.ac
+beech_990.rgb	beech_993.rgb	beech_996.rgb	beech_999.rgb	dirindex.txt
+beech_991.rgb	beech_994.rgb	beech_997.rgb	beech99-ai.xml
+
+./Beechcraft-Staggerwing:
+dirindex.txt	Models
+
+./Beechcraft-Staggerwing/Models:
+dirindex.txt	model17-ai.xml	prop.png	texture.xcf.gz
+lights		model17.ac	texture.png
+
+./Beechcraft-Staggerwing/Models/lights:
+beacon.xml	flash.xml	lights.png	StrobeWhite.xml
+dirindex.txt	GreenLight.ac	RedLight.ac	WhiteLight.ac
+flash.ac	GreenLight.xml	RedLight.xml	WhiteLight.xml
+
+./bf109:
+dirindex.txt	Models
+
+./bf109/Models:
+bf109-1-ai.rgb		bf109-4-ai.rgb		dirindex.txt
+bf109-2-ai.rgb		bf109g-ai.ac		pilot1.rgb
+bf109-3-ai.rgb		bf109g-model.xml	propdisk.rgb
+
+./bluebird:
+dirindex.txt	Models
+
+./bluebird/Models:
+bluebird-ai.ac		bluebird.xml		trails-LR.xml
+bluebird-common.xml	dirindex.txt		trails-RR.xml
+bluebird-osg.xml	Effects
+bluebird-plib.xml	Textures
+
+./bluebird/Models/Effects:
+dirindex.txt	smoke.png
+
+./bluebird/Models/Textures:
+bluebird-1.png		leather_cream.png	starburst-green.png
+browncanvas.png		leather.png		starburst-red.png
+brushed_alloy.png	livery-template.png
+dirindex.txt		livery.png
+
+./BNI:
+BNI-DirectFlight.xml	BNI-main.xml		Lights
+BNI-Hebridean.xml	dirindex.txt		Models
+BNI-LoganAir.xml	Effects			Textures
+
+./BNI/Effects:
+BNI-LightMap.eff	BNI-LightMap.png	dirindex.txt
+
+./BNI/Lights:
+BNI-NavLights.xml	dirindex.txt
+
+./BNI/Models:
+BNI.ac		dirindex.txt
+
+./BNI/Textures:
+Default		DirectFlight	dirindex.txt	Hebridean	LoganAir
+
+./BNI/Textures/Default:
+BNI-tex.png	dirindex.txt
+
+./BNI/Textures/DirectFlight:
+BNI-tex.png	dirindex.txt
+
+./BNI/Textures/Hebridean:
+BNI-tex.png	dirindex.txt
+
+./BNI/Textures/LoganAir:
+BNI-tex.png	dirindex.txt
+
+./bocian:
+dirindex.txt	Models
+
+./bocian/Models:
+bocian-model.xml	dirindex.txt
+
+./Bombardier-Challenger:
+Bombardier-Challenger-Adria.xml
+Bombardier-Challenger-AirDolomiti.xml
+Bombardier-Challenger-American.xml
+Bombardier-Challenger-AustrianAirlines.xml
+Bombardier-Challenger-Iberia.xml
+Bombardier-Challenger-Lufthansa.xml
+Bombardier-Challenger-MaerskAir.xml
+Bombardier-Challenger-Malev.xml
+Bombardier-Challenger-ScandinavianAirlines.xml
+Bombardier-Challenger-set.xml
+Bombardier-Challenger-SunAir-BA.xml
+Bombardier-Challenger-SunAir.xml
+Bombardier-Challenger-UnitedAlirlines.xml
+dirindex.txt
+Models
+Textures
+
+./Bombardier-Challenger/Models:
+chal604.ac	dirindex.txt
+
+./Bombardier-Challenger/Textures:
+Adria			Iberia			SAS
+AirDolomiti		Lufthansa		SunAir
+AustrianAirlines	MaerskAir		SunAir-BA
+dirindex.txt		Malev			UnitedAlirlines
+
+./Bombardier-Challenger/Textures/Adria:
+chal604.rgb	dirindex.txt
+
+./Bombardier-Challenger/Textures/AirDolomiti:
+chal604.rgb	dirindex.txt
+
+./Bombardier-Challenger/Textures/AustrianAirlines:
+chal604.rgb	dirindex.txt
+
+./Bombardier-Challenger/Textures/Iberia:
+chal604.rgb	dirindex.txt
+
+./Bombardier-Challenger/Textures/Lufthansa:
+chal604.rgb	dirindex.txt
+
+./Bombardier-Challenger/Textures/MaerskAir:
+chal604.rgb	dirindex.txt
+
+./Bombardier-Challenger/Textures/Malev:
+chal604.rgb	dirindex.txt
+
+./Bombardier-Challenger/Textures/SAS:
+chal604.rgb	dirindex.txt
+
+./Bombardier-Challenger/Textures/SunAir:
+chal604.rgb	dirindex.txt
+
+./Bombardier-Challenger/Textures/SunAir-BA:
+chal604.rgb	dirindex.txt
+
+./Bombardier-Challenger/Textures/UnitedAlirlines:
+chal604.rgb	dirindex.txt
+
+./Buccaneer:
+dirindex.txt	Models
+
+./Buccaneer/Models:
+bucaneer-low-atlas-0.jpg	buccaneer-wingman.xml
+bucaneer-low-atlas-trans-0.png	dirindex.txt
+buccaneer-low-poly.ac		Effects
+buccaneer-lowpoly.xml
+
+./Buccaneer/Models/Effects:
+buccaneerglass-uber.eff		tiptrail-port.xml
+buccaneerreflect-uber.eff	tiptrail-stbd.xml
+buccreflect.eff			tiptrail-tail-port.xml
+continous_smoke.png		tiptrail-tail-stbd.xml
+dirindex.txt
+
+./c172:
+c-fgfs.xml	dirindex.txt	g-fire.xml	n737bq.xml	ph-gys.xml
+c-fuhq.xml	ei-mcf.xml	Models		news.xml	Textures
+csna.xml	g-boix.xml	n4456r.xml	ok-ekr.xml	tf-sex.xml
+
+./c172/Models:
+c172p.ac	dirindex.txt
+
+./c172/Textures:
+c-fgfs		dirindex.txt	g-fire		news		tf-sex
+c-fuhq		ei-mcf		n4456r		ok-ekr
+csna		g-boix		n737bq		ph-gys
+
+./c172/Textures/c-fgfs:
+c172p-01.rgb		c172p-int-01.rgb	dirindex.txt
+c172p-02.rgb		c172p-int-02.rgb
+
+./c172/Textures/c-fuhq:
+c172p-01.rgb		c172p-int-01.rgb	dirindex.txt
+c172p-02.rgb		c172p-int-02.rgb
+
+./c172/Textures/csna:
+c172p-01.rgb		c172p-int-01.rgb	dirindex.txt
+c172p-02.rgb		c172p-int-02.rgb
+
+./c172/Textures/ei-mcf:
+c172p-01.rgb		c172p-int-01.rgb	dirindex.txt
+c172p-02.rgb		c172p-int-02.rgb
+
+./c172/Textures/g-boix:
+c172p-01.rgb		c172p-int-01.rgb	dirindex.txt
+c172p-02.rgb		c172p-int-02.rgb
+
+./c172/Textures/g-fire:
+c172p-01.rgb		c172p-int-01.rgb	dirindex.txt
+c172p-02.rgb		c172p-int-02.rgb
+
+./c172/Textures/n4456r:
+c172p-01.rgb		c172p-int-01.rgb	dirindex.txt
+c172p-02.rgb		c172p-int-02.rgb
+
+./c172/Textures/n737bq:
+c172p-01.rgb		c172p-int-01.rgb	dirindex.txt
+c172p-02.rgb		c172p-int-02.rgb
+
+./c172/Textures/news:
+c172p-01.rgb		c172p-int-01.rgb	dirindex.txt
+c172p-02.rgb		c172p-int-02.rgb
+
+./c172/Textures/ok-ekr:
+c172p-01.rgb		c172p-int-01.rgb	dirindex.txt
+c172p-02.rgb		c172p-int-02.rgb
+
+./c172/Textures/ph-gys:
+c172p-01.rgb		c172p-int-01.rgb	dirindex.txt
+c172p-02.rgb		c172p-int-02.rgb
+
+./c172/Textures/tf-sex:
+c172p-01.rgb		c172p-int-01.rgb	dirindex.txt
+c172p-02.rgb		c172p-int-02.rgb
+
+./c177:
+c177-g-brdo.xml	c177-main.xml	c177-n13749.xml	c177-pt-ion.xml	Models
+c177-hg-cxa.xml	c177-n13690.xml	c177-n16034.xml	dirindex.txt	Textures
+
+./c177/Models:
+c177.ac		dirindex.txt
+
+./c177/Textures:
+dirindex.txt	hg-cxa		n13749		pt-ion
+g-brdo		n13690		n16034
+
+./c177/Textures/g-brdo:
+177-tex.png	dirindex.txt
+
+./c177/Textures/hg-cxa:
+177-tex.png	dirindex.txt
+
+./c177/Textures/n13690:
+177-tex.png	dirindex.txt
+
+./c177/Textures/n13749:
+177-tex.png	dirindex.txt
+
+./c177/Textures/n16034:
+177-tex.png	dirindex.txt
+
+./c177/Textures/pt-ion:
+177-tex.png	dirindex.txt
+
+./c182:
+dirindex.txt	Models
+
+./c182/Models:
+BeaconLight.xml	c182-ai.xml	chrome2.rgb	lights.ac	toggle-white.ac
+c182-01.png	c182-dpm.xml	dirindex.txt	lights.rgb	ToggleLight.xml
+c182-02.png	c182.ac		Halos.rgb	StrobeLight.xml	WhiteLight1.ac
+
+./c182rg:
+dirindex.txt	Models
+
+./c182rg/Models:
+BeaconLight.xml	c182rg-ai.xml	chrome2.rgb	lights.ac	toggle-white.ac
+c182-01.png	c182rg-dpm.xml	dirindex.txt	lights.rgb	ToggleLight.xml
+c182-02.png	c182rg.ac	Halos.rgb	StrobeLight.xml	WhiteLight1.ac
+
+./c310:
+dirindex.txt	Models
+
+./c310/Models:
+c310-01.png	c310-ai.xml	c310-dpm.xml
+c310-02.png	c310-dpm.ac	dirindex.txt
+
+./c310u3a:
+dirindex.txt	Models
+
+./c310u3a/Models:
+c310u3a-ai.xml	cess_u3a0.png	cess_u3a3.png	cess_u3a6.png	cess_u3a9.png
+c310u3a.ac	cess_u3a1.png	cess_u3a4.png	cess_u3a7.png	cess_u3aa.png
+c310u3a.xml	cess_u3a2.png	cess_u3a5.png	cess_u3a8.png	dirindex.txt
+
+./CCX:
+dirindex.txt		GL5T-default.xml	GL5T-OE-LPZ.xml
+GL5T-9H-AFR.xml		GL5T-M-CCCP.xml		GL5T-TC-MJA.xml
+GL5T-9H-IBD.xml		GL5T-main.xml		Models
+GL5T-A6-FBQ.xml		GL5T-N815PA.xml		Paintkit
+GL5T-B-LRH.xml		GL5T-OE-ICA.xml		Textures
+
+./CCX/Models:
+bomb-5000.ac	dirindex.txt
+
+./CCX/Paintkit:
+bomb-5000-p-kit.svg	dirindex.txt
+
+./CCX/Textures:
+9H-AFR		B-LRH		M-CCCP		OE-LPZ
+9H-IBD		default		N815PA		TC-MJA
+A6-FBQ		dirindex.txt	OE-ICA
+
+./CCX/Textures/9H-AFR:
+bomb-5000-tex.png	dirindex.txt
+
+./CCX/Textures/9H-IBD:
+bomb-5000-tex.png	dirindex.txt
+
+./CCX/Textures/A6-FBQ:
+bomb-5000-tex.png	dirindex.txt
+
+./CCX/Textures/B-LRH:
+bomb-5000-tex.png	dirindex.txt
+
+./CCX/Textures/default:
+bomb-5000-tex.png	dirindex.txt
+
+./CCX/Textures/M-CCCP:
+bomb-5000-tex.png	dirindex.txt
+
+./CCX/Textures/N815PA:
+bomb-5000-tex.png	dirindex.txt
+
+./CCX/Textures/OE-ICA:
+bomb-5000-tex.png	dirindex.txt
+
+./CCX/Textures/OE-LPZ:
+bomb-5000-tex.png	dirindex.txt
+
+./CCX/Textures/TC-MJA:
+bomb-5000-tex.png	dirindex.txt
+
+./centrair-101:
+Centrair-101-F-CHGR.xml		Centrair-101-PH-795.xml
+Centrair-101-G-DHES.xml		dirindex.txt
+Centrair-101-main.xml		Models
+Centrair-101-OM-1725.xml	Textures
+
+./centrair-101/Models:
+centrair-101.ac	dirindex.txt
+
+./centrair-101/Textures:
+dirindex.txt	F-CHGR		G-DHES		OM-1725		PH-795
+
+./centrair-101/Textures/F-CHGR:
+101-tex.png	dirindex.txt
+
+./centrair-101/Textures/G-DHES:
+101-tex.png	dirindex.txt
+
+./centrair-101/Textures/OM-1725:
+101-tex.png	dirindex.txt
+
+./centrair-101/Textures/PH-795:
+101-tex.png	dirindex.txt
+
+./Cessna-421-Golden-Eagle:
+dirindex.txt	Models
+
+./Cessna-421-Golden-Eagle/Models:
+c421-ai.xml	dirindex.txt	prop.png	texture.xcf.gz
+c421.ac		light		texture.png
+
+./Cessna-421-Golden-Eagle/Models/light:
+beacon.xml	GreenLight.xml	RedLight.xml	ToggleLight.xml
+dirindex.txt	lights.png	StrobeWhite.xml	WhiteLight.ac
+GreenLight.ac	RedLight.ac	toggle-white.ac	WhiteLight.xml
+
+./Cessna208Caravan:
+dirindex.txt	Models
+
+./Cessna208Caravan/Models:
+caravan.ac		main.xml		texture.png
+Cessna208-ai.xml	prop.png		texture.xcf.gz
+dirindex.txt		tank.ac			wheels.ac
+light			tank.xml		wheels.xml
+
+./Cessna208Caravan/Models/light:
+beacon.xml		light-cone.xml		StrobeWhite.xml
+dirindex.txt		light-gradient-lamp.png	toggle-white.ac
+GreenLight.ac		lights.png		ToggleLight.xml
+GreenLight.xml		RedLight.ac		WhiteLight.ac
+light-cone.ac		RedLight.xml		WhiteLight.xml
+
+./Cessna337:
+dirindex.txt	Models
+
+./Cessna337/Models:
+Cessna337_SkymasterEC-ISD.ac	Cessna337-VH-WWCai.xml
+Cessna337_SkymasterN53472.ac	dirindex.txt
+Cessna337_SkymasterN6276F.ac	Lights
+Cessna337_SkymasterVH-SBZ.ac	livery_EC-ISD.png
+Cessna337_SkymasterVH-WWC.ac	livery_N53472.png
+Cessna337-EC-ISDai.xml		livery_N6276F.png
+Cessna337-N53472ai.xml		prop_spin.png
+Cessna337-N6276Fai.xml		Textures
+Cessna337-VH-SBZai.xml
+
+./Cessna337/Models/Lights:
+Beacon.ac		NavBack.xml		Strobe.xml
+Beacon.xml		NavL.ac			taxi.ac
+dirindex.txt		NavL.xml		taxi.xml
+LandingLights.ac	NavR.ac			toggle-white.ac
+LandingLights.xml	NavR.xml		ToggleLight.xml
+NavBack.ac		Strobe.ac		transparent.png
+
+./Cessna337/Models/Textures:
+dirindex.txt		lights.png		livery_VH-SBZ.png
+greyMap.png		livery_EC-ISD.png	livery_VH-WWC.png
+greyMap2.png		livery_N53472.png	normalMap.png
+lightMap.png		livery_N6276F.png	prop_spin.png
+
+./Citation-Bravo:
+dirindex.txt	Models
+
+./Citation-Bravo/Models:
+Bravo-ai.xml	chrome.png	dirindex.txt	Paint2.png	transparent.png
+bravo.ac	chrome1.png	Paint1.png	Paint3.png
+
+./CR2:
+CR2-AirCanada.xml	CR2-main.xml		Effects
+CR2-American.xml	CR2-Rusline.xml		Lights
+CR2-Belavia.xml		CR2-SouthAfrican.xml	Models
+CR2-Default.xml		CR2-United.xml		Textures
+CR2-Delta.xml		dirindex.txt
+
+./CR2/Effects:
+CR2-LightMap.eff	CR2-LightMap.png	dirindex.txt
+
+./CR2/Lights:
+CR2-NavLights.xml	dirindex.txt
+
+./CR2/Models:
+CR2.ac		dirindex.txt
+
+./CR2/Textures:
+AirCanada	Belavia		Delta		RusLine		United
+American	Default		dirindex.txt	SouthAfrican
+
+./CR2/Textures/AirCanada:
+CR2-tex.png	dirindex.txt
+
+./CR2/Textures/American:
+CR2-tex.png	dirindex.txt
+
+./CR2/Textures/Belavia:
+CR2-tex.png	dirindex.txt
+
+./CR2/Textures/Default:
+CR2-tex.png	dirindex.txt
+
+./CR2/Textures/Delta:
+CR2-tex.png	dirindex.txt
+
+./CR2/Textures/RusLine:
+CR2-tex.png	dirindex.txt
+
+./CR2/Textures/SouthAfrican:
+CR2-tex.png	dirindex.txt
+
+./CR2/Textures/United:
+CR2-tex.png	dirindex.txt
+
+./CR7:
+CR7-American.xml	CR7-main.xml		Lights
+CR7-Default.xml		CR7-Nordica.xml		Models
+CR7-Delta.xml		CR7-United.xml		Textures
+CR7-Hop!.xml		dirindex.txt
+CR7-IbexAirlines.xml	Effects
+
+./CR7/Effects:
+CR7-LightMap.eff	CR7-LightMap.png	dirindex.txt
+
+./CR7/Lights:
+CR7-NavLights.xml	dirindex.txt
+
+./CR7/Models:
+CR7.ac		dirindex.txt
+
+./CR7/Textures:
+American	Delta		Hop!		Nordica
+Default		dirindex.txt	IbexAirlines	United
+
+./CR7/Textures/American:
+CR7-tex.png	dirindex.txt
+
+./CR7/Textures/Default:
+CR7-tex.png	dirindex.txt
+
+./CR7/Textures/Delta:
+CR7-tex.png	dirindex.txt
+
+./CR7/Textures/Hop!:
+CR7-tex.png	dirindex.txt
+
+./CR7/Textures/IbexAirlines:
+CR7-tex.png	dirindex.txt
+
+./CR7/Textures/Nordica:
+CR7-tex.png	dirindex.txt
+
+./CR7/Textures/United:
+CR7-tex.png	dirindex.txt
+
+./CR9:
+CR9-Adria.xml			CR9-main.xml
+CR9-AirCanadaExpress.xml	CR9-Nordica.xml
+CR9-AmericanEagle.xml		CR9-Rwandair.xml
+CR9-Arik.xml			CR9-Scandinavian.xml
+CR9-ChinaExpress.xml		CR9-Tunisair.xml
+CR9-Default.xml			dirindex.txt
+CR9-DeltaConnection.xml		Effects
+CR9-IberiaRegional.xml		Lights
+CR9-IraqiAirways.xml		Models
+CR9-LOT-Nordica.xml		Textures
+CR9-LufthansaCityline.xml
+
+./CR9/Effects:
+CR9-LightMap.eff	CR9-LightMap.png	dirindex.txt
+
+./CR9/Lights:
+CR9-NavLights.xml	dirindex.txt
+
+./CR9/Models:
+CR9.ac		dirindex.txt
+
+./CR9/Textures:
+Adria			DeltaConnection		Nordica
+AirCanadaExpress	dirindex.txt		Rwandair
+AmericanEagle		IberiaRegional		Scandinavian
+Arik			IraqiAirways		Tunisair
+ChinaExpress		LOT-Nordica
+Default			LufthansaCityline
+
+./CR9/Textures/Adria:
+CR9-tex.png	dirindex.txt
+
+./CR9/Textures/AirCanadaExpress:
+CR9-tex.png	dirindex.txt
+
+./CR9/Textures/AmericanEagle:
+CR9-tex.png	dirindex.txt
+
+./CR9/Textures/Arik:
+CR9-tex.png	dirindex.txt
+
+./CR9/Textures/ChinaExpress:
+CR9-tex.png	dirindex.txt
+
+./CR9/Textures/Default:
+CR9-tex.png	dirindex.txt
+
+./CR9/Textures/DeltaConnection:
+CR9-tex.png	dirindex.txt
+
+./CR9/Textures/IberiaRegional:
+CR9-tex.png	dirindex.txt
+
+./CR9/Textures/IraqiAirways:
+CR9-tex.png	dirindex.txt
+
+./CR9/Textures/LOT-Nordica:
+CR9-tex.png	dirindex.txt
+
+./CR9/Textures/LufthansaCityline:
+CR9-tex.png	dirindex.txt
+
+./CR9/Textures/Nordica:
+CR9-tex.png	dirindex.txt
+
+./CR9/Textures/Rwandair:
+CR9-tex.png	dirindex.txt
+
+./CR9/Textures/Scandinavian:
+CR9-tex.png	dirindex.txt
+
+./CR9/Textures/Tunisair:
+CR9-tex.png	dirindex.txt
+
+./cri-cri:
+dirindex.txt	Models
+
+./cri-cri/Models:
+chrome-transparent1.rgb	dirindex.txt		MC-15.ac
+chrome1.rgb		empty.rgb		profil.rgb
+chrome2.rgb		lignes.rgb		prop.rgb
+colors.rgb		MC-15-ai.xml		prop2.rgb
+
+./Cub:
+dirindex.txt	Models
+
+./Cub/Models:
+Cub-ai.xml		placards.png		texture.png
+Cub.ac			propeller_slow.png
+dirindex.txt		propeller.png
+
+./DH3:
+DH3-AirNewZealand.xml	DH3-QantasLink.xml	Lights
+DH3-AirNiugini.xml	DH3-Wideroe.xml		Models
+DH3-Default.xml		dirindex.txt		Textures
+DH3-main.xml		Effects
+
+./DH3/Effects:
+DH3-LightMap.eff	DH3-LightMap.png	dirindex.txt
+
+./DH3/Lights:
+DH3-NavLights.xml	dirindex.txt
+
+./DH3/Models:
+DH3.ac		dirindex.txt
+
+./DH3/Textures:
+AirNewZealand	Default		QantasLink
+AirNiugini	dirindex.txt	Wideroe
+
+./DH3/Textures/AirNewZealand:
+DH3-tex.png	dirindex.txt
+
+./DH3/Textures/AirNiugini:
+DH3-tex.png	dirindex.txt
+
+./DH3/Textures/Default:
+DH3-tex.png	dirindex.txt
+
+./DH3/Textures/QantasLink:
+DH3-tex.png	dirindex.txt
+
+./DH3/Textures/Wideroe:
+DH3-tex.png	dirindex.txt
+
+./DH4:
+DH4-AirBaltic.xml	DH4-LOT.xml		DH4-Westjet.xml
+DH4-AlaskaAirlines.xml	DH4-Luxair.xml		DH4-Wideroe.xml
+DH4-ANAWings.xml	DH4-main.xml		dirindex.txt
+DH4-Austrian.xml	DH4-Philippines.xml	Effects
+DH4-Croatia.xml		DH4-QantasLink.xml	Lights
+DH4-Default.xml		DH4-Rwandair.xml	Models
+DH4-Jambojet.xml	DH4-SATA.xml		Textures
+
+./DH4/Effects:
+DH4-LightMap.eff	DH4-LightMap.png	dirindex.txt
+
+./DH4/Lights:
+DH4-NavLights.xml	dirindex.txt
+
+./DH4/Models:
+DH4.ac		dirindex.txt
+
+./DH4/Textures:
+AirBaltic	Croatia		LOT		Rwandair
+AlaskaAirlines	Default		Luxair		SATA
+ANAWings	dirindex.txt	Philippines	Westjet
+Austrian	Jambojet	QantasLink	Wideroe
+
+./DH4/Textures/AirBaltic:
+DH4-tex.png	dirindex.txt
+
+./DH4/Textures/AlaskaAirlines:
+DH4-tex.png	dirindex.txt
+
+./DH4/Textures/ANAWings:
+DH4-tex.png	dirindex.txt
+
+./DH4/Textures/Austrian:
+DH4-tex.png	dirindex.txt
+
+./DH4/Textures/Croatia:
+DH4-tex.png	dirindex.txt
+
+./DH4/Textures/Default:
+DH4-tex.png	dirindex.txt
+
+./DH4/Textures/Jambojet:
+DH4-tex.png	dirindex.txt
+
+./DH4/Textures/LOT:
+DH4-tex.png	dirindex.txt
+
+./DH4/Textures/Luxair:
+DH4-tex.png	dirindex.txt
+
+./DH4/Textures/Philippines:
+DH4-tex.png	dirindex.txt
+
+./DH4/Textures/QantasLink:
+DH4-tex.png	dirindex.txt
+
+./DH4/Textures/Rwandair:
+DH4-tex.png	dirindex.txt
+
+./DH4/Textures/SATA:
+DH4-tex.png	dirindex.txt
+
+./DH4/Textures/Westjet:
+DH4-tex.png	dirindex.txt
+
+./DH4/Textures/Wideroe:
+DH4-tex.png	dirindex.txt
+
+./DH7:
+DH7-AugsburgAirways.xml		dirindex.txt
+DH7-ScandinavianAirlines.xml	Models
+DH7-set.xml			Textures
+
+./DH7/Models:
+dh7.ac		dirindex.txt
+
+./DH7/Textures:
+AugsburgAirways		dirindex.txt		ScandinavianAirlines
+
+./DH7/Textures/AugsburgAirways:
+dh7.rgb		dirindex.txt
+
+./DH7/Textures/ScandinavianAirlines:
+dh7.rgb		dirindex.txt
+
+./DH82:
+DH82-G-ACDA.xml	DH82-G-AJHS.xml	DH82-N1837.xml	DH82-W7956.xml	Models
+DH82-G-ADJJ.xml	DH82-K2585.xml	DH82-N6839.xml	DH82-ZS-UKW.xml	Paintkit
+DH82-G-AHOO.xml	DH82-main.xml	DH82-R4922.xml	dirindex.txt	Textures
+
+./DH82/Models:
+DH82.ac		dirindex.txt
+
+./DH82/Paintkit:
+dirindex.txt
+
+./DH82/Textures:
+dirindex.txt	G-AHOO		N1837		W7956
+G-ACDA		G-AJHS		N6839		ZS-UKW
+G-ADJJ		K2585		R4922
+
+./DH82/Textures/G-ACDA:
+dirindex.txt	tiger-tex.png
+
+./DH82/Textures/G-ADJJ:
+dirindex.txt	tiger-tex.png
+
+./DH82/Textures/G-AHOO:
+dirindex.txt	tiger-tex.png
+
+./DH82/Textures/G-AJHS:
+dirindex.txt	tiger-tex.png
+
+./DH82/Textures/K2585:
+dirindex.txt	tiger-tex.png
+
+./DH82/Textures/N1837:
+dirindex.txt	tiger-tex.png
+
+./DH82/Textures/N6839:
+dirindex.txt	tiger-tex.png
+
+./DH82/Textures/R4922:
+dirindex.txt	tiger-tex.png
+
+./DH82/Textures/W7956:
+dirindex.txt	tiger-tex.png
+
+./DH82/Textures/ZS-UKW:
+dirindex.txt	tiger-tex.png
+
+./DHT:
+DHT-AirCaledonie.xml	DHT-FijiAirways.xml	dirindex.txt
+DHT-AirTahiti.xml	DHT-LoganAir.xml	Models
+DHT-AirVanuatu.xml	DHT-main.xml		Textures
+
+./DHT/Models:
+DHT.ac		dirindex.txt
+
+./DHT/Textures:
+AirArchipels	AirVanuatu	FijiAirways
+AirLoyaute	dirindex.txt	Loganair
+
+./DHT/Textures/AirArchipels:
+DHT-tex.png	dirindex.txt
+
+./DHT/Textures/AirLoyaute:
+DHT-tex.png	dirindex.txt
+
+./DHT/Textures/AirVanuatu:
+DHT-tex.png	dirindex.txt
+
+./DHT/Textures/FijiAirways:
+DHT-tex.png	dirindex.txt
+
+./DHT/Textures/Loganair:
+DHT-tex.png	dirindex.txt
+
+./Diamond-Da42:
+dirindex.txt	Models
+
+./Diamond-Da42/Models:
+da42-ai.xml	dirindex.txt	prop.png	texture.xcf.gz
+da42.ac		light		texture.png
+
+./Diamond-Da42/Models/light:
+beacon.xml		landinglight.xml	StrobeWhite.xml
+dirindex.txt		light-cone-antiice.ac	taxi-light-cone.ac
+flash.ac		light-cone-antiice.xml	taxilight.xml
+flash.xml		light-gradient-lamp.png	WhiteLight.ac
+GreenLight.ac		lights.png		WhiteLight.xml
+GreenLight.xml		RedLight.ac
+landing-light-cone.ac	RedLight.xml
+
+./DR400:
+dirindex.txt	Models
+
+./DR400/Models:
+dirindex.txt	dr400.ac	prop.png	texture.xcf.gz
+dr400-ai.xml	light		texture.png
+
+./DR400/Models/light:
+beacon.xml		light-cone.xml		StrobeWhite.xml
+dirindex.txt		light-gradient-lamp.png	toggle-white.ac
+GreenLight.ac		lights.png		ToggleLight.xml
+GreenLight.xml		RedLight.ac		WhiteLight.ac
+light-cone.ac		RedLight.xml		WhiteLight.xml
+
+./Dragonfly:
+dirindex.txt	Models
+
+./Dragonfly/Models:
+Banner.ac		CarbonFiber.png		Dragonfly.ac
+banner.png		CarbonFiber.rgb		Dragonfly.png
+banner.rgb		dirindex.txt		Dragonfly.rgb
+Banner.xml		Dragonfly-ai.xml
+
+./Dromader:
+dirindex.txt	Models
+
+./Dromader/Models:
+dirindex.txt		M18B_Dromader.ac	Textures
+Lights			M18B_DromaderR-ai.xml
+M18B_Dromader-ai.xml	M18B_DromaderR.ac
+
+./Dromader/Models/Lights:
+Beacon.ac		LandingLights.ac	NavR.ac
+Beacon.xml		LandingLights.xml	NavR.xml
+dirindex.txt		lights.png		Strobe.ac
+flash.ac		NavL.ac			Strobe.xml
+flash.xml		NavL.xml		transparent.png
+
+./Dromader/Models/Textures:
+dirindex.txt		LiveryDefault.png	Spinning.png
+LiveryConaf.png		LiveryRed.png
+
+./E-2C:
+dirindex.txt	Models
+
+./E-2C/Models:
+Crew			E-2C-model.ac		E-2C-texture-2.png
+dirindex.txt		E-2C-model.xml		propeller-disc.png
+E-2C-deckpark.xml	E-2C-texture-1.png
+
+./E-2C/Models/Crew:
+dirindex.txt	pilot.png	pilots-face.png
+
+./E70:
+dirindex.txt			ERJ175-Alitalia.xml
+Effects				ERJ175-American.xml
+ERJ170-AeroMexicoConnect.xml	ERJ175-Belavia.xml
+ERJ170-Azerbaijan.xml		ERJ175-Default.xml
+ERJ170-BritishAirways.xml	ERJ175-Delta.xml
+ERJ170-Default.xml		ERJ175-FlyBe.xml
+ERJ170-EgyptAir.xml		ERJ175-KLM.xml
+ERJ170-Hop.xml			ERJ175-LOT.xml
+ERJ170-LOT.xml			ERJ175-main.xml
+ERJ170-main.xml			ERJ175-OmanAir.xml
+ERJ170-Peoples.xml		ERJ175-RoyalJordanian.xml
+ERJ170-Siberian.xml		ERJ175-United.xml
+ERJ170-United.xml		Lights
+ERJ175-AirCanada.xml		Models
+ERJ175-AirCanadaExpress.xml	Paintkit
+ERJ175-AlaskaAirlines.xml	Textures
+
+./E70/Effects:
+dirindex.txt		E70-LightMap.png	E75-LightMap.png
+E70-LightMap.eff	E75-LightMap.eff
+
+./E70/Lights:
+dirindex.txt		E70-NavLights.xml	E75-NavLights.xml
+
+./E70/Models:
+dirindex.txt	ERJ170.ac	ERJ175.ac
+
+./E70/Paintkit:
+dirindex.txt		ERJ170 UV MAP.png	ERJ175 UV Map.png
+ERJ170 Paintkit.png	ERJ175 Paintkit.png
+
+./E70/Textures:
+AeroMexicoConnect	BritishAirways		LOT
+AirCanada		Default			OmanAir
+AirCanadaExpress	Delta			Peoples
+AlaskaAirlines		dirindex.txt		RoyalJordanian
+Alitalia		EgyptAir		Siberian
+American		FlyBe			United
+Azerbaijan		Hop
+Belavia			KLM
+
+./E70/Textures/AeroMexicoConnect:
+dirindex.txt	ERJ170-tex.png
+
+./E70/Textures/AirCanada:
+dirindex.txt	ERJ175-tex.png
+
+./E70/Textures/AirCanadaExpress:
+dirindex.txt	ERJ175-tex.png
+
+./E70/Textures/AlaskaAirlines:
+dirindex.txt	ERJ175-tex.png
+
+./E70/Textures/Alitalia:
+dirindex.txt	ERJ175-tex.png
+
+./E70/Textures/American:
+dirindex.txt	ERJ175-tex.png
+
+./E70/Textures/Azerbaijan:
+dirindex.txt	ERJ170-tex.png
+
+./E70/Textures/Belavia:
+dirindex.txt	ERJ175-tex.png
+
+./E70/Textures/BritishAirways:
+dirindex.txt	ERJ170-tex.png
+
+./E70/Textures/Default:
+dirindex.txt	ERJ170-tex.png	ERJ175-tex.png
+
+./E70/Textures/Delta:
+dirindex.txt	ERJ175-tex.png
+
+./E70/Textures/EgyptAir:
+dirindex.txt	ERJ170-tex.png
+
+./E70/Textures/FlyBe:
+dirindex.txt	ERJ175-tex.png
+
+./E70/Textures/Hop:
+dirindex.txt	ERJ170-tex.png
+
+./E70/Textures/KLM:
+dirindex.txt	ERJ175-tex.png
+
+./E70/Textures/LOT:
+dirindex.txt	ERJ170-tex.png	ERJ175-tex.png
+
+./E70/Textures/OmanAir:
+dirindex.txt	ERJ175-tex.png
+
+./E70/Textures/Peoples:
+dirindex.txt	ERJ170-tex.png
+
+./E70/Textures/RoyalJordanian:
+dirindex.txt	ERJ175-tex.png
+
+./E70/Textures/Siberian:
+dirindex.txt	ERJ170-tex.png
+
+./E70/Textures/United:
+dirindex.txt	ERJ170-tex.png	ERJ175-tex.png
+
+./E90:
+dirindex.txt			E90-Hop.xml
+E90-AeroMexicoConnect.xml	E90-JetBlue.xml
+E90-AirAstana.xml		E90-KenyaAirways.xml
+E90-AirCanada.xml		E90-KLM.xml
+E90-AirMoldova.xml		E90-LOT.xml
+E90-Alitalia.xml		E90-Lufthansa.xml
+E90-American.xml		E90-main.xml
+E90-ArkiaIsraeliAirlines.xml	E90-MandarinAirlines.xml
+E90-Azerbaijan.xml		E90-RoyalAirMaroc.xml
+E90-BritishAirways.xml		E90-TAP.xml
+E90-BulgariaAir.xml		E90-UkraineIntl.xml
+E90-ChinaSouthern.xml		Effects
+E90-Default.xml			Lights
+E90-EasternAirways.xml		Models
+E90-Finnair.xml			Paintkit
+E90-Helvetic.xml		Textures
+
+./E90/Effects:
+dirindex.txt		E90-LightMap.eff	E90-LightMap.png
+
+./E90/Lights:
+dirindex.txt		E90-NavLights.xml
+
+./E90/Models:
+dirindex.txt	E90.ac
+
+./E90/Paintkit:
+dirindex.txt		E90 UV Map.png		E90-Paintkit.png
+
+./E90/Textures:
+AeroMexicoConnect	BulgariaAir		KenyaAirways
+AirAstana		ChinaSouthern		KLM
+AirCanada		Default			LOT
+AirMoldova		dirindex.txt		Lufthansa
+Alitalia		EasternAirways		MandarinAirlines
+American		Finnair			RoyalAirMaroc
+ArkiaIsraeliAirlines	Helvetic		TAP
+Azerbaijan		Hop			UkraineIntl
+BritishAirways		JetBlue
+
+./E90/Textures/AeroMexicoConnect:
+dirindex.txt	E90-tex.png
+
+./E90/Textures/AirAstana:
+dirindex.txt	E90-tex.png
+
+./E90/Textures/AirCanada:
+dirindex.txt	E90-tex.png
+
+./E90/Textures/AirMoldova:
+dirindex.txt	E90-tex.png
+
+./E90/Textures/Alitalia:
+dirindex.txt	E90-tex.png
+
+./E90/Textures/American:
+dirindex.txt	E90-tex.png
+
+./E90/Textures/ArkiaIsraeliAirlines:
+dirindex.txt	E90-tex.png
+
+./E90/Textures/Azerbaijan:
+dirindex.txt	E90-tex.png
+
+./E90/Textures/BritishAirways:
+dirindex.txt	E90-tex.png
+
+./E90/Textures/BulgariaAir:
+dirindex.txt	E90-tex.png
+
+./E90/Textures/ChinaSouthern:
+dirindex.txt	E90-tex.png
+
+./E90/Textures/Default:
+dirindex.txt	E90-tex.png
+
+./E90/Textures/EasternAirways:
+dirindex.txt	E90-tex.png
+
+./E90/Textures/Finnair:
+dirindex.txt	E90-tex.png
+
+./E90/Textures/Helvetic:
+dirindex.txt	E90-tex.png
+
+./E90/Textures/Hop:
+dirindex.txt	E90-tex.png
+
+./E90/Textures/JetBlue:
+dirindex.txt	E90-tex.png
+
+./E90/Textures/KenyaAirways:
+dirindex.txt	E90-tex.png
+
+./E90/Textures/KLM:
+dirindex.txt	E90-tex.png
+
+./E90/Textures/LOT:
+dirindex.txt	E90-tex.png
+
+./E90/Textures/Lufthansa:
+dirindex.txt	E90-tex.png
+
+./E90/Textures/MandarinAirlines:
+dirindex.txt	E90-tex.png
+
+./E90/Textures/RoyalAirMaroc:
+dirindex.txt	E90-tex.png
+
+./E90/Textures/TAP:
+dirindex.txt	E90-tex.png
+
+./E90/Textures/UkraineIntl:
+dirindex.txt	E90-tex.png
+
+./E95:
+dirindex.txt			E95-Lufthansa.xml
+E95-AirDolomiti.xml		E95-main.xml
+E95-AirEuropaExpress.xml	E95-Montenegro.xml
+E95-ArkiaIsraeliAirlines.xml	E95-RoyalJordanian.xml
+E95-Austrian.xml		E95-TAP.xml
+E95-Belavia.xml			Effects
+E95-Default.xml			Lights
+E95-FlyBe.xml			Models
+E95-LOT.xml			Textures
+
+./E95/Effects:
+dirindex.txt		E95-LightMap.eff	E95-LightMap.png
+
+./E95/Lights:
+dirindex.txt		E95-NavLights.xml
+
+./E95/Models:
+dirindex.txt	E95.ac
+
+./E95/Textures:
+AirDolomiti		Default			Montenegro
+AirEuropaExpress	dirindex.txt		RoyalJordanian
+ArkiaIsraeliAirlines	FlyBe			TAP
+Austrian		LOT
+Belavia			Lufthansa
+
+./E95/Textures/AirDolomiti:
+dirindex.txt	E95-tex.png
+
+./E95/Textures/AirEuropaExpress:
+dirindex.txt	E95-tex.png
+
+./E95/Textures/ArkiaIsraeliAirlines:
+dirindex.txt	E95-tex.png
+
+./E95/Textures/Austrian:
+dirindex.txt	E95-tex.png
+
+./E95/Textures/Belavia:
+dirindex.txt	E95-tex.png
+
+./E95/Textures/Default:
+dirindex.txt	E95-tex.png
+
+./E95/Textures/FlyBe:
+dirindex.txt	E95-tex.png
+
+./E95/Textures/LOT:
+dirindex.txt	E95-tex.png
+
+./E95/Textures/Lufthansa:
+dirindex.txt	E95-tex.png
+
+./E95/Textures/Montenegro:
+dirindex.txt	E95-tex.png
+
+./E95/Textures/RoyalJordanian:
+dirindex.txt	E95-tex.png
+
+./E95/Textures/TAP:
+dirindex.txt	E95-tex.png
+
+./Embraer-Legacy:
+dirindex.txt				Embraer-Legacy-set.xml
+Embraer-Legacy-AirFrance.xml		Embraer-Legacy-SwissAir.xml
+Embraer-Legacy-Alitalia.xml		Embraer-Legacy-UnitedAirlines-new.xml
+Embraer-Legacy-American.xml		Embraer-Legacy-UnitedAirlines.xml
+Embraer-Legacy-BritishAirways.xml	Embraer-Legacy-USAirways.xml
+Embraer-Legacy-Finnair.xml		Models
+Embraer-Legacy-LOT.xml			Textures
+Embraer-Legacy-Luxair.xml
+
+./Embraer-Legacy/Models:
+dirindex.txt	legacy.ac
+
+./Embraer-Legacy/Textures:
+AirFrance		LOT			UnitedAlirlines-new
+Alitalia		LuxAir			USAirways
+dirindex.txt		SwissAir
+Finnair			UnitedAlirlines
+
+./Embraer-Legacy/Textures/AirFrance:
+dirindex.txt	legacy.rgb
+
+./Embraer-Legacy/Textures/Alitalia:
+dirindex.txt	legacy.rgb
+
+./Embraer-Legacy/Textures/Finnair:
+dirindex.txt	legacy.rgb
+
+./Embraer-Legacy/Textures/LOT:
+dirindex.txt	legacy.rgb
+
+./Embraer-Legacy/Textures/LuxAir:
+dirindex.txt	legacy.rgb
+
+./Embraer-Legacy/Textures/SwissAir:
+dirindex.txt	legacy.rgb
+
+./Embraer-Legacy/Textures/UnitedAlirlines:
+dirindex.txt	legacy.rgb
+
+./Embraer-Legacy/Textures/UnitedAlirlines-new:
+dirindex.txt	legacy.rgb
+
+./Embraer-Legacy/Textures/USAirways:
+dirindex.txt	legacy.rgb
+
+./ercoupe:
+dirindex.txt	Models
+
+./ercoupe/Models:
+c150-01.rgb		dirindex.txt		ercoupe-ext2.rgb
+c150-02.rgb		ercoupe-ai.xml		ercoupe.ac
+chrome2.rgb		ercoupe-ext1.rgb	light.rgb
+
+./ERJ145:
+dirindex.txt			ERJ145-EasternAirways.xml
+ERJ145-Aeromexico.xml		ERJ145-Hop.xml
+ERJ145-AirFrance.xml		ERJ145-LoganAir.xml
+ERJ145-American.xml		ERJ145-main.xml
+ERJ145-AmericanEagle.xml	ERJ145-TransStatesAirlines.xml
+ERJ145-BritishAirways.xml	ERJ145-United.xml
+ERJ145-BritishMidland.xml	ERJ145-WindroseAirlines.xml
+ERJ145-default.xml		Models
+ERJ145-Delta.xml		Textures
+
+./ERJ145/Models:
+dirindex.txt	ERJ-145.ac
+
+./ERJ145/Textures:
+Aeromexico		BritishMidland		Hop
+AirFrance		default			LoganAir
+American		Delta			TransStatesAirlines
+AmericanEagle		dirindex.txt		United
+BritishAirways		EasternAirways		WindroseAirlines
+
+./ERJ145/Textures/Aeromexico:
+145-map.png	dirindex.txt
+
+./ERJ145/Textures/AirFrance:
+145-map.png	dirindex.txt
+
+./ERJ145/Textures/American:
+145-map.png	dirindex.txt
+
+./ERJ145/Textures/AmericanEagle:
+145-map.png	dirindex.txt
+
+./ERJ145/Textures/BritishAirways:
+145-map.png	dirindex.txt
+
+./ERJ145/Textures/BritishMidland:
+145-map.png	dirindex.txt
+
+./ERJ145/Textures/default:
+145-map.png	dirindex.txt
+
+./ERJ145/Textures/Delta:
+145-map.png	dirindex.txt
+
+./ERJ145/Textures/EasternAirways:
+145-map.png	dirindex.txt
+
+./ERJ145/Textures/Hop:
+145-map.png	dirindex.txt
+
+./ERJ145/Textures/LoganAir:
+145-map.png	dirindex.txt
+
+./ERJ145/Textures/TransStatesAirlines:
+145-map.png	dirindex.txt
+
+./ERJ145/Textures/United:
+145-map.png	dirindex.txt
+
+./ERJ145/Textures/WindroseAirlines:
+145-map.png	dirindex.txt
+
+./eurofighter:
+dirindex.txt	Models
+
+./eurofighter/Models:
+dirindex.txt	loads.xml	typhoon-ai.ac
+Liveries	typhoon-1.png	Typhoon.xml
+
+./eurofighter/Models/Liveries:
+aus.png		italy.png	lw.png		spain.png
+Austria.xml	Italy.xml	RAF.png		Spain.xml
+dirindex.txt	Luftwaffe.xml	RAF.xml
+
+./f-14b:
+dirindex.txt	Models
+
+./f-14b/Models:
+dirindex.txt		F-14.jpg
+F-14-low-poly.ac	f-14b.xml
+
+./F-15:
+dirindex.txt	Models
+
+./F-15/Models:
+dirindex.txt	F-15-lowpoly.ac	F-15-lowres.png	F-15.xml
+
+./F-18:
+dirindex.txt	Models
+
+./F-18/Models:
+dirindex.txt		F-18-model.ac
+F-18-model-atlas-0.png	F-18.xml
+
+./F-4:
+dirindex.txt		F-4-model-atlas-0.png
+F-4_lowpoly.ac		F-4.xml
+
+./f16:
+dirindex.txt	Models
+
+./f16/Models:
+chocks.xml		f-16.xml		strobe.xml
+dirindex.txt		f16-Wingman.xml		texture_f16_lowpoly.png
+f-16_lowpoly.ac		rnlaf
+
+./f16/Models/rnlaf:
+cockpit.xml	EHLW		f16.ac
+dirindex.txt	EHVK		f16.jpg
+
+./f16/Models/rnlaf/EHLW:
+322sqn		323sqn		dirindex.txt
+
+./f16/Models/rnlaf/EHLW/322sqn:
+dirindex.txt	J-060		J-135		J-516
+
+./f16/Models/rnlaf/EHLW/322sqn/J-060:
+dirindex.txt	F-16A-MLU.xml	f16trans.rgb
+
+./f16/Models/rnlaf/EHLW/322sqn/J-135:
+dirindex.txt	F-16A-MLU.xml	f16trans.rgb
+
+./f16/Models/rnlaf/EHLW/322sqn/J-516:
+dirindex.txt	F-16A-MLU.xml	f16trans.rgb
+
+./f16/Models/rnlaf/EHLW/323sqn:
+dirindex.txt	J-193		J-631		J-868		J-881
+
+./f16/Models/rnlaf/EHLW/323sqn/J-193:
+dirindex.txt	F-16A-MLU.xml	f16trans.rgb
+
+./f16/Models/rnlaf/EHLW/323sqn/J-631:
+dirindex.txt	F-16A-MLU.xml	f16trans.rgb
+
+./f16/Models/rnlaf/EHLW/323sqn/J-868:
+dirindex.txt	F-16A-MLU.xml	f16trans.rgb
+
+./f16/Models/rnlaf/EHLW/323sqn/J-881:
+dirindex.txt	F-16A-MLU.xml	f16trans.rgb
+
+./f16/Models/rnlaf/EHVK:
+311sqn		312sqn		313sqn		dirindex.txt
+
+./f16/Models/rnlaf/EHVK/311sqn:
+dirindex.txt	J-008		J-630
+J-005		J-515		J-638
+
+./f16/Models/rnlaf/EHVK/311sqn/J-005:
+dirindex.txt	F-16A-MLU.xml	f16trans.rgb
+
+./f16/Models/rnlaf/EHVK/311sqn/J-008:
+dirindex.txt	F-16A-MLU.xml	f16trans.rgb
+
+./f16/Models/rnlaf/EHVK/311sqn/J-515:
+dirindex.txt	F-16A-MLU.xml	f16trans.rgb
+
+./f16/Models/rnlaf/EHVK/311sqn/J-630:
+dirindex.txt	F-16A-MLU.xml	f16trans.rgb
+
+./f16/Models/rnlaf/EHVK/311sqn/J-638:
+dirindex.txt	F-16A-MLU.xml	f16trans.rgb
+
+./f16/Models/rnlaf/EHVK/312sqn:
+dirindex.txt	J-001		J-058
+
+./f16/Models/rnlaf/EHVK/312sqn/J-001:
+dirindex.txt	F-16A-MLU.xml	f16trans.rgb
+
+./f16/Models/rnlaf/EHVK/312sqn/J-058:
+dirindex.txt	F-16A-MLU.xml	f16trans.rgb
+
+./f16/Models/rnlaf/EHVK/313sqn:
+dirindex.txt	J-055		J-508
+
+./f16/Models/rnlaf/EHVK/313sqn/J-055:
+dirindex.txt	F-16A-MLU.xml	f16trans.rgb
+
+./f16/Models/rnlaf/EHVK/313sqn/J-508:
+dirindex.txt	F-16A-MLU.xml	f16trans.rgb
+
+./Ferry:
+dirindex.txt			FerryBoat1.ac
+FerryBoat1_green-light.rgb	FerryBoat1.xml
+FerryBoat1_red-light.rgb	FerryBoat2.xml
+FerryBoat1_white-light.rgb	wake.rgb
+
+./FK9MK2:
+dirindex.txt	Models
+
+./FK9MK2/Models:
+dirindex.txt		glass_shader.png	texture.xcf.gz
+fk9mk2-ai.xml		prop.png
+fk9mk2.ac		texture.png
+
+./flash2a:
+dirindex.txt	Models
+
+./flash2a/Models:
+chrome2.rgb	dirindex.txt	flash2a-ai.xml	flash2a.ac
+
+./Fokker-100:
+100-AirNiugini.xml		Fokker-100-BlueLine.xml
+100-Austrian.xml		Fokker-100-BritishMidland.xml
+100-Carpatair.xml		Fokker-100-Germania.xml
+100-Helvetic.xml		Fokker-100-Helvetic.xml
+100-main.xml			Fokker-100-KLM.xml
+100-Montenegro.xml		Fokker-100-set.xml
+100-Qantas.xml			Fokker-100.xml
+100-VirginAustralia.xml		Models
+dirindex.txt			Paintkit
+Fokker-100-AirBerlin.xml	Textures
+
+./Fokker-100/Models:
+100.ac		dirindex.txt	fokker100.ac
+
+./Fokker-100/Paintkit:
+100 UV Map.png		100-Paintkit.png	dirindex.txt
+
+./Fokker-100/Textures:
+AirBerlin		Carpatair		MontenegroAirlines
+AirNiugini		dirindex.txt		Qantas
+Austrian		Germania		VirginAustralia
+BlueLine		Helvetic
+BritishMidland		KLM
+
+./Fokker-100/Textures/AirBerlin:
+dirindex.txt	fokker100.rgb
+
+./Fokker-100/Textures/AirNiugini:
+100-tex.png	dirindex.txt
+
+./Fokker-100/Textures/Austrian:
+100-tex.png	dirindex.txt
+
+./Fokker-100/Textures/BlueLine:
+dirindex.txt	fokker100.rgb
+
+./Fokker-100/Textures/BritishMidland:
+dirindex.txt	fokker100.rgb
+
+./Fokker-100/Textures/Carpatair:
+100-tex.png	dirindex.txt
+
+./Fokker-100/Textures/Germania:
+dirindex.txt	fokker100.rgb
+
+./Fokker-100/Textures/Helvetic:
+100-tex.png	dirindex.txt	fokker100.rgb
+
+./Fokker-100/Textures/KLM:
+dirindex.txt	fokker100.rgb
+
+./Fokker-100/Textures/MontenegroAirlines:
+100-tex.png	dirindex.txt	fokker100.rgb
+
+./Fokker-100/Textures/Qantas:
+100-tex.png	dirindex.txt
+
+./Fokker-100/Textures/VirginAustralia:
+100-tex.png	dirindex.txt
+
+./Fokker-50:
+dirindex.txt			fokker50-set.xml
+fokker50-ContactAir.xml		fokker50-VLMAirlines.xml
+fokker50-KLM.xml		Models
+fokker50-Luxair.xml		Textures
+
+./Fokker-50/Models:
+dirindex.txt	fokker50-ai.xml	fokker50.ac	fokker50.xml
+
+./Fokker-50/Textures:
+ContactAir	dirindex.txt	KLM		Luxair		VLMAirlines
+
+./Fokker-50/Textures/ContactAir:
+dirindex.txt	fokker50.rgb	propeller.rgb
+
+./Fokker-50/Textures/KLM:
+dirindex.txt	fokker50.rgb	propeller.rgb
+
+./Fokker-50/Textures/Luxair:
+dirindex.txt	fokker50.rgb	propeller.rgb
+
+./Fokker-50/Textures/VLMAirlines:
+dirindex.txt	fokker50.rgb	propeller.rgb
+
+./Fokker-70:
+dirindex.txt		F70-main.xml		Models
+F70-AirNiugini.xml	fokker70-KLM.xml	Paintkit
+F70-Austrian.xml	fokker70-Malev.xml	Textures
+F70-Default.xml		fokker70-set.xml
+F70-KLM.xml		fokker70.xml
+
+./Fokker-70/Models:
+dirindex.txt	F70.ac		fokker70.ac
+
+./Fokker-70/Paintkit:
+dirindex.txt		F70 UV Map.png		F70-Paintkit.png
+
+./Fokker-70/Textures:
+AirNiugini	Default		KLM
+Austrian	dirindex.txt	Malev
+
+./Fokker-70/Textures/AirNiugini:
+dirindex.txt	F70-tex.png
+
+./Fokker-70/Textures/Austrian:
+dirindex.txt	F70-tex.png
+
+./Fokker-70/Textures/Default:
+dirindex.txt	F70-tex.png
+
+./Fokker-70/Textures/KLM:
+dirindex.txt	F70-tex.png	fokker70.rgb
+
+./Fokker-70/Textures/Malev:
+dirindex.txt	fokker70.rgb
+
+./Fokker-S-11:
+dirindex.txt	Models
+
+./Fokker-S-11/Models:
+dirindex.txt		s11-ai.xml		texture.xcf.gz
+glass_shader.png	s11.ac
+prop.png		texture.png
+
+./G-164:
+dirindex.txt	Models
+
+./G-164/Models:
+chrome.png	dirindex.txt	G-164A.png	pale.png
+chrome2.png	engine.png	helice.png	roues.png
+chrome3.png	G-164A-ai.xml	metal1.png	tissu.png
+details.png	G-164A.ac	metal2.png	tuyau.png
+
+./Gee-Bee:
+dirindex.txt	Models
+
+./Gee-Bee/Models:
+dirindex.txt	geebee.ac	prop.png	texture.png
+geebee-ai.xml	lights		r1340		texture.xcf.gz
+
+./Gee-Bee/Models/lights:
+beacon.xml	flash.ac	GreenLight.ac	lights.png	RedLight.xml
+dirindex.txt	flash.xml	GreenLight.xml	RedLight.ac
+
+./Gee-Bee/Models/r1340:
+dirindex.txt	r1340.ac	r1340.png	r1340.xml
+
+./Hunter:
+dirindex.txt	Models
+
+./Hunter/Models:
+dirindex.txt		hunter-model-2t.xml	hunter-model.xml
+
+./Hurricane:
+dirindex.txt	Models
+
+./Hurricane/Models:
+dirindex.txt		hurricane_model.xml
+
+./JA37:
+dirindex.txt	Models
+
+./JA37/Models:
+dirindex.txt				JA-37.xml
+JA-37-lowpoly.ac			scissor-interpolation-retract.xml
+JA-37-model-atlas-0.png			scissor-interpolation.xml
+
+./Jaguar-GR1:
+dirindex.txt			jaguar-gr1-low.ac
+jaguar-gr1-low-atlas-0.jpg	jaguar-gr1-low.xml
+
+./JS41:
+dirindex.txt		JS41-main.xml		Textures
+JS41-default.xml	JS41-SkyExpress.xml
+JS41-EasternAirways.xml	Models
+
+./JS41/Models:
+dirindex.txt	JS41.ac
+
+./JS41/Textures:
+default		dirindex.txt	EasternAirways	SkyExpress
+
+./JS41/Textures/default:
+dirindex.txt	js41-tex.png
+
+./JS41/Textures/EasternAirways:
+dirindex.txt	js41-tex.png
+
+./JS41/Textures/SkyExpress:
+dirindex.txt	js41-tex.png
+
+./Lightning:
+dirindex.txt	Models
+
+./Lightning/Models:
+aluminum.png		green.rgb		lightning-f1a.ac
+brushed_alloy.png	gun_camera.png		lightning-model.xml
+chrome2.rgb		headrest_tex.png	nose_check.png
+chute_panel.png		hh-noise4.rgb		red.rgb
+cockpit-levers.png	intake.png		roundel.png
+compressor.png		leather.png		seatback_tex.png
+dirindex.txt		light-green-flare.ac	tail_letter.png
+exhaust.ac		light-green.xml		tailflag.png
+exhaust1.xml		light-red-flare.ac	warning_triangles.png
+exhaust2.xml		light-red.xml		white.rgb
+f.1a_wheel.png		light-white-flare.ac	xm169.png
+floor.png		light-white.xml		yellow_black.png
+
+./M11:
+dirindex.txt		M1F-FedEx.xml		M1F-WesternGlobal.xml
+Effects			M1F-LufthansaCargo.xml	Models
+Lights			M1F-main.xml		Paintkit
+M1F-Default.xml		M1F-UPS.xml		Textures
+
+./M11/Effects:
+dirindex.txt		M1F-LightMap.eff	M1F-LightMap.png
+
+./M11/Lights:
+dirindex.txt		M11-NavLights.xml
+
+./M11/Models:
+dirindex.txt	M1F.ac
+
+./M11/Paintkit:
+dirindex.txt		M1F-Paintkit.png	M1F-UV-mapt.png
+
+./M11/Textures:
+Default		FedEx		UPS
+dirindex.txt	LufthansaCargo	WesternGlobal
+
+./M11/Textures/Default:
+dirindex.txt	M1F-tex.png
+
+./M11/Textures/FedEx:
+dirindex.txt	M1F-tex.png
+
+./M11/Textures/LufthansaCargo:
+dirindex.txt	M1F-tex.png
+
+./M11/Textures/UPS:
+dirindex.txt	M1F-tex.png
+
+./M11/Textures/WesternGlobal:
+dirindex.txt	M1F-tex.png
+
+./MD80:
+dirindex.txt		MD80-Delta.xml		Models
+MD80-American.xml	MD80-main.xml		Textures
+
+./MD80/Models:
+dirindex.txt	md-80.ac
+
+./MD80/Textures:
+American	Delta		dirindex.txt
+
+./MD80/Textures/American:
+dirindex.txt	md-80.rgb
+
+./MD80/Textures/Delta:
+dirindex.txt	md-80.rgb
+
+./MD90:
+dirindex.txt			MD90-ScandinavianAirlines.xml
+MD90-Delta.xml			MD90-set.xml
+MD90-EvaAir.xml			Models
+MD90-JAL.xml			Textures
+
+./MD90/Models:
+dirindex.txt	md-90.ac
+
+./MD90/Textures:
+Delta			EvaAir			ScandinavianAirlines
+dirindex.txt		JAL
+
+./MD90/Textures/Delta:
+dirindex.txt	MD-90.rgb
+
+./MD90/Textures/EvaAir:
+dirindex.txt	MD-90.png
+
+./MD90/Textures/JAL:
+dirindex.txt	MD-90.rgb
+
+./MD90/Textures/ScandinavianAirlines:
+dirindex.txt	MD-90.rgb
+
+./MiG-21bis:
+dirindex.txt	Models
+
+./MiG-21bis/Models:
+dirindex.txt			MiG-21bis-model-atlas-0.png
+MiG-21bis-lowpoly.ac		MiG-21bis.xml
+
+./Mirage2000:
+dirindex.txt		m2000-5_lowpoly.png
+m2000-5_lowpoly.ac	m2000-5_lowpoly.xml
+
+./pa-28:
+dirindex.txt		pa-28-g-cbal.xml	pa-28-main.xml
+Models			pa-28-g-egll.xml	pa-28-ph-edd.xml
+pa-28-d-emlh.xml	pa-28-g-nina.xml	Textures
+pa-28-ec-jma.xml	pa-28-g-warh.xml
+pa-28-g-bprn.xml	pa-28-hb-png.xml
+
+./pa-28/Models:
+dirindex.txt	pa-28.ac
+
+./pa-28/Textures:
+d-emlh		ec-jma		g-cbal		g-nina		hb-png
+dirindex.txt	g-bprn		g-egll		g-warh		ph-edd
+
+./pa-28/Textures/d-emlh:
+28-fus.png	dirindex.txt
+
+./pa-28/Textures/ec-jma:
+28-fus.png	dirindex.txt
+
+./pa-28/Textures/g-bprn:
+28-fus.png	dirindex.txt
+
+./pa-28/Textures/g-cbal:
+28-fus.png	dirindex.txt
+
+./pa-28/Textures/g-egll:
+28-fus.png	dirindex.txt
+
+./pa-28/Textures/g-nina:
+28-fus.png	dirindex.txt
+
+./pa-28/Textures/g-warh:
+28-fus.png	dirindex.txt
+
+./pa-28/Textures/hb-png:
+28-fus.png	dirindex.txt
+
+./pa-28/Textures/ph-edd:
+28-fus.png	dirindex.txt
+
+./Polikarpov-I16:
+dirindex.txt	Models
+
+./Polikarpov-I16/Models:
+dirindex.txt	Effects
+
+./Polikarpov-I16/Models/Effects:
+dirindex.txt	guns
+
+./Polikarpov-I16/Models/Effects/guns:
+dirindex.txt	submodels.xml
+
+./Saab-2000:
+dirindex.txt			Saab-2000-EtihadRegional.xml
+Models				Saab-2000-Flybe.xml
+Saab-2000-BraathensRegional.xml	Saab-2000-Loganair.xml
+Saab-2000-BritishAirways.xml	Saab-2000-main.xml
+Saab-2000-default.xml		Textures
+Saab-2000-EasternAirways.xml
+
+./Saab-2000/Models:
+dirindex.txt		saab-2000-tex.png	Saab-2000.ac
+
+./Saab-2000/Textures:
+BraathensRegional	dirindex.txt		Flybe
+BritishAirways		EasternAirways		Loganair
+default			EtihadRegional
+
+./Saab-2000/Textures/BraathensRegional:
+dirindex.txt		saab-2000-tex.png
+
+./Saab-2000/Textures/BritishAirways:
+dirindex.txt		saab-2000-tex.png
+
+./Saab-2000/Textures/default:
+dirindex.txt		saab-2000-tex.png
+
+./Saab-2000/Textures/EasternAirways:
+dirindex.txt		saab-2000-tex.png
+
+./Saab-2000/Textures/EtihadRegional:
+dirindex.txt		saab-2000-tex.png
+
+./Saab-2000/Textures/Flybe:
+dirindex.txt		saab-2000-tex.png
+
+./Saab-2000/Textures/Loganair:
+dirindex.txt		saab-2000-tex.png
+
+./seahawk:
+dirindex.txt	Models
+
+./seahawk/Models:
+browncanvas.png			light-white.xml
+canvas.png			mesh5.png
+dirindex.txt			Pilot_2.png
+drab_cotton4.png		seahawk-3d-model-2t.xml
+droptank-hot.xml		seahawk-3d-model-RNHF.xml
+droptank.ac			seahawk-3d-model-wingman.xml
+droptank.xml			seahawk-3d-model.xml
+HelmetMk1a-ver6.png		SeaHawk-FGA6-WV859.ac
+hunter__a.png			seahawk-tx-00-1.png
+hunter-large-bezel.png		seahawk-tx-01-1.png
+leath05.png			seahawk-tx-01-1a.png
+leather.png			seahawk-tx-01-RNHFa.png
+light-green-flare.ac		tube.png
+light-green.xml			waterdrops.png
+light-red-flare.ac		webbing3.png
+light-red.xml			white.png
+light-white-flare.ac		yellow_black.png
+
+./SF3:
+dirindex.txt		SF3-LoganAir.xml	SFF-Airest.xml
+Effects			SF3-main.xml		SFF-main.xml
+Lights			SF3-RegionalExpress.xml	Textures
+Models			SF3-WestJet.xml
+
+./SF3/Effects:
+dirindex.txt		SF3-LightMap.png	SFF-LightMap.png
+SF3-LightMap.eff	SFF-LightMap.eff
+
+./SF3/Lights:
+dirindex.txt		SF3-NavLights.xml
+
+./SF3/Models:
+dirindex.txt	SF3.ac
+
+./SF3/Textures:
+Airest		dirindex.txt	LoganAir	RegionalExpress	WestJet
+
+./SF3/Textures/Airest:
+dirindex.txt	SF3-tex.png
+
+./SF3/Textures/LoganAir:
+dirindex.txt	SF3-tex.png
+
+./SF3/Textures/RegionalExpress:
+dirindex.txt	SF3-tex.png
+
+./SF3/Textures/WestJet:
+dirindex.txt	SF3-tex.png
+
+./SpaceShuttle:
+dirindex.txt		SpaceShuttle.xml	SSME.ac
+Effects			spstob_1.png		SSME1.xml
+OMSPods.ac		spstob_3.png		SSME2.xml
+OMSPods.xml		spstob_4.png		SSME3.xml
+SpaceShuttle.ac		spstob_e.png
+
+./SpaceShuttle/Effects:
+dirindex.txt		shuttle-main.eff
+
+./Spitfire:
+dirindex.txt	Models
+
+./Spitfire/Models:
+blank.png		light-white-flare.ac	spitfire-tx-00.png
+dirindex.txt		light-white.xml		spitfire-tx-01.png
+green.rgb		oxygen-tube.png		spitfire-tx-02.png
+hex-bolt-M8.png		Pilot_1.png		spitfire-tx-03.png
+large-bezel.png		Pilot_2.png		spitfire-tx-04.png
+leather.png		red.rgb			spitfire-tx-05.png
+light-green-flare.ac	seafire-tx-00.png	spitfireIIa.ac
+light-green.xml		seat-padding.png	Spitfirepanel.png
+light-red-flare.ac	spitfire_model.xml	waterdrops.png
+light-red.xml		spitfire-exhaust.png	white.rgb
+
+./SR-71:
+Blackbird-SR71A-lowpoly-atlas-0.jpg	Blackbird-SR71A.xml
+Blackbird-SR71A-lowpoly.ac		dirindex.txt
+
+./T-38:
+dirindex.txt	Models
+
+./T-38/Models:
+dirindex.txt	F-5.xml		T38-model.xml	T38.ac		t38.rgb
+
+./tu154b:
+dirindex.txt	Model
+
+./tu154b/Model:
+dirindex.txt		tu154B-1.png		var_t.png
+Liveries		tu154B-2.png		wingl_t.png
+maina_t.png		tu154b-model.xml	wingr_t.png
+mainb_t.png		tu154B.ac
+
+./tu154b/Model/Liveries:
+85131-AFL.xml	85381-AFL.xml	85530-AFL.xml	FlightGear	Tupolev
+85157-AFL	85386-OAO	85587-CHD	FlightGear.xml	Tupolev.xml
+85157-AFL.xml	85386-OAO.xml	85587-CHD.xml	HA-LCR		YR-TPG
+85363-AFL	85461-SBI	85588-KGL	HA-LCR.xml	YR-TPG.xml
+85363-AFL.xml	85461-SBI.xml	85588-KGL.xml	PlainWhite
+85381-AFL	85530-AFL	dirindex.txt	PlainWhite.xml
+
+./tu154b/Model/Liveries/85157-AFL:
+dirindex.txt	mainb_t.png	wingl_t.png
+maina_t.png	var_t.png	wingr_t.png
+
+./tu154b/Model/Liveries/85363-AFL:
+dirindex.txt	mainb_t.png	wingl_t.png
+maina_t.png	var_t.png	wingr_t.png
+
+./tu154b/Model/Liveries/85381-AFL:
+dirindex.txt	mainb_t.png	wingl_t.png
+maina_t.png	var_t.png	wingr_t.png
+
+./tu154b/Model/Liveries/85386-OAO:
+dirindex.txt	mainb_t.png	wingl_t.png
+maina_t.png	var_t.png	wingr_t.png
+
+./tu154b/Model/Liveries/85461-SBI:
+dirindex.txt	mainb_t.png	wingl_t.png
+maina_t.png	var_t.png	wingr_t.png
+
+./tu154b/Model/Liveries/85530-AFL:
+dirindex.txt	mainb_t.png	wingl_t.png
+maina_t.png	var_t.png	wingr_t.png
+
+./tu154b/Model/Liveries/85587-CHD:
+dirindex.txt	mainb_t.png	wingl_t.png
+maina_t.png	var_t.png	wingr_t.png
+
+./tu154b/Model/Liveries/85588-KGL:
+dirindex.txt	mainb_t.png	wingl_t.png
+maina_t.png	var_t.png	wingr_t.png
+
+./tu154b/Model/Liveries/FlightGear:
+dirindex.txt	mainb_t.png	wingl_t.png
+maina_t.png	var_t.png	wingr_t.png
+
+./tu154b/Model/Liveries/HA-LCR:
+dirindex.txt	mainb_t.png	wingl_t.png
+maina_t.png	var_t.png	wingr_t.png
+
+./tu154b/Model/Liveries/PlainWhite:
+dirindex.txt	mainb_t.png	wingl_t.png
+maina_t.png	var_t.png	wingr_t.png
+
+./tu154b/Model/Liveries/Tupolev:
+dirindex.txt	mainb_t.png	wingl_t.png
+maina_t.png	var_t.png	wingr_t.png
+
+./tu154b/Model/Liveries/YR-TPG:
+dirindex.txt	mainb_t.png	wingl_t.png
+maina_t.png	var_t.png	wingr_t.png
+
+./vulcanb2:
+dirindex.txt	Models
+
+./vulcanb2/Models:
+dirindex.txt	vulcanb2.ac	vulcanb2.xml	XM597.png
+alexandremartinez@Alexandres-MacBook-Pro Aircraft % 

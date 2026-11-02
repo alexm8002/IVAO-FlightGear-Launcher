@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=IVAO FlightGear Launcher
+Comment=Launch FlightGear with IVAO Altitude bridge
+Exec=AppRun
+Icon=ivao-flightgear
+Terminal=false
+Categories=Game;Simulation;
+StartupNotify=true
