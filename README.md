@@ -1,232 +1,365 @@
 # IVAO FlightGear Launcher
 
-**A community launcher and compatibility bridge for using IVAO Altitude with FlightGear on macOS and Linux.**
+**IVAO Altitude integration for FlightGear — macOS & Linux**
 
-> [!IMPORTANT]
-> **Unofficial, experimental project.** Not affiliated with, supported by, or approved by IVAO or the FlightGear project. The macOS launcher/bridge has been reported working with the developer's setup; the Linux X-Plane plugin loading path is **not yet validated**. IVAO software and credentials are **not included** in this repository.
+![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux-blue)
+![Release](https://img.shields.io/badge/release-v0.50.0-blue)
+![macOS](https://img.shields.io/badge/macOS-stable-brightgreen)
+![Linux](https://img.shields.io/badge/Linux-experimental-orange)
 
-## What it does
+IVAO FlightGear Launcher is a cross-platform integration project that connects the **IVAO Altitude Pilot Core** to **FlightGear**, enabling IVAO network connectivity and real-time multiplayer aircraft visualization without requiring X-Plane.
 
-The graphical launcher saves four paths (IVAO X-Plane plugin, FlightGear `FGRoot`, IVAO Altitude application, and FlightGear application/executable), then:
+The project uses a custom **X-Plane Plugin Manager (XPLM) compatibility layer** to host the IVAO Pilot Core and an **XPMP2 bridge** to transfer aircraft positions and orientations into FlightGear.
 
-1. Prepares the FlightGear generic protocol `fg-altitude29.xml`.
-2. Builds the local compatibility host and XPLM shim if required.
-3. Opens the **FlightGear graphical launcher**, passing the required local socket options.
-4. Waits for the user to select an aircraft and click **Fly!** (FlightGear Telnet port `5503` becomes available).
-5. Starts the bridge in **continuous `--run` mode** — **no HOLD and no runtime timeout**.
-6. Opens IVAO Altitude.
+**Current release: v0.23.0**
 
-The bridge exchanges aircraft state/radio information with FlightGear, reads IVAO network information to display connected traffic, and selects matching FlightGear AI aircraft models when available (generic A320 fallback). These capabilities depend on the installed FG models and the local IVAO setup.
+- **macOS:** Stable and functionally validated.
+- **Linux x86_64:** Experimental, compilation validated; end-to-end testing pending.
 
-## Current status
+---
 
-| Platform | Launcher | Bridge / plugin compatibility |
-| --- | --- | --- |
-| macOS 12+ | SwiftUI launcher v0.7 | **Working in the original developer setup**; requires the macOS IVAO X-Plane plugin. |
-| Linux x86_64 | Python 3 / Tkinter launcher v0.1 | **Prototype**. ELF compilation checked, but real IVAO Linux plugin loading and operation need testing. |
+## Features
 
-Other architectures (including Linux ARM64) are not currently supported by this X-Plane plugin loading approach. Running FlightGear alone does not require these plugin dependencies.
+### IVAO Network Integration
 
-## Required applications (both platforms)
+- IVAO Altitude Pilot Core integration.
+- Custom XPLM compatibility layer.
+- IVAO network connection and multiplayer traffic reception.
+- FlightGear simulator synchronization.
+- Compatible with IVAO Altitude's existing pilot interface, subject to platform-specific runtime compatibility.
 
-- **FlightGear** and its corresponding **FGData / FGRoot** directory (including `Protocol/` and, for AI matching, `AI/Aircraft/`). FlightGear 2024.1 was used during development; other versions may need adjustments.
-- **IVAO Altitude** installed from an official IVAO source, with an IVAO account and the permissions/credentials required to use the service.
-- **IVAO X-Plane plugin** installed separately from an authorized source, for the *same OS and CPU architecture* as the bridge host:
-  - macOS: `mac_x64/.../*.xpl` (Mach-O).
-  - Linux: `lin_x64/.../*.xpl` (ELF x86_64).
-- An available local network interface for the bridge's IVAO traffic capture (for example, `en0` on macOS or an interface such as `enp...` on Linux). Set the interface in the launcher; the examples are **not universal defaults**.
+### Real-Time Multiplayer Traffic
 
-> The bridge executes the installed native IVAO plugin through an experimental XPLM compatibility shim. This is **not an official IVAO integration**; review IVAO's current terms and obtain permission before distributing or publicizing any integration that uses the proprietary plugin.
+- Aircraft creation, updating, and removal in FlightGear.
+- Real-time aircraft positions calculated by XPMP2.
+- Heading, pitch, roll, and altitude synchronization.
+- Smooth aircraft movement and reduced interpolation artifacts.
+- Persistent TCP communication for traffic updates.
+- Automatic AI aircraft cleanup after disconnection.
 
-## Build dependencies
+### Aircraft Models and Liveries
+
+- Dynamic aircraft model selection using `fg_models.tsv`.
+- ICAO aircraft type matching.
+- Airline-specific liveries when available.
+- Boeing 737 family compatibility with FlightGear B738 models.
+- Generic model fallback for unsupported aircraft.
+- Automatic model replacement when updated IVAO information is received.
+- Detailed model selection diagnostics.
+
+### Native Launchers
+
+**macOS**
+- Native graphical launcher.
+- FlightGear configuration and startup.
+- IVAO Pilot Core integration.
+- Native XPLM compatibility library.
+
+**Linux**
+- Python/Tkinter graphical launcher.
+- Native Linux XPLM compatibility library.
+- FlightGear and IVAO plugin path configuration.
+- Network interface selection.
+- Dedicated build and launch scripts.
+
+---
+
+## Architecture
+
+```text
+                  IVAO Network
+                       |
+                       v
+              IVAO Altitude Pilot Core
+                       |
+                       v
+               XPLM Compatibility Layer
+                 (macOS / Linux)
+                       |
+                       v
+                  XPMP2 Engine
+                       |
+                       v
+                  Traffic Bridge
+                       |
+             +---------+---------+
+             |                   |
+             v                   v
+       fg_models.tsv       Aircraft Position
+       Model & Livery       and Orientation
+             |                   |
+             +---------+---------+
+                       |
+                       v
+             FlightGear AI Traffic
+               (3D Aircraft Models)
+```
+
+The IVAO plugin runs through a compatibility layer rather than a full X-Plane simulator.
+
+XPMP2 provides the aircraft positioning and orientation data. The bridge selects suitable FlightGear models and transmits traffic updates to the simulator.
+
+**The XPMP2 CSL model is only used for technical positioning; it is not the rendered FlightGear aircraft model.**
+
+---
+
+## Platform Support
+
+| Platform | Architecture | Status |
+|---|---|---|
+| macOS | Supported build architecture | Stable |
+| Linux | x86_64 | Experimental |
+| Linux | ARM64 | Not validated |
+| Windows | — | Not supported |
+
+---
+
+## Requirements
+
+### Common Requirements
+
+- FlightGear with AI traffic support.
+- IVAO Altitude Pilot Core compatible with the target platform.
+- Suitable aircraft models installed in FlightGear.
+- Network connectivity to IVAO.
+- Local TCP/UDP ports available for bridge communication.
+
+### macOS Requirements
+
+- macOS with compatible development tools.
+- Xcode Command Line Tools.
+- FlightGear for macOS.
+- Compatible macOS IVAO Pilot Core plugin.
+
+### Linux Requirements
+
+- Linux x86_64 (Ubuntu, elementaryOS, or compatible distribution).
+- GCC or compatible C compiler.
+- Python 3.
+- Tkinter.
+- libpcap development/runtime libraries.
+- FlightGear for Linux.
+- Compatible Linux IVAO Pilot Core plugin (`lin.xpl`).
+
+**Important:** macOS `.xpl` plugins cannot be loaded directly into the Linux native runtime. A Linux-compatible plugin and its dependencies are required.
+
+---
+
+## Installation
 
 ### macOS
 
-- macOS **12 or later** (launcher deployment target).
-- Xcode Command Line Tools, providing `swiftc`, `clang`, `codesign`, and `install_name_tool`.
-- **Python 3**, accessible as `python3` (for shim/model-index generation).
-- macOS frameworks: **SwiftUI**, **AppKit** (provided with macOS).
-- A macOS IVAO X-Plane plugin compatible with the host machine. The current bridge was developed around an `mac_x64` plugin; depending on your Mac, **Rosetta / CPU architecture compatibility may need attention**.
+Download the macOS source archive from the [GitHub Releases](../../releases) page.
 
-Install the Apple tools if not already present:
+Extract it and run:
 
 ```bash
-xcode-select --install
-python3 --version
-swiftc --version
-clang --version
+./build_app_macos.sh
 ```
 
-### Linux (Debian / Ubuntu example)
+Then launch:
 
-- **Linux x86_64** with a graphical desktop.
-- **Python 3** with **Tkinter** (`python3-tk`).
-- **GCC**, standard C development headers, `libdl`, `libm`, POSIX threads.
-- `file`, `ldd` (usually provided by glibc/binutils packages), and **libpcap runtime** for packet capture.
-- An official Linux x86_64 IVAO X-Plane plugin and its own shared-library dependencies.
+```text
+IVAO FlightGear Launcher.app
+```
+
+Configure FlightGear and the IVAO Pilot Core paths using the graphical interface.
+
+### Linux (Ubuntu / elementaryOS)
+
+Download the Linux archive from the [GitHub Releases](../../releases) page.
+
+Install the required packages:
 
 ```bash
 sudo apt update
-sudo apt install python3 python3-tk gcc libc6-dev file libpcap0.8 libpcap-dev unzip
+sudo apt install build-essential python3 python3-tk libpcap0.8 libpcap-dev
 ```
 
-Package names differ on Fedora, Arch and other distributions. To inspect any missing plugin dependencies after building:
+Extract the archive, open a terminal in the project directory, and build:
 
 ```bash
-ldd Bridge/ivao_pilot_test.xpl
+chmod +x build_linux.sh launch_linux.sh
+./build_linux.sh
 ```
 
-**Do not launch the graphical application as root.** Packet-capture permissions are distribution-specific and must be configured separately using least privilege; do not grant blanket root privileges to the launcher or plugin.
-
-## Download and layout
-
-Download the source archive for your platform from this project's GitHub **Releases** (when published), or clone the repository. The macOS and Linux prototypes currently have separate source directories.
-
-Typical layout:
-
-```text
-IVAO_FlightGear_Launcher_v07/
-├── Launcher/main.swift
-├── Bridge/
-│   ├── build_macos.sh
-│   ├── host.c
-│   ├── xplm_shim.c
-│   ├── fg_traffic.c
-│   ├── ivao_fsd.c
-│   ├── fg-altitude29.xml
-│   └── ...
-└── build_app_macos.sh
-
-IVAO_FlightGear_Linux_v01/
-├── launcher.py
-├── install.sh
-└── Bridge/
-    ├── build_linux.sh
-    ├── fg-altitude29.xml
-    └── ...
-```
-
-The proprietary IVAO plugin file must **not** be committed to the repository.
-
-## Build and run: macOS
-
-From the macOS source directory:
+Start the launcher:
 
 ```bash
-chmod +x build_app_macos.sh
-./build_app_macos.sh
-open "IVAO FlightGear Launcher.app"
+./launch_linux.sh
 ```
 
-The build script produces the `.app` bundle, copies the bridge sources into it, and applies an **ad-hoc code signature** (`codesign --sign -`). This is sufficient for local development; it is **not** a Developer ID signature or Apple notarization.
+Configure the FlightGear executable, FG_ROOT, IVAO plugin path, and network interface.
 
-For signed public distribution, use your own valid Apple **Developer ID Application** certificate and a proper signing/notarization pipeline. **After adding or replacing an app icon**, rebuild/update `Contents/Resources`, reference it with `CFBundleIconFile` in `Info.plist`, and **sign the completed bundle last**. Do not modify a signed bundle afterwards.
+**Linux support is currently experimental.** Successful compilation does not guarantee IVAO Pilot Core runtime compatibility.
 
-## Install and run: Linux
+---
 
-From the Linux source directory:
+## FlightGear Configuration
 
-```bash
-chmod +x install.sh Bridge/build_linux.sh
-./install.sh
-python3 launcher.py
-```
-
-`install.sh` creates a desktop entry under `~/.local/share/applications/`. The launcher invokes the bridge's `build_linux.sh`, which compiles its ELF shim and native host with GCC. Linux execution of the actual IVAO plugin **remains experimental**.
-
-## First launch / configuration
-
-In the graphical interface, choose:
-
-1. **IVAO X-Plane plugin** — `.xpl` for the correct operating system (`mac_x64` on macOS, `lin_x64` on Linux).
-2. **FlightGear FGRoot** — the data directory containing `Protocol/`.
-3. **IVAO Altitude application** — `Altitude.app` on macOS, executable/AppImage on Linux.
-4. **FlightGear application** — `FlightGear.app` on macOS, `fgfs` executable on Linux.
-
-Select the active capture interface and optionally enable **Diagnostics**. Click **Start FlightGear + IVAO**, then click **Fly!** inside the FlightGear GUI. The launcher starts the bridge and then opens Altitude once FlightGear is ready.
-
-On macOS, applications are launched through **LaunchServices** using their `.app` bundles and `Info.plist`, not hard-coded paths to `Contents/MacOS/fgfs`.
-
-## FlightGear options used
-
-The launcher passes approximately the following options to FlightGear:
-
-```text
---launcher
---fg-root=/path/to/FGRoot
---disable-ai-traffic
---allow-nasal-from-sockets
---telnet=socket,in,10,127.0.0.1,5502,tcp
---telnet=socket,in,10,127.0.0.1,5503,tcp
---generic=socket,out,20,127.0.0.1,5501,udp,fg-altitude29
-```
+The bridge uses local communication channels for simulator synchronization.
 
 | Port | Protocol | Purpose |
-| --- | --- | --- |
-| `5501` | UDP, FlightGear output | Aircraft/flight data via `fg-altitude29` |
-| `5502` | TCP, Telnet | Bridge/FlightGear control |
-| `5503` | TCP, Telnet | Nasal injection and FlightGear AI traffic |
+|---|---|---|
+| 5501 | UDP | FlightGear simulator data |
+| 5502 | TCP | Radio and simulator commands |
+| 5503 | TCP | Persistent FlightGear AI traffic updates |
 
-The application supplies the `fg-altitude29.xml` protocol file from its sources. **Do not use `--disable-ai-models`**: this would also prevent the bridge's aircraft models from appearing. `--disable-ai-traffic` disables FlightGear's unrelated default AI traffic instead.
+The required FlightGear communication interfaces must be enabled before starting the bridge.
 
-> [!CAUTION]
-> `--allow-nasal-from-sockets` permits powerful code execution inside FlightGear. All related Telnet listeners must remain restricted to **`127.0.0.1`** and must **not** be made reachable from your LAN or the Internet. Only use trusted local programs and source/plugin binaries.
+Ports and binding addresses should be checked against the launcher configuration.
 
-## Logs and troubleshooting
+---
 
-**macOS**:
+## Aircraft Model Matching
+
+The bridge uses the `fg_models.tsv` aircraft catalogue to select the most suitable FlightGear model.
+
+The matching process considers:
+
+1. IVAO aircraft type and airline information.
+2. ICAO aircraft identifier.
+3. Airline identification from the callsign when applicable.
+4. Corresponding model and livery in the FlightGear catalogue.
+5. Generic model fallback when no suitable livery exists.
+
+Examples:
+
+| IVAO Aircraft | FlightGear Model Selection |
+|---|---|
+| `A320AFR` | A320 Air France |
+| `A320EZY` | A320 easyJet, if available |
+| `B738RYR` | B738 Ryanair |
+| `B737KLM` | B738 KLM, if available |
+| Unknown B737 livery | Generic B738 |
+| Unsupported aircraft | Available generic fallback |
+
+The actual result depends on the FlightGear models installed and the paths recorded in `fg_models.tsv`.
+
+Aircraft models can be replaced dynamically when more accurate IVAO aircraft information becomes available.
+
+---
+
+## Diagnostics
+
+The application provides diagnostic logging for:
+
+- IVAO Pilot Core initialization.
+- XPLM shim operations.
+- XPMP2 aircraft creation and position updates.
+- IVAO network traffic reception.
+- Aircraft matching and selected models.
+- FlightGear TCP communication.
+- AI aircraft lifecycle and model replacement.
+
+For example:
 
 ```text
-~/Library/Application Support/IVAOFlightGearLauncher/logs/
+[FG MODEL] indexed 979 aircraft XMLs; ICAO+airline liveries enabled
+[FG MODEL SELECT] callsign=AFR73DD ivao=A320AFR selected=Aircraft/A320/A320-AirFrance.xml reason=CATALOGUE_MATCH
 ```
 
-**Linux**:
+The number of indexed aircraft depends on the catalogue.
+
+Additional diagnostic properties may be available in FlightGear under:
 
 ```text
-~/.local/state/ivao-flightgear-launcher/logs/
+/sim/ivao-bridge/
 ```
 
-| Log file | Description |
-| --- | --- |
-| `launcher.log` | Launcher sequence and startup errors |
-| `build.log` | Local native build details |
-| `bridge.log` | Bridge diagnostics when enabled |
+When reporting an issue, include the launcher bridge log and, when relevant, the FlightGear log.
 
-Enable **Diagnostics** and use **Open logs** in the interface when reporting a problem. The bridge's `--run` mode is **continuous**, with no diagnostic HOLD and no fixed timeout. Logging is optional and does not alter its lifetime.
+---
 
-Common checks:
+## Known Limitations
 
-- **FlightGear never becomes ready:** click **Fly!**, check whether TCP port `5503` is listening, and verify the three socket options.
-- **Altitude does not start:** inspect `launcher.log`, `build.log` and `bridge.log`; a failed bridge build/start can stop the launch sequence before Altitude.
-- **Linux: plugin fails to load:** inspect `ldd Bridge/ivao_pilot_test.xpl` and confirm the plugin is a Linux **ELF x86_64** file, not a macOS Mach-O binary.
-- **No IVAO traffic:** verify the correct network interface and packet-capture permissions; a running GUI is not proof that packet capture is working.
-- **No aircraft models:** verify `FGRoot/AI/Aircraft/`, the generated model catalogue, and that AI models are not globally disabled.
-- **Application updated, old icon still visible (macOS):** rebuild/re-sign the complete bundle and allow LaunchServices/Finder to refresh its icon cache.
+- Linux runtime integration is not yet fully validated.
+- Linux requires a native compatible IVAO Pilot Core binary.
+- Not all IVAO aircraft types have a corresponding FlightGear AI model.
+- Some airline liveries are unavailable and require generic fallback models.
+- Landing gear and exterior lighting synchronization are not implemented in v0.50.0.
+- Linux ARM64 support has not been validated.
+- Windows is not supported.
 
-When filing an issue, share the OS/version, FlightGear version, launcher version, architecture, steps to reproduce and **sanitized** logs. **Never share IVAO passwords, auth tokens, plugin binaries or other credentials.**
+---
 
-## Known limitations / roadmap
+## Development Status
 
-- Linux XPLM/ELF plugin integration needs real-world validation.
-- Session lifecycle and cleanup should be further tested (FlightGear exit, Altitude exit, restart, multiple starts).
-- macOS Developer ID signing and notarization are required for a frictionless public distribution; current ad-hoc signing is for local builds.
-- An installer and packaged Linux desktop icon are not yet included in these prototypes.
-- FlightGear protocols, aircraft model availability and OS-specific dependencies may vary by release.
+### v0.23.0 — macOS Stable
 
-## Legal and trademark notice
+Validated functionality:
 
-FlightGear and IVAO are separate projects/organizations. Names and logos remain the property of their respective owners. This unofficial launcher does **not** include, modify in-place, or license the proprietary IVAO plugin for redistribution. Users must obtain IVAO Altitude and its plugin through authorized channels and follow the applicable terms. Seek explicit authorization before distributing a public build that relies on loading the IVAO plugin. Contributions must preserve third-party license notices and include only files you have permission to distribute.
+- IVAO connection.
+- Multiplayer aircraft detection.
+- FlightGear 3D aircraft rendering.
+- XPMP2-based aircraft movement and orientation.
+- Aircraft model matching.
+- Airline livery selection.
+- Dynamic aircraft model updates.
+
+### v0.23.0 — Linux Experimental
+
+Implemented:
+
+- Linux XPLM compatibility layer.
+- Linux bridge port.
+- Python/Tkinter launcher.
+- Linux build and launch scripts.
+- Platform-specific configuration.
+
+Pending validation:
+
+- Native IVAO Pilot Core compatibility.
+- End-to-end IVAO connection.
+- FlightGear multiplayer aircraft visualization.
+- Aircraft model and livery rendering.
+
+---
+
+## Roadmap
+
+- [x] macOS IVAO Altitude integration.
+- [x] FlightGear AI multiplayer traffic.
+- [x] XPMP2 position and orientation synchronization.
+- [x] Dynamic aircraft models and liveries.
+- [x] Boeing 737 / B738 compatibility mapping.
+- [x] macOS v50 validation.
+- [x] Initial Linux port.
+- [ ] Linux end-to-end runtime validation.
+- [ ] Landing gear animation.
+- [ ] Exterior aircraft lighting.
+- [ ] Extended FlightGear AI aircraft model compatibility.
+- [ ] Linux ARM64 compatibility assessment.
+
+---
 
 ## Contributing
 
-Issues and pull requests are welcome, especially Linux x86_64 test results, reproducible build fixes, FlightGear version compatibility, and safe session shutdown behavior. Please document your environment and attach redacted diagnostic logs.
+Contributions, bug reports, compatibility testing, and improvements are welcome.
+
+When submitting an issue, please specify:
+
+- Operating system and architecture.
+- FlightGear version.
+- IVAO Altitude Pilot Core version.
+- Launcher version.
+- Relevant bridge and FlightGear logs.
+- Steps to reproduce the issue.
+
+Please avoid including IVAO credentials, passwords, or other sensitive information in logs or issue reports.
+
+---
+
+## Disclaimer
+
+IVAO FlightGear Launcher is an independent interoperability project.
+
+It is not an official IVAO, FlightGear, or X-Plane product and is not endorsed by their respective organizations.
+
+IVAO, FlightGear, and X-Plane names and trademarks remain the property of their respective owners.
+
+Users are responsible for obtaining and using compatible third-party components in accordance with their applicable licenses and terms.
 
 ## License
 
-The original source code of **IVAO FlightGear Launcher** is distributed under the **GNU General Public License, version 3.0 only (GPL-3.0-only)**. See the [`LICENSE`](LICENSE) file for the full license text.
-
-You may use, study, modify and redistribute the GPL-covered code under the terms of GPLv3. If you distribute modified versions, you must comply with the GPLv3 obligations, including providing the corresponding source code and preserving applicable copyright and license notices.
-
-**Scope:** This license applies only to code and assets owned by the contributors or otherwise lawfully distributable under compatible terms. It does **not** relicense the IVAO Altitude application, the proprietary X-Plane IVAO plugin, FlightGear itself, third-party aircraft models, libraries or third-party trademarks/logos. Obtain those separately and comply with their respective terms. Before publishing the full repository, review the origin and compatibility of inherited code, external assets, and any usage or integration restrictions that may apply.
-
-SPDX identifier for new source files: `GPL-3.0-only`.
+Refer
