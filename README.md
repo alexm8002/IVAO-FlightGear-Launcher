@@ -3,7 +3,7 @@
 **IVAO Altitude integration for FlightGear — macOS & Linux**
 
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux-blue)
-![Release](https://img.shields.io/badge/release-v0.50.0-blue)
+![Release](https://img.shields.io/badge/release-v0.23.0-blue)
 ![macOS](https://img.shields.io/badge/macOS-stable-brightgreen)
 ![Linux](https://img.shields.io/badge/Linux-experimental-orange)
 
