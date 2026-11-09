@@ -14,7 +14,7 @@ The project uses a custom **X-Plane Plugin Manager (XPLM) compatibility layer** 
 **Current release: v0.23.0**
 
 - **macOS:** Stable and functionally validated.
-- **Linux x86_64:** Experimental, compilation validated; end-to-end testing pending.
+- **Linux x86_64:** Stable and functionally validated.
 
 ---
 
