@@ -5,7 +5,7 @@
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux-blue)
 ![Release](https://img.shields.io/badge/release-v0.23.0-blue)
 ![macOS](https://img.shields.io/badge/macOS-stable-brightgreen)
-![Linux](https://img.shields.io/badge/Linux-experimental-orange)
+![Linux](https://img.shields.io/badge/Linux-stable-brightgreen)
 
 IVAO FlightGear Launcher is a cross-platform integration project that connects the **IVAO Altitude Pilot Core** to **FlightGear**, enabling IVAO network connectivity and real-time multiplayer aircraft visualization without requiring X-Plane.
 
@@ -108,7 +108,7 @@ XPMP2 provides the aircraft positioning and orientation data. The bridge selects
 | Platform | Architecture | Status |
 |---|---|---|
 | macOS | Supported build architecture | Stable |
-| Linux | x86_64 | Experimental |
+| Linux | x86_64 | Stable |
 | Linux | ARM64 | Not validated |
 | Windows | — | Not supported |
 
@@ -325,7 +325,7 @@ Pending validation:
 - [x] Boeing 737 / B738 compatibility mapping.
 - [x] macOS v50 validation.
 - [x] Initial Linux port.
-- [ ] Linux end-to-end runtime validation.
+- [x] Linux end-to-end runtime validation.
 - [ ] Landing gear animation.
 - [ ] Exterior aircraft lighting.
 - [ ] Extended FlightGear AI aircraft model compatibility.
